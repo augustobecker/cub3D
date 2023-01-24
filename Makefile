@@ -6,7 +6,7 @@
 #    By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/24 19:07:14 by acesar-l          #+#    #+#              #
-#    Updated: 2023/01/24 19:26:54 by acesar-l         ###   ########.fr        #
+#    Updated: 2023/01/24 20:57:06 by acesar-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,9 @@ NAME		= 	cub3D
 COMPILER 	=	gcc -g
 CFLAGS 		= 	-Wall -Wextra -Werror
 CLEANUP 	= 	rm -rf
+
+LIBFT_PATH	= ./libraries/Libft
+LIBFT		= ./libraries/Libft/libft.a
 
 SRCS_PATH	= ./sources
 
@@ -31,15 +34,20 @@ RESET		=	\033[0m
 
 all:			$(NAME)
 
-$(NAME):
-				@$(COMPILER) $(CFLAGS) $(SRCS) -o $(NAME) $(INCLUDE)
+$(NAME):		$(LIBFT)
+				@$(COMPILER) $(CFLAGS) $(LIBFT) $(SRCS) $(INCLUDE) -o $(NAME)
 				@echo "$(NAME): $(GREEN)$(NAME) was generated$(RESET)"
 
+${LIBFT}:
+				@make --no-print-directory  bonus -C $(LIBFT_PATH)
+
 clean:
+				@make --no-print-directory clean -C $(LIBFT_PATH)
+
+fclean:
 				@$(CLEANUP) $(NAME)
 				@echo "$(NAME): $(RED)$(NAME) was deleted$(RESET)"
-
-fclean: 		clean
+				@make --no-print-directory fclean -C $(LIBFT_PATH)
 
 re:				fclean $(NAME)
 
