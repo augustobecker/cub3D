@@ -6,11 +6,11 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 21:01:28 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/01/24 21:02:09 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/01/24 21:28:51 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 int	ft_strcmp(const char *str1, const char *str2)
 {

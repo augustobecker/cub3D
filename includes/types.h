@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/01/24 20:13:27 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/01/24 21:16:20 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ typedef enum e_error
 	NO_ERROR,
 	INCORRET_ARGS_NBR,
 	INVALID_FILE_EXTENSION,
+	FILE_DOESNT_EXIST,
+	FILE_MISS_PERMISSION,
 	MALLOC_ERROR
 }	t_error;
 

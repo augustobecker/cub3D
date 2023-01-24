@@ -6,13 +6,13 @@
 #    By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/24 19:07:14 by acesar-l          #+#    #+#              #
-#    Updated: 2023/01/24 20:57:06 by acesar-l         ###   ########.fr        #
+#    Updated: 2023/01/24 21:34:33 by acesar-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= 	cub3D
 
-COMPILER 	=	gcc -g
+COMPILER 	=	gcc
 CFLAGS 		= 	-Wall -Wextra -Werror
 CLEANUP 	= 	rm -rf
 
@@ -21,7 +21,7 @@ LIBFT		= ./libraries/Libft/libft.a
 
 SRCS_PATH	= ./sources
 
-INCLUDE		= -I ./includes
+INCLUDES	= -I ./includes ./libraries/Libft/libft.a
 
 SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/arguments_validation.c	\
@@ -35,7 +35,7 @@ RESET		=	\033[0m
 all:			$(NAME)
 
 $(NAME):		$(LIBFT)
-				@$(COMPILER) $(CFLAGS) $(LIBFT) $(SRCS) $(INCLUDE) -o $(NAME)
+				@$(COMPILER) $(CFLAGS) $(SRCS) -o $(NAME) $(INCLUDES)
 				@echo "$(NAME): $(GREEN)$(NAME) was generated$(RESET)"
 
 ${LIBFT}:
