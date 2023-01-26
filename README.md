@@ -65,7 +65,7 @@ To see other projects developed by me at 42, click here: <a href="https://github
 	<div>
 		<strong> Augusto Becker | acesar-l | 🇧🇷👨‍🚀</strong>
 	
-			:wave: How to reach me:
+:wave: How to reach me:
     </div> 
     <div>
   		<a href="https://www.linkedin.com/in/augusto-becker/" target="_blank">
