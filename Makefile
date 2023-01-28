@@ -6,7 +6,7 @@
 #    By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/24 19:07:14 by acesar-l          #+#    #+#              #
-#    Updated: 2023/01/27 23:49:28 by acesar-l         ###   ########.fr        #
+#    Updated: 2023/01/28 03:02:33 by acesar-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,17 +20,16 @@ CLEANUP 	= 	rm -rf
 LIBFT_PATH	= ./libraries/Libft
 LIBFT		= ./libraries/Libft/libft.a
 
-
-
 SRCS_PATH	= ./sources
 
-INCLUDES	= -I ./includes ./libraries/Libft/libft.a
+INCLUDES	= -I ./includes
 
 SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/arguments_validation.c	\
 				$(SRCS_PATH)/error/error_manager.c				\
-				$(SRCS_PATH)/create_types.c						\
-				$(SRCS_PATH)/mlx_related.c
+				$(SRCS_PATH)/destroy.c							\
+				$(SRCS_PATH)/create.c							\
+				$(SRCS_PATH)/MiniLibx/setup.c
 
 
 GREEN		=	\033[0;32m
@@ -40,7 +39,7 @@ RESET		=	\033[0m
 all:			$(NAME)
 
 $(NAME):		$(LIBFT)
-				@$(COMPILER) $(CFLAGS) $(MLX_FLAGS) $(SRCS) -o $(NAME) $(INCLUDES)
+				@$(COMPILER) $(INCLUDES) $(SRCS) $(CFLAGS) $(MLX_FLAGS) -o $(NAME) $(LIBFT)
 				@echo "$(NAME): $(GREEN)$(NAME) was generated$(RESET)"
 
 ${LIBFT}:
