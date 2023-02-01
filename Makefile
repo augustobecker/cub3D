@@ -12,13 +12,15 @@
 
 NAME		= 	cub3D
 
-COMPILER 	=	gcc
+COMPILER 	=	clang
 CFLAGS 		= 	-Wall -Wextra -Werror
-MLX_FLAGS	=	-lmlx -lXext -lX11
+MLX_FLAGS	=	./libraries/MiniLibx/libmlx.a -lXext -lX11
 CLEANUP 	= 	rm -rf
 
 LIBFT_PATH	= ./libraries/Libft
 LIBFT		= ./libraries/Libft/libft.a
+
+MLX			= ./libraries/MiniLibx/libmlx.a
 
 SRCS_PATH	= ./sources
 
@@ -27,10 +29,10 @@ INCLUDES	= -I ./includes
 SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/arguments_validation.c	\
 				$(SRCS_PATH)/error/error_manager.c				\
-				$(SRCS_PATH)/destroy.c							\
+				$(SRCS_PATH)/file/get_content.c					\
+				$(SRCS_PATH)/clear.c							\
 				$(SRCS_PATH)/create.c							\
 				$(SRCS_PATH)/MiniLibx/setup.c
-
 
 GREEN		=	\033[0;32m
 RED			=	\033[0;31m
