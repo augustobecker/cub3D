@@ -1,43 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   types.h                                            :+:      :+:    :+:   */
+/*   ft_strappend.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/03 15:43:22 by acesar-l         ###   ########.fr       */
+/*   Created: 2023/04/03 15:03:29 by acesar-l          #+#    #+#             */
+/*   Updated: 2023/04/03 15:03:44 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TYPES_H
-# define TYPES_H
+#include "../../includes/libft.h"
 
-typedef enum e_bool
+char	*ft_strappend(char **s1, const char *s2)
 {
-	false,
-	true
-}	t_bool;
+	char	*str;
 
-typedef enum e_error
-{
-	NO_ERROR,
-	INCORRET_ARGS_NBR,
-	INVALID_FILE_EXTENSION,
-	FILE_DOESNT_EXIST,
-	FILE_MISS_PERMISSION,
-	FILE_EMPTY,
-	MALLOC_ERROR,
-	MLX_INIT_ERROR,
-	MLX_WINDOW_INIT_ERROR,
-	NOT_CONFIGURED_YET
-}	t_error;
-
-typedef struct s_data
-{
-	void	*mlx_ptr;
-	void	*win_ptr;
-	char	**map;
-}	t_data;
-
-#endif
+	if (!s1[0] || !s2)
+		return (NULL);
+	str = \
+	(char *)ft_calloc((ft_strlen(s1[0]) + ft_strlen(s2)) + 1, sizeof(char));
+	if (!str)
+		return (NULL);
+	ft_strlcpy(str, s1[0], ft_strlen(s1[0]) + 1);
+	ft_strlcat(str, s2, ft_strlen(s1[0]) + ft_strlen(s2) + 1);
+	free(s1[0]);
+	return (str);
+}

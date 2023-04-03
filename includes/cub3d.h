@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/01/28 03:02:01 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/03 15:27:50 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@
 # include <mlx.h>
 # include <X11/X.h>
 # include <X11/keysym.h>
+
+#include <fcntl.h>
 
 /**
  * @brief Validate the arguments that were entered on the command line.
@@ -43,7 +45,6 @@ void	arguments_validation(int argc, char *const *argv);
  * @return Nothing. It exits the program.
 */
 void	error_manager(t_error error_type);
-
 
 /**
  * @brief Allocate memory for a data type called t_data.
@@ -67,5 +68,7 @@ void	clear_data(t_data *data);
  * pointers returned from the init process.
 */
 void    set_minilibx(t_data *data);
+
+void get_cub_file_info(t_data *data, char const *cub_filename);
 
 #endif

@@ -65,6 +65,7 @@ SRCS 		= ft_isalpha.c 			\
 			get_next_line.c			\
 			ft_print_reversed_str.c	\
 			ft_free_ptr.c			\
+			ft_strappend.c
 
 BONUS_SRCS  	= ft_lstnew.c			\
 			ft_lstadd_front.c			\

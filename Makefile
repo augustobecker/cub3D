@@ -14,13 +14,11 @@ NAME		= 	cub3D
 
 COMPILER 	=	clang
 CFLAGS 		= 	-Wall -Wextra -Werror
-MLX_FLAGS	=	./libraries/MiniLibx/libmlx.a -lXext -lX11
+MLX_FLAGS	=	-lmlx -lXext -lX11
 CLEANUP 	= 	rm -rf
 
 LIBFT_PATH	= ./libraries/Libft
 LIBFT		= ./libraries/Libft/libft.a
-
-MLX			= ./libraries/MiniLibx/libmlx.a
 
 SRCS_PATH	= ./sources
 

@@ -69,14 +69,12 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
-
 int		ft_count_occurrences(char *str, char c);
 int		ft_strcmp(const char *str1, const char *str2);
-
 char	*get_next_line(int fd);
-
 void	ft_free_ptr(char **ptr);
 char	ft_decimal_converter_to_hex(char digit, char type);
 int		ft_print_reversed_str(char *str);
+char	*ft_strappend(char **s1, const char *s2);
 
 #endif
