@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/01/27 23:35:03 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/05 10:46:12 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 
 # define WIN_WIDTH                  800
 # define WIN_HEIGHT                 400
+
+# define NUM_OF_ELEM_BEFORE_MAP     6
 
 # define BLACK				        "\033[0;30m"
 # define RED				        "\033[0;31m"

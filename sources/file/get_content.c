@@ -6,33 +6,27 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/03 14:59:07 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/03 15:43:09 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/05 13:36:27 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-char *read_file(char const *filename);
-void get_cub_file_info(t_data *data, char const *cub_filename);
-
+static char	**read_file(char const *filename);
 
 void get_cub_file_info(t_data *data, char const *cub_filename)
 {
-	char *file_content;
+	char **file_content;
 
 	file_content = read_file(cub_filename);
-	if (file_content[0] == '\0')
-	{
-		free(file_content);
-		error_manager(FILE_EMPTY);
-	}
-	printf("%s", file_content);
+	cubfile_validation(file_content);
 	error_manager(NOT_CONFIGURED_YET);
 	data->map = NULL;
 }
 
-char *read_file(char const *filename)
+static char	**read_file(char const *filename)
 {
+	char	**content;
 	char	*full_content;
 	char	*line;
 	int		file_fd;
@@ -50,5 +44,9 @@ char *read_file(char const *filename)
 		free(line);
 	}
 	close(file_fd);
-	return (full_content);
+	content = ft_split(full_content, '\n');
+	free(full_content);
+	if (!content)
+		error_manager(MALLOC_ERROR);
+	return (content);
 }

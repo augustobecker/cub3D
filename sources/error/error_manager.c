@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:26:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/03 15:44:26 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/05 13:45:42 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,21 @@ static void	error_message(t_error error)
 		print_error_msg("The map file doesn't exist.");
 	else if (error == FILE_MISS_PERMISSION)
 		print_error_msg("The map file doesn't have read permission.");
-	else if (error == FILE_EMPTY)
-		print_error_msg("The map file is empty.");
 	else if (error == MALLOC_ERROR)
 		print_error_msg("Malloc error.");
 	else if (error == MLX_INIT_ERROR)
 		print_error_msg("Couldn't find mlx pointer. Try it using a VNC.");
 	else if (error == MLX_WINDOW_INIT_ERROR)
 		print_error_msg("Couldn't create the Window.");
+	else if (error == TEXTURE_INVALID_DEFINITION)
+		print_error_msg("Texture invalid definition.\n" \
+		"The valid texture elements are: SO, NO, EA, WE, F and C.\n" \
+		"Only empty lines are accepted between the elements, keep an eye out.");
+	else if (error == TEXTURE_IS_MISSING_ELEM)
+		print_error_msg("Missing textures. \n" \
+		"The valid texture elements are: SO, NO, EA, WE, F and C.");
+	else if (error == TEXTURE_MULTIPLE_DEFINITION)
+		print_error_msg("Texture multiple definition");
 	else if (error == NOT_CONFIGURED_YET)
 		print_error_msg("This phase wasn`t been congifured yet");
 }

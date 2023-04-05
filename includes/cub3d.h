@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/03 15:27:50 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/05 13:47:09 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,5 +70,14 @@ void	clear_data(t_data *data);
 void    set_minilibx(t_data *data);
 
 void get_cub_file_info(t_data *data, char const *cub_filename);
+
+/**
+ * @brief Validate the elements that were written on the cubfile passed.
+ * 
+ * @param file_content A matrix with the .cub content
+ * 
+ * @return Nothing. In case there's an error, the function handles it.
+*/
+void cubfile_validation(char **file_content);
 
 #endif
