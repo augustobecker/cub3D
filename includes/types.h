@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/06 14:43:59 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/06 16:38:06 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,18 +34,9 @@ typedef enum e_error
 	TEXTURE_MULTIPLE_DEFINITION,
 	TEXTURE_FILE_DOESNT_EXIST,
 	TEXTURE_FILE_MISS_PERMISSION,
+	TEXTURE_COLOUR_INVALID,
 	NOT_CONFIGURED_YET
 }	t_error;
-
-typedef enum e_elem
-{
-	NO,
-	SO,
-	EA,
-	WE,
-	F,
-	C
-}	t_elem;
 
 typedef struct s_data
 {

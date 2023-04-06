@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 10:20:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/06 15:15:51 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/06 17:16:56 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,9 @@ static t_bool	is_any_texture_initial_char(char c);
 static void		check_for_number_of_elements(char **content);
 static void		check_for_element(char **content, char *elem);
 static void		check_for_texture_path(char **content, char *txtr);
-//static void	check_for_texture_colour(char **content, char *txtr);
 static char		*get_texture_path(char **content, char *txtr);
+static void		check_for_texture_colour(char **content, char txtr);
+static char		*get_texture_colour(char **content, char txtr);
 
 void cubfile_validation(char **file_content)
 {
@@ -32,8 +33,8 @@ void cubfile_validation(char **file_content)
 	check_for_texture_path(file_content, "SO ");
 	check_for_texture_path(file_content, "EA ");
 	check_for_texture_path(file_content, "WE ");
-	//check_for_textures_colours(file_content, "F");
-	//check_for_textures_colours(file_content, "C");
+	check_for_texture_colour(file_content, 'F');
+	check_for_texture_colour(file_content, 'C');
 }
 
 static void check_for_number_of_elements(char **content)
@@ -134,4 +135,57 @@ static char *get_texture_path(char **content, char *txtr)
 		i++;
 	}
 	return (txtr_path);
+}
+
+static void check_colour(char *colour_number)
+{
+	int	num;
+	int	num_len;
+
+	if (!colour_number[0])
+		error_manager(TEXTURE_COLOUR_INVALID);
+	num_len = ft_strlen(colour_number);
+	if (num_len > 3)
+		error_manager(TEXTURE_COLOUR_INVALID);
+	num = ft_atoi(colour_number);
+	if (num == 0 && num_len != 1)
+		error_manager(TEXTURE_COLOUR_INVALID);
+	if (num < 0 || num > 255)
+		error_manager(TEXTURE_COLOUR_INVALID);
+}
+
+static void	check_for_texture_colour(char **content, char txtr)
+{
+	char	*colour;
+	char	**rgb_colours;
+
+	colour = get_texture_colour(content, txtr);
+	if (!colour)
+		error_manager(MALLOC_ERROR);
+	if (ft_strlen(colour) > MAX_RGB_LENGTH)
+		error_manager(TEXTURE_COLOUR_INVALID);
+	rgb_colours = ft_split(colour, ',');
+	if (!rgb_colours)
+		error_manager(MALLOC_ERROR);
+	check_colour(rgb_colours[RED_RGB]);
+	check_colour(rgb_colours[GREEN_RGB]);
+	check_colour(rgb_colours[BLUE_RGB]);
+}
+
+static char	*get_texture_colour(char **content, char txtr)
+{
+	char	*colour;
+	int		i;
+
+	i = 0;
+	colour = NULL;
+	while (content[i])
+	{
+		while (!content[i][0])
+			i++;
+		if (content[i][0] == txtr && content[i][1] == ' ')
+			colour = ft_strtrim(&content[i][1], " '\"[]()");
+		i++;
+	}
+	return (colour);
 }

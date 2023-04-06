@@ -1,8 +1,8 @@
 SO            textures/SO.texture
 NO textures/NO.texture
 WE 'textures/WE.texture'
-EA "textures/EA.textures"
-F 12,12,12
+EA "textures/EA.texture"
+F [123,123,123]
 
-C 13,13,12
+C [3,1,256]
 11111111111111111

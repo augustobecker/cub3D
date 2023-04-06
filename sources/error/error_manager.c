@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:26:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/06 14:44:54 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/06 16:31:54 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,10 @@ static void	error_message(t_error error)
 		print_error_msg("The texture file doesn't exist.");
 	else if (error == TEXTURE_FILE_MISS_PERMISSION)
 		print_error_msg("The texture file doesn't have read permission.");
+	else if (error == TEXTURE_COLOUR_INVALID)
+		print_error_msg("The texture colour is invalid.\n" \
+		"The valid colours follow this pattern: [0-255],[0-255],[0-255].\n" \
+		"Here's an example: 125,12,125");
 	else if (error == NOT_CONFIGURED_YET)
 		print_error_msg("This phase wasn`t been congifured yet");
 }
