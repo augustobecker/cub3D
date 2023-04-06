@@ -1,7 +1,7 @@
 SO            textures/SO.texture
 NO textures/NO.texture
 WE 'textures/WE.texture'
-EA "textures/EA.texture"
+EA "textures/EA.textures"
 F 12.12.12
 
 C 13.13.12

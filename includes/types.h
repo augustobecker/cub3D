@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/05 13:36:04 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/06 14:43:59 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,8 @@ typedef enum e_error
 	TEXTURE_INVALID_DEFINITION,
 	TEXTURE_IS_MISSING_ELEM,
 	TEXTURE_MULTIPLE_DEFINITION,
+	TEXTURE_FILE_DOESNT_EXIST,
+	TEXTURE_FILE_MISS_PERMISSION,
 	NOT_CONFIGURED_YET
 }	t_error;
 
