@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/06 17:17:44 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/07 19:40:50 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,5 +79,14 @@ void get_cub_file_info(t_data *data, char const *cub_filename);
  * @return Nothing. In case there's an error, the function handles it.
 */
 void cubfile_validation(char **file_content);
+
+/**
+ * @brief Validate the Map that was passed.
+ * 
+ * @param file_content A matrix with the .cub content
+ * 
+ * @return Nothing. In case there's an error, the function handles it.
+*/
+void map_validation(char **file_content);
 
 #endif

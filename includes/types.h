@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/06 16:38:06 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/07 19:25:20 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,9 @@ typedef enum e_error
 	TEXTURE_FILE_DOESNT_EXIST,
 	TEXTURE_FILE_MISS_PERMISSION,
 	TEXTURE_COLOUR_INVALID,
+	MAP_INVALID_ELEMENT,
+	MAP_MULT_PLAYER_STARTING_POS,
+	MAP_MISS_PLAYER_STARTING_POS,
 	NOT_CONFIGURED_YET
 }	t_error;
 
