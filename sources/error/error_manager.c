@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:26:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/25 03:10:41 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/25 10:08:28 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ static void	print_error_msg(char *error_msg);
 static void message_error_arg(t_error_arg error_code);
 static void message_error_malloc(t_error_malloc error_code);
 static void message_error_file(t_error_file error_code);
+
 static void message_error_texture(t_error_texture error_code);
 static void message_error_map(t_error_map error_code);
 static void message_error_mlx(t_error_mlx error_code);
@@ -47,8 +48,6 @@ static void	print_error_msg(char *error_msg)
 
 static void message_error_arg(t_error_arg error_code)
 {
-	if (error_code == NO_ERROR)
-		print_error_msg("Bad usage: error_manager: arg error");
 	if (error_code == INCORRET_ARGS_NBR)
 		print_error_msg("Incorret number of arguments.\n""usage:\n" \
 		"\t./cub3D [a map in format *.cub]");
@@ -59,16 +58,12 @@ static void message_error_arg(t_error_arg error_code)
 
 static void message_error_malloc(t_error_malloc error_code)
 {
-	if (error_code == NO_ERROR)
-		print_error_msg("Bad usage: error_manager: malloc error");
 	if (error_code == MALLOC_ERROR)
 		print_error_msg("Malloc error.");
 }
 
 static void message_error_file(t_error_file error_code)
 {
-	if (error_code == NO_ERROR)
-		print_error_msg("Bad usage: error_manager: file error");
 	if (error_code == FILE_DOESNT_EXIST)
 		print_error_msg("The map file doesn't exist.");
 	if (error_code == FILE_MISS_PERMISSION)
@@ -77,8 +72,6 @@ static void message_error_file(t_error_file error_code)
 
 static void message_error_texture(t_error_texture error_code)
 {
-	if (error_code == NO_ERROR)
-		print_error_msg("Bad usage: error_manager: texture error");
 	if (error_code == INVALID_DEFINITION)
 		print_error_msg("Texture invalid definition.\n" \
 		"The valid texture elements are: SO, NO, EA, WE, F and C.\n" \
@@ -96,8 +89,6 @@ static void message_error_texture(t_error_texture error_code)
 
 static void message_error_map(t_error_map error_code)
 {
-	if (error_code == NO_ERROR)
-		print_error_msg("Bad usage: error_manager: map error");
 	if (error_code == INVALID_ELEMENT)
 		print_error_msg("Map invalid parameter. \n" \
 		"The valid parameters are 1, 0, N, S, E and W.");
@@ -111,8 +102,6 @@ static void message_error_map(t_error_map error_code)
 
 static void message_error_mlx(t_error_mlx error_code)
 {
-	if (error_code == NO_ERROR)
-		print_error_msg("Bad usage: error_manager: mlx error");
 	if (error_code == INIT_ERROR)
 		print_error_msg("Couldn't find mlx pointer. Try it using a VNC.");
 	if (error_code == WINDOW_INIT_ERROR)

@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/25 02:31:08 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/25 10:05:30 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ typedef enum e_bool
 	true
 }	t_bool;
 
+/*
 typedef enum e_error_type
 {
 	NO_ERROR,
@@ -40,6 +41,7 @@ typedef enum e_error_type
 	MAP_MISS_PLAYER_STARTING_POS,
 	NOT_CONFIGURED_YET
 }	t_error_type;
+*/
 
 typedef struct s_data
 {

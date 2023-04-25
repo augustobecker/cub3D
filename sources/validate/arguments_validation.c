@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:11:03 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/25 02:32:32 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/25 10:00:43 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	arguments_validation(int argc, char *const *argv)
 	error = is_file_readable(arg[MAP_ARG])
 	if (error)
 	{
-		printf(GREY"Map file [%d] is Invalid\n"RESET, arg[MAP_ARG]);
+		print_message_file_is_invalid("The map file");
 		error_manager(ERROR_FILE, error, 0);
 	}
 	check_arg_extension(argv[MAP_ARG]);
