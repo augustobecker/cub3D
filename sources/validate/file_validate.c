@@ -1,26 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   file_validate.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/25 02:36:15 by acesar-l         ###   ########.fr       */
+/*   Created: 2023/04/25 00:40:49 by acesar-l          #+#    #+#             */
+/*   Updated: 2023/04/25 09:55:23 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-int main ( int argc, char **argv )
+t_error_file	check_file(char *filename)
 {
-	t_data		*data;
+	if (!filename[0])
+		return (FILE_DOESNT_EXIST);
+	if (access(filename, F_OK))
+		return (FILE_DOESNT_EXIST);
+    if (access(filename, R_OK))
+		return (FILE_MISS_PERMISSION);
+	return (NO_ERROR);
+}
 
-	arguments_validation(argc, argv);
-	data = create_data();
-	//get_cub_file_info(data, argv[MAP_ARG]);
-	
-	//set_minilibx(data);
-	clear_data(data);
-	return (0);
+void print_message_file_is_invalid(char *filename)
+{
+	printf(GREY"cub3D: %s is invalid\n"RESET, filename);
 }

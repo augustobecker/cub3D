@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/06 17:05:18 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/25 10:06:43 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,14 @@
 # define RED_RGB                    0
 # define GREEN_RGB                  1
 # define BLUE_RGB                   2
+
+# define TILE_SIZE                  32
+
+# define PI                         3.14
+
+# define FOV_ANGLE                  60 * (PI / 180)
+
+# define WALL_STRIP_WIDTH           1
 
 # define BLACK				        "\033[0;30m"
 # define RED				        "\033[0;31m"

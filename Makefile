@@ -25,6 +25,7 @@ SRCS_PATH	= ./sources
 INCLUDES	= -I ./includes
 
 SRCS 		=	$(SRCS_PATH)/main.c								\
+				$(SRCS_PATH)/validate/file_validate.c			\
 				$(SRCS_PATH)/validate/arguments_validation.c	\
 				$(SRCS_PATH)/validate/cubfile_validation.c		\
 				$(SRCS_PATH)/validate/map_validation.c			\

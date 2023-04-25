@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/03 14:59:07 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/05 13:36:27 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/25 02:36:06 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static char	**read_file(char const *filename)
  
 	file_fd = open(filename, O_RDONLY);
 	if (file_fd == -1)
-		error_manager(FILE_DOESNT_EXIST);
+		error_manager(ERROR_FILE, NOT_CONFIGURED_YET, 0);
 	full_content = ft_strdup("");
 	while (true)
 	{
@@ -47,6 +47,6 @@ static char	**read_file(char const *filename)
 	content = ft_split(full_content, '\n');
 	free(full_content);
 	if (!content)
-		error_manager(MALLOC_ERROR);
+		error_manager(ERROR_MALLOC, MALLOC_ERROR, 0);
 	return (content);
 }
