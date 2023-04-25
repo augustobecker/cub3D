@@ -33,6 +33,7 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/file/get_content.c					\
 				$(SRCS_PATH)/clear.c							\
 				$(SRCS_PATH)/create.c							\
+				$(SRCS_PATH)/map/map_init.c						\
 				$(SRCS_PATH)/MiniLibx/setup.c
 
 GREEN		=	\033[0;32m
@@ -57,5 +58,11 @@ fclean:
 				@make --no-print-directory fclean -C $(LIBFT_PATH)
 
 re:				fclean $(NAME)
+
+run:
+	@./cub3D maps/map1.ber
+
+val:
+	@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map1.ber
 
 .PHONY:			all clean fclean re
