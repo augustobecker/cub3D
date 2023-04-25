@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/25 02:36:15 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/25 11:26:15 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,13 @@
 int main ( int argc, char **argv )
 {
 	t_data		*data;
+	argc = (int) argc;
+	argv = (char **) argv;
 
-	arguments_validation(argc, argv);
+	//arguments_validation(argc, argv);
 	data = create_data();
 	//get_cub_file_info(data, argv[MAP_ARG]);
-	
+
 	//set_minilibx(data);
 	clear_data(data);
 	return (0);

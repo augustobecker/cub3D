@@ -48,8 +48,7 @@ typedef enum e_error_map
 typedef enum e_error_file
 {
     FILE_DOESNT_EXIST,
-	FILE_MISS_PERMISSION,
-	NOT_CONFIGURED_YET
+	FILE_MISS_PERMISSION
 }   t_error_file;
 
 #endif
