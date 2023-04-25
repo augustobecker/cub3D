@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/07 19:40:50 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/25 01:05:09 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@
 
 # include "defines.h"
 # include "types.h"
+
+# include "error.h"
 
 # include "libft.h"
 
@@ -88,5 +90,14 @@ void cubfile_validation(char **file_content);
  * @return Nothing. In case there's an error, the function handles it.
 */
 void map_validation(char **file_content);
+
+/**
+ * @brief Checks if the given file can be opened and read.
+ * 
+ * @param filename name of the file.
+ * 
+ * @return 0 for no error. Enum with the file error specified.
+*/
+t_error_file	is_file_readable(char *filename);
 
 #endif

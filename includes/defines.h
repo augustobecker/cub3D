@@ -28,6 +28,16 @@
 # define GREEN_RGB                  1
 # define BLUE_RGB                   2
 
+# define TILE_SIZE                  32
+
+# define PI                         3.14
+
+# define FOV_ANGLE                  60 * (PI / 180)
+
+# define WALL_STRIP_WIDTH           1
+
+const MINIMAP_SCALE_FACTOR = 0.2;
+
 # define BLACK				        "\033[0;30m"
 # define RED				        "\033[0;31m"
 # define GREEN				        "\033[0;32m"
