@@ -1,41 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   types.h                                            :+:      :+:    :+:   */
+/*   render_map.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/26 04:20:15 by acesar-l         ###   ########.fr       */
+/*   Created: 2023/04/26 04:23:52 by acesar-l          #+#    #+#             */
+/*   Updated: 2023/04/26 04:24:14 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TYPES_H
-# define TYPES_H
+#include "cub3d.h"
 
-typedef enum e_bool
+void	render_rect(t_data *data, int x, int y)
 {
-	false,
-	true
-}	t_bool;
+	printf("%c", data->map[y][x]);
+}
 
-typedef struct s_img
+int render_map(t_data *data)
 {
-	void	*mlx_img;
-	char	*addr;
-	int		bpp;
-	int		line_len;
-	int		endian;
-}	t_img;
+	int x;
+	int y;
 
-typedef struct s_data
-{
-	void			*mlx_ptr;
-	void			*win_ptr;
-	char			**map;
-	int				columns;
-	int				rows;
-	t_img			img;
-}	t_data;
-
-#endif
+	y = 0;
+	while (y < data->rows)
+	{
+		x = 0;
+		while (x < data->columns)
+		{
+			render_rect(data, y, x);
+			x++;
+		}
+		y++;
+	}
+	return (0);
+}

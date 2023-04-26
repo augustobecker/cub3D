@@ -25,6 +25,8 @@ SRCS_PATH	= ./sources
 INCLUDES	= -I ./includes
 
 SRCS 		=	$(SRCS_PATH)/main.c								\
+				$(SRCS_PATH)/hooks.c							\
+				$(SRCS_PATH)/render_map.c						\
 				$(SRCS_PATH)/validate/file_validate.c			\
 				$(SRCS_PATH)/validate/arguments_validation.c	\
 				$(SRCS_PATH)/validate/cubfile_validation.c		\
@@ -60,9 +62,9 @@ fclean:
 re:				fclean $(NAME)
 
 run:
-	@./cub3D maps/map1.ber
+				@./cub3D maps/map1.ber
 
 val:
-	@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map1.ber
+				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map1.ber
 
 .PHONY:			all clean fclean re

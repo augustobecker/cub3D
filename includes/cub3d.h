@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/25 12:32:40 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/04/26 04:19:27 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,5 +103,10 @@ t_error_file	is_file_readable(char *filename);
 void	print_message_file_is_invalid(char *filename);
 
 void	map_init(char *map_path, t_data *game);
+void	get_map_data(t_data *data);
+
+int		close_game(t_data *data);
+int		handle_input(int keysym, t_data *data);
+int		render_map(t_data *data);
 
 #endif

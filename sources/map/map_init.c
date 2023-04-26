@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   map_init.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/25 12:16:57 by gnuncio-          #+#    #+#             */
-/*   Updated: 2023/04/25 13:34:02 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/04/26 04:22:52 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
+
+void get_map_data(t_data *data);
 
 void	map_init(char *map_path, t_data *game)
 {
@@ -30,14 +32,30 @@ void	map_init(char *map_path, t_data *game)
 			break;
 		temp = map_full;
 		map_full = ft_strjoin(temp, map_line);
-		printf("%s\n", map_full);
 		free(temp);
 		free(map_line);
 		map_line = get_next_line(map_fd);
 	}
 	free(map_line);
 	close(map_fd);
-	printf("Cheguei aqui\n");
-	game->map = ft_strdup(map_full);
+	game->map = ft_split(map_full, '\n');
+	get_map_data(game);
 	free(map_full);
+}
+
+void get_map_data(t_data *data)
+{
+	int	x;
+	int	y;
+
+	y = 0;
+	while (data->map[y])
+	{
+		x = 0;
+		while (data->map[y][x])
+			x++;
+		y++;
+	}
+	data->columns = x;
+	data->rows = y;
 }

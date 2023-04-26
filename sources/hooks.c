@@ -1,41 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   types.h                                            :+:      :+:    :+:   */
+/*   hooks.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/26 04:20:15 by acesar-l         ###   ########.fr       */
+/*   Created: 2023/04/26 04:23:15 by acesar-l          #+#    #+#             */
+/*   Updated: 2023/04/26 04:23:29 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TYPES_H
-# define TYPES_H
+#include "cub3d.h"
 
-typedef enum e_bool
+int	close_game(t_data *data)
 {
-	false,
-	true
-}	t_bool;
+	data->rows = 0;
+	exit (0);
+	return (0);
+}
 
-typedef struct s_img
+int	handle_input(int keysym, t_data *data)
 {
-	void	*mlx_img;
-	char	*addr;
-	int		bpp;
-	int		line_len;
-	int		endian;
-}	t_img;
-
-typedef struct s_data
-{
-	void			*mlx_ptr;
-	void			*win_ptr;
-	char			**map;
-	int				columns;
-	int				rows;
-	t_img			img;
-}	t_data;
-
-#endif
+	if (keysym == KEY_Q || keysym == KEY_ESC)
+		close_game(data);
+	return (0);
+}
