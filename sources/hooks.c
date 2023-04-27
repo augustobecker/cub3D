@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 04:23:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/27 12:13:23 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/27 12:31:41 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,19 @@ int	close_game(t_data *data)
 
 void player_move(t_data *data, int new_x, int new_y)
 {
+	int map_x;
+	int map_y;
+
+	map_x = new_x / (TILE_SIZE * MINIMAP_SCALE);
+	map_y = new_y / (TILE_SIZE * MINIMAP_SCALE);
 	img_pix_put(&data->img, data->player.x, data->player.y, FLOOR_COLOR);
-	data->player.x = new_x;
-	data->player.y = new_y;
-	img_pix_put(&data->img, data->player.x, data->player.y, WHITE_PIXEL);
-	mlx_put_image_to_window(data->mlx_ptr, data->win_ptr, data->img.mlx_img, 0, 0);
+	if (data->map[map_y][map_x] != '1')
+	{
+		data->player.x = new_x;
+		data->player.y = new_y;
+		img_pix_put(&data->img, data->player.x, data->player.y, WHITE_PIXEL);
+		mlx_put_image_to_window(data->mlx_ptr, data->win_ptr, data->img.mlx_img, 0, 0);
+	}
 	
 }
 

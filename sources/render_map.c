@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 10:10:25 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/27 12:06:22 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/27 12:22:08 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ void	img_pix_put(t_img *img, int x, int y, int color)
 		i -= 8;
 	}
 }
-
 void render_player(t_data *data)
 {
 	img_pix_put(&data->img, data->player.x, data->player.y, WHITE_PIXEL);
