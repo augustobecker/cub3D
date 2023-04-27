@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/26 04:19:27 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/27 12:06:48 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void	clear_data(t_data *data);
  * @brief Init MiniLibx Graphics Library, pointers, windowns and etc.
  *
  * @param data struct data to store the minilix
- * pointers returned from the init process.
+ * pointers returned from the init process.void	img_pix_put(t_img *img, int x, int y, int color)
 */
 void    set_minilibx(t_data *data);
 
@@ -108,5 +108,6 @@ void	get_map_data(t_data *data);
 int		close_game(t_data *data);
 int		handle_input(int keysym, t_data *data);
 int		render_map(t_data *data);
+void	img_pix_put(t_img *img, int x, int y, int color);
 
 #endif

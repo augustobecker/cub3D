@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/26 04:20:15 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/04/27 11:15:31 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,12 @@ typedef struct s_img
 	int		endian;
 }	t_img;
 
+typedef struct s_player
+{
+	int		x;
+	int		y;
+}	t_player;
+
 typedef struct s_data
 {
 	void			*mlx_ptr;
@@ -36,6 +42,7 @@ typedef struct s_data
 	int				columns;
 	int				rows;
 	t_img			img;
+	t_player		player;
 }	t_data;
 
 #endif
