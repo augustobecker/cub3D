@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/01 20:10:14 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/01 20:26:16 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@
 
 # define DEGREES_TO_RADIANS			PI / 180
 
-# define ROTATION_SPEED				3 * DEGREES_TO_RADIANS
-# define WALK_SPEED					2
+# define ROTATION_SPEED				10 * DEGREES_TO_RADIANS
+# define WALK_SPEED					3
 
 # define NORTH_DIR					-1
 # define SOUTH_DIR					1
