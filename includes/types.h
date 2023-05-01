@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/27 11:15:31 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/01 20:10:33 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,27 @@ typedef struct s_img
 	int		endian;
 }	t_img;
 
+typedef enum s_vertical_dir
+{
+	NORTH,
+	SOUTH
+}	t_vertical_dir;
+
+typedef enum s_horizontal_dir
+{
+	EAST,
+	WEST
+}	t_horizontal_dir;
+
 typedef struct s_player
 {
-	int		x;
-	int		y;
+	double				x;
+	double				y;
+	double				rotation_angle;
+	t_vertical_dir		vertical_dir;
+	t_horizontal_dir	horizontal_dir;
 }	t_player;
+
 
 typedef struct s_data
 {

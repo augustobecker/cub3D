@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/27 11:16:56 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/01 20:10:14 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,16 @@
 # define FLOOR_COLOR				0x0B2631
 # define WALL_COLOR					0x2DAADE
 
+
+# define DEGREES_TO_RADIANS			PI / 180
+
+# define ROTATION_SPEED				3 * DEGREES_TO_RADIANS
+# define WALK_SPEED					2
+
+# define NORTH_DIR					-1
+# define SOUTH_DIR					1
+# define EAST_DIR					1
+# define WEST_DIR					-1
 
 # define KEY_W						119
 # define KEY_A						97
@@ -58,7 +68,7 @@
 
 # define MINIMAP_SCALE				0.5
 
-# define PI                         3.14
+# define PI                         3.1416
 
 # define FOV_ANGLE                  60 * (PI / 180)
 

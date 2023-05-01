@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/27 12:06:48 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/01 20:09:50 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,8 @@
 # include <X11/X.h>
 # include <X11/keysym.h>
 
-#include <fcntl.h>
+# include <math.h>
+# include <fcntl.h>
 
 /**
  * @brief Validate the arguments that were entered on the command line.

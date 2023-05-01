@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/27 11:53:59 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/01 20:06:10 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 void set_img(t_data *data);
 void set_player_pos(t_data *data);
+void define_start_direction(t_data *data, int x, int y);
 
 int main ( int argc, char **argv )
 {
@@ -28,7 +29,6 @@ int main ( int argc, char **argv )
 	set_minilibx(data);
 	set_img(data);
 	set_player_pos(data);
-	
 	// Tecla Pressionada
 	mlx_hook(data->win_ptr, KeyPress, KeyPressMask, handle_input, data);
 
@@ -69,6 +69,7 @@ void set_player_pos(t_data *data)
 				{
 					data->player.x = x;
 					data->player.y = y;
+					define_start_direction(data, x, y);
 				}
 			x++;
 		}
@@ -78,4 +79,28 @@ void set_player_pos(t_data *data)
 	data->player.y *= TILE_SIZE * MINIMAP_SCALE;
 	data->player.x += TILE_SIZE * MINIMAP_SCALE / 2;
 	data->player.y += TILE_SIZE * MINIMAP_SCALE / 2;
+}
+
+void define_start_direction(t_data *data, int x, int y)
+{
+	if (data->map[y][x] == 'N')
+	{
+		data->player.vertical_dir = NORTH;
+		data->player.rotation_angle = 0.5 * PI; // 90
+	}
+	if (data->map[y][x] == 'S')
+	{
+		data->player.vertical_dir = SOUTH;
+		data->player.rotation_angle = 1.5 * PI; // 270
+	}
+	if (data->map[y][x] == 'E')
+	{
+		data->player.horizontal_dir = EAST;
+		data->player.rotation_angle = 0; // 0 || 360
+	}
+	if (data->map[y][x] == 'W')
+	{
+		data->player.horizontal_dir = WEST;
+		data->player.rotation_angle = PI; // 180
+	}
 }
