@@ -15,6 +15,7 @@ NAME		= 	cub3D
 COMPILER 	=	clang
 CFLAGS 		= 	-Wall -Wextra -Werror
 MLX_FLAGS	=	-lmlx -lXext -lX11
+MATH_LIB	= 	-lm
 CLEANUP 	= 	rm -rf
 
 LIBFT_PATH	= ./libraries/Libft
@@ -45,7 +46,7 @@ RESET		=	\033[0m
 all:			$(NAME)
 
 $(NAME):		$(LIBFT)
-				@$(COMPILER) $(INCLUDES) $(SRCS) $(CFLAGS) $(MLX_FLAGS) -o $(NAME) $(LIBFT)
+				@$(COMPILER) $(INCLUDES) $(SRCS) $(CFLAGS) $(MLX_FLAGS) $(MATH_LIB) -o $(NAME) $(LIBFT)
 				@echo "$(NAME): $(GREEN)$(NAME) was generated$(RESET)"
 
 ${LIBFT}:
