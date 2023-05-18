@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/01 20:26:16 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/15 10:14:00 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@
 
 #define BITS_IN_A_BYTE				8
 
-# define MINIMAP_SCALE				0.5
+# define MINIMAP_SCALE				1 // 0.5 or 1
 
 # define PI                         3.1416
 

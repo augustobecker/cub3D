@@ -3,21 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   hooks.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 04:23:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/01 20:05:11 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/18 09:07:12 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
+void	ft_destroy_images(t_data *data)
+{
+	mlx_destroy_image(data->mlx_ptr, data->img.mlx_img);
+}
+
 int	close_game(t_data *data)
 {
-	data->rows = 0;
+	ft_destroy_images(data);
+	mlx_destroy_window(data->mlx_ptr, data->win_ptr);
+	mlx_destroy_display(data->mlx_ptr);
+	clear_data(data);
 	exit (0);
 	return (0);
-} 
+}
 
 double normalize_angle(double angle)
 {
@@ -71,7 +79,7 @@ int	handle_input(int keysym, t_data *data)
 		player_rotate =  WEST_DIR * ROTATION_SPEED;
 	if (keysym == KEY_RIGHT || keysym == KEY_S)
 		player_rotate =  EAST_DIR * ROTATION_SPEED;
-	if ((keysym == KEY_UP || keysym == KEY_W) 
+	if ((keysym == KEY_UP || keysym == KEY_W)
 	|| (keysym == KEY_DOWN || keysym == KEY_D)
 	|| (keysym == KEY_LEFT || keysym == KEY_A)
 	|| (keysym == KEY_RIGHT || keysym == KEY_S))

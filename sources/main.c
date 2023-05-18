@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/01 20:06:10 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/18 09:03:16 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,9 +62,9 @@ void set_player_pos(t_data *data)
 		x = 0;
 		while (x < data->columns)
 		{
-				if ((data->map[y][x] == 'N') 
-				|| (data->map[y][x] == 'S') 
-				|| (data->map[y][x] == 'W') 
+				if ((data->map[y][x] == 'N')
+				|| (data->map[y][x] == 'S')
+				|| (data->map[y][x] == 'W')
 				|| (data->map[y][x] == 'E'))
 				{
 					data->player.x = x;
