@@ -65,9 +65,9 @@ static void message_error_malloc(t_error_malloc error_code)
 static void message_error_file(t_error_file error_code)
 {
 	if (error_code == FILE_DOESNT_EXIST)
-		print_error_msg("The map file doesn't exist.");
+		print_error_msg("The file doesn't exist.");
 	if (error_code == FILE_MISS_PERMISSION)
-		print_error_msg("The map file doesn't have read permission.");
+		print_error_msg("The file doesn't have read permission.");
 }
 
 static void message_error_texture(t_error_texture error_code)

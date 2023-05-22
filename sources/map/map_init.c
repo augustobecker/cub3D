@@ -12,8 +12,6 @@
 
 #include "cub3d.h"
 
-void get_map_data(t_data *data);
-
 void	map_init(char *map_path, t_data *game)
 {
 	int		map_fd;
@@ -41,21 +39,4 @@ void	map_init(char *map_path, t_data *game)
 	game->map = ft_split(map_full, '\n');
 	get_map_data(game);
 	free(map_full);
-}
-
-void get_map_data(t_data *data)
-{
-	int	x;
-	int	y;
-
-	y = 0;
-	while (data->map[y])
-	{
-		x = 0;
-		while (data->map[y][x])
-			x++;
-		y++;
-	}
-	data->columns = x;
-	data->rows = y;
 }

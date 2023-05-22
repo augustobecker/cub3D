@@ -19,13 +19,14 @@ void define_start_direction(t_data *data, int x, int y);
 int main ( int argc, char **argv )
 {
 	t_data		*data;
-	argc = (int) argc;
-	argv = (char **) argv;
 
-	//arguments_validation(argc, argv);
+	arguments_validation(argc, argv);
 	data = create_data();
 	map_init(argv[1], data);
-	//get_cub_file_info(data, argv[MAP_ARG]);
+	get_cub_file_info(data, argv[MAP_ARG]);
+	get_map_data(data);
+
+	//working
 	set_minilibx(data);
 	set_img(data);
 	set_player_pos(data);
@@ -103,4 +104,21 @@ void define_start_direction(t_data *data, int x, int y)
 		data->player.horizontal_dir = WEST;
 		data->player.rotation_angle = PI; // 180
 	}
+}
+
+void get_map_data(t_data *data)
+{
+	int	x;
+	int	y;
+
+	y = 6;
+	while (data->map[y])
+	{
+		x = 0;
+		while (data->map[y][x])
+			x++;
+		y++;
+	}
+	data->columns = x;
+	data->rows = y;
 }
