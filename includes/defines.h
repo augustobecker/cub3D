@@ -13,6 +13,8 @@
 #ifndef DEFINES_H
 # define DEFINES_H
 
+# define NO_ERROR                   0
+
 # define WHITE_PIXEL        		0xFFFFFF
 # define BLUE_PIXEL         		0x0000FF
 # define RED_PIXEL          		0xFF0000
