@@ -1,3 +1,9 @@
+NO ./textures/NO.texture
+SO ./textures/SO.texture
+WE ./textures/WE.texture
+EA ./textures/EA.texture
+F 220,100,0
+C 225,30,0
 111111111111111111111111111
 100000010000000100000100111
 1N0000010001100101000100111
