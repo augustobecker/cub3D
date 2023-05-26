@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/18 08:39:22 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/05/26 04:10:10 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,9 @@ void get_cub_file_info(t_data *data, char const *cub_filename);
  *
  * @return Nothing. In case there's an error, the function handles it.
 */
-void cubfile_validation(char **file_content);
+void	cubfile_validation(t_data *data, char *cubfile_name);
+
+void texture_validation(t_data *data, char **file_content);
 
 /**
  * @brief Validate the Map that was passed.
@@ -101,7 +103,7 @@ void map_validation(char **file_content);
 */
 t_error_file	is_file_readable(char *filename);
 
-void	print_message_file_is_invalid(char *filename);
+void print_message_file_is_invalid(char *filename, char *description);
 
 void	map_init(char *map_path, t_data *game);
 void	get_map_data(t_data *data);
@@ -110,5 +112,6 @@ int		close_game(t_data *data);
 int		handle_input(int keysym, t_data *data);
 int		render_map(t_data *data);
 void	img_pix_put(t_img *img, int x, int y, int color);
+char	*read_file(char const *filename);
 
 #endif

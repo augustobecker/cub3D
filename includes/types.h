@@ -6,12 +6,14 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/01 20:10:33 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/23 02:18:58 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef TYPES_H
 # define TYPES_H
+
+# include "error.h"
 
 typedef enum e_bool
 {
@@ -57,8 +59,15 @@ typedef struct s_data
 	char			**map;
 	int				columns;
 	int				rows;
+	int				lines;
 	t_img			img;
 	t_player		player;
 }	t_data;
+
+typedef struct s_error_info
+{
+	t_error type;
+	int		code;
+}	t_error_info;
 
 #endif

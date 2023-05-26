@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/15 10:14:00 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/05/22 15:21:19 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef DEFINES_H
 # define DEFINES_H
 
-# define NO_ERROR                   0
+# define NO_ERROR					0
 
 # define WHITE_PIXEL        		0xFFFFFF
 # define BLUE_PIXEL         		0x0000FF

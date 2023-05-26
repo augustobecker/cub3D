@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   arguments_validation.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:11:03 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/25 11:22:49 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/05/22 15:12:35 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	arguments_validation(int argc, char *const *argv)
 	error = is_file_readable(argv[MAP_ARG]);
 	if (error)
 	{
-		print_message_file_is_invalid("The map file");
+		print_message_file_is_invalid(argv[MAP_ARG], "Map file");
 		error_manager(ERROR_FILE, error, 0);
 	}
 	check_arg_extension(argv[MAP_ARG]);

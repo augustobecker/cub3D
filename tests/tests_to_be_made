@@ -1,0 +1,11 @@
+sample-empty.cub			OK
+sample-miss-elem.cub		OK
+sample-mult-elem.cub		OK
+sample-wrong-txtr.cub		OK
+sample-wrong-colour.cub		OK
+
+sample2.cub
+sample.c
+sample.cub
+
+tests_to_be_made

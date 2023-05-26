@@ -4,6 +4,7 @@
 
 typedef enum e_error
 {
+	NOT_AN_ERROR,
 	ERROR_MALLOC,
     ERROR_FILE,
 	ERROR_ARG,
@@ -39,7 +40,7 @@ typedef enum e_error_texture
     INVALID_DEFINITION,
 	IS_MISSING_ELEM,
 	MULTIPLE_DEFINITION,
-	INVALID_COLOUR
+	INVALID_COLOR
 }   t_error_texture;
 
 typedef enum e_error_map
@@ -54,7 +55,8 @@ typedef enum e_error_file
 {
 	FILE_NO_ERROR,
     FILE_DOESNT_EXIST,
-	FILE_MISS_PERMISSION
+	FILE_MISS_PERMISSION,
+	FILE_FAILED_TO_OPEN
 }   t_error_file;
 
 #endif

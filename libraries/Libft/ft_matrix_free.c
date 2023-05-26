@@ -1,27 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   create.c                                           :+:      :+:    :+:   */
+/*   ft_matrix_free.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/27 23:19:51 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/26 04:21:20 by acesar-l         ###   ########.fr       */
+/*   Created: 2023/05/23 02:01:14 by acesar-l          #+#    #+#             */
+/*   Updated: 2023/05/23 02:04:00 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../../includes/libft.h"
 
-t_data	*create_data(void)
+void	ft_matrix_free(char **ptr, int num_elem)
 {
-	t_data	*new;
+	int	elem;
 
-	new = malloc(sizeof(t_data));
-	if (!new)
-		error_manager(ERROR_MALLOC, MALLOC_ERROR, 0);
-	new->mlx_ptr = NULL;
-	new->win_ptr = NULL;
-	
-
-	return (new);
+	elem = 0;
+	while (elem < num_elem)
+		free(ptr[elem++]);
+	free(ptr);
 }

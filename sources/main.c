@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/18 09:03:16 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/05/26 04:05:40 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,35 @@
 void set_img(t_data *data);
 void set_player_pos(t_data *data);
 void define_start_direction(t_data *data, int x, int y);
+void get_map_data(t_data *data);
+void print_map(t_data *data);
+
+void get_data_info(t_data *data, char **matrix)
+{
+	int	line;
+
+	line = 0;
+	while (matrix[line])
+		line++;
+	data->lines = line;
+}
+
+void	cubfile_validation(t_data *data, char *cubfile_name)
+{
+	char		*cubfile_content;
+	char		**content_matrix;
+	
+	cubfile_content = read_file(cubfile_name);
+	if (!cubfile_content[0])
+	{
+		free(cubfile_content);
+		error_manager(ERROR_TEXTURE, IS_MISSING_ELEM, data);
+	}
+	content_matrix = ft_split(cubfile_content, '\n');
+	free(cubfile_content);
+	get_data_info(data, content_matrix);
+	texture_validation(data, content_matrix);
+}
 
 int main ( int argc, char **argv )
 {
@@ -22,11 +51,9 @@ int main ( int argc, char **argv )
 
 	arguments_validation(argc, argv);
 	data = create_data();
-	map_init(argv[1], data);
-	get_cub_file_info(data, argv[MAP_ARG]);
+	cubfile_validation(data, argv[MAP_ARG]);
 	get_map_data(data);
-
-	//working
+	print_map(data);
 	set_minilibx(data);
 	set_img(data);
 	set_player_pos(data);
@@ -111,7 +138,7 @@ void get_map_data(t_data *data)
 	int	x;
 	int	y;
 
-	y = 6;
+	y = 0;
 	while (data->map[y])
 	{
 		x = 0;
@@ -121,4 +148,21 @@ void get_map_data(t_data *data)
 	}
 	data->columns = x;
 	data->rows = y;
+}
+
+void print_map(t_data *data)
+{
+	int	x;
+	int	y;
+
+	y = 0;
+	while (data->map[y])
+	{
+		x = 0;
+		while (data->map[y][x])
+			printf("%c", data->map[y][x++]);
+		printf("\n");
+		y++;
+	}
+	printf("columns: %d | rows: %d\n", data->columns, data->rows);
 }
