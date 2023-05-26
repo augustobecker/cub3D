@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/26 04:05:40 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/05/26 23:16:12 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,23 +28,6 @@ void get_data_info(t_data *data, char **matrix)
 	data->lines = line;
 }
 
-void	cubfile_validation(t_data *data, char *cubfile_name)
-{
-	char		*cubfile_content;
-	char		**content_matrix;
-	
-	cubfile_content = read_file(cubfile_name);
-	if (!cubfile_content[0])
-	{
-		free(cubfile_content);
-		error_manager(ERROR_TEXTURE, IS_MISSING_ELEM, data);
-	}
-	content_matrix = ft_split(cubfile_content, '\n');
-	free(cubfile_content);
-	get_data_info(data, content_matrix);
-	texture_validation(data, content_matrix);
-}
-
 int main ( int argc, char **argv )
 {
 	t_data		*data;
@@ -52,11 +35,13 @@ int main ( int argc, char **argv )
 	arguments_validation(argc, argv);
 	data = create_data();
 	cubfile_validation(data, argv[MAP_ARG]);
+	
 	get_map_data(data);
 	print_map(data);
 	set_minilibx(data);
 	set_img(data);
 	set_player_pos(data);
+
 	// Tecla Pressionada
 	mlx_hook(data->win_ptr, KeyPress, KeyPressMask, handle_input, data);
 
