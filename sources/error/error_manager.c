@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   error_manager.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:26:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/04/25 11:21:33 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/05/22 15:30:37 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,8 @@ static void message_error_file(t_error_file error_code)
 		print_error_msg("The file doesn't exist.");
 	if (error_code == FILE_MISS_PERMISSION)
 		print_error_msg("The file doesn't have read permission.");
+	if (error_code == FILE_FAILED_TO_OPEN)
+		print_error_msg("The file failed to open.");
 }
 
 static void message_error_texture(t_error_texture error_code)
@@ -81,8 +83,8 @@ static void message_error_texture(t_error_texture error_code)
 		"The valid texture elements are: SO, NO, EA, WE, F and C.");
 	if (error_code == MULTIPLE_DEFINITION)
 		print_error_msg("Texture multiple definition");
-	if (error_code == INVALID_COLOUR)
-		print_error_msg("The texture colour is invalid.\n" \
+	if (error_code == INVALID_COLOR)
+		print_error_msg("The texture color is invalid.\n" \
 		"The valid colours follow this pattern: [0-255],[0-255],[0-255].\n" \
 		"Here's an example: 125,12,125");
 }
