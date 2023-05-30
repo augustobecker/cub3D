@@ -73,7 +73,7 @@ int		ft_count_occurrences(char *str, char c);
 int		ft_strcmp(const char *str1, const char *str2);
 char	*get_next_line(int fd);
 void	ft_free_ptr(char **ptr);
-void	ft_matrix_free(char **ptr, int num_elem);
+void	ft_free_str_array(char **string_array);
 char	ft_decimal_converter_to_hex(char digit, char type);
 int		ft_print_reversed_str(char *str);
 char	*ft_strappend(char **s1, const char *s2);

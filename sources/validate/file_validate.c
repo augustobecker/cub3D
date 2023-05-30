@@ -18,12 +18,12 @@ t_error_file	is_file_readable(char *filename)
 		return (FILE_DOESNT_EXIST);
 	if (access(filename, F_OK))
 		return (FILE_DOESNT_EXIST);
-    if (access(filename, R_OK))
+	if (access(filename, R_OK))
 		return (FILE_MISS_PERMISSION);
 	return (FILE_NO_ERROR);
 }
 
-void print_message_file_is_invalid(char *filename, char *description)
+void	print_message_file_is_invalid(char *filename, char *description)
 {
 	printf(GREY"cub3D: [%s] (%s) is invalid\n"RESET, filename, description);
 }

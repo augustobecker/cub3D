@@ -23,7 +23,6 @@
 # define FLOOR_COLOR				0x0B2631
 # define WALL_COLOR					0x2DAADE
 
-
 # define DEGREES_TO_RADIANS			PI / 180
 
 # define ROTATION_SPEED				10 * DEGREES_TO_RADIANS
@@ -56,6 +55,7 @@
 
 # define NUM_OF_ELEM_BEFORE_MAP     6
 
+# define MIN_RGB_LENGTH             5
 # define MAX_RGB_LENGTH             11
 
 # define RED_RGB                    0

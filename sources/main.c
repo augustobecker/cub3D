@@ -18,16 +18,6 @@ void define_start_direction(t_data *data, int x, int y);
 void get_map_data(t_data *data);
 void print_map(t_data *data);
 
-void get_data_info(t_data *data, char **matrix)
-{
-	int	line;
-
-	line = 0;
-	while (matrix[line])
-		line++;
-	data->lines = line;
-}
-
 int main ( int argc, char **argv )
 {
 	t_data		*data;
@@ -35,7 +25,7 @@ int main ( int argc, char **argv )
 	arguments_validation(argc, argv);
 	data = create_data();
 	cubfile_validation(data, argv[MAP_ARG]);
-	
+
 	get_map_data(data);
 	print_map(data);
 	set_minilibx(data);

@@ -64,7 +64,6 @@ SRCS 		= ft_isalpha.c 			\
 			ft_free_str_array.c		\
 			get_next_line.c			\
 			ft_print_reversed_str.c	\
-			ft_matrix_free.c		\
 			ft_free_ptr.c			\
 			ft_strappend.c
 

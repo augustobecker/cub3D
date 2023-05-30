@@ -23,10 +23,11 @@ void	cubfile_validation(t_data *data, char *cubfile_name)
 		free(cubfile_content);
 		error_manager(ERROR_TEXTURE, IS_MISSING_ELEM, data);
 	}
-	//map_validation(data, cubfile_content);
+	//check_map_for_empty_line(data, cubfile_content);
 	content_matrix = ft_split(cubfile_content, '\n');
 	free(cubfile_content);
-	//get_data_info(data, content_matrix);
+	get_data_info(data, content_matrix);
 	texture_validation(data, content_matrix);
 	color_validation(data, content_matrix);
+	//map_validation(data, content_matrix);
 }
