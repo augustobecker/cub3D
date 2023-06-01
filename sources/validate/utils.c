@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 23:26:57 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/26 23:28:30 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/01 23:21:29 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	check_for_element(t_data *data, char **content, char *elem)
 		{
 			if ((elem[compare + 1] == '\0') && (found_elem))
 			{
-				ft_matrix_free(content, data->lines);
+				ft_free_str_array(content);
 				error_manager(ERROR_TEXTURE, MULTIPLE_DEFINITION, data);
 			}
 			if (elem[compare + 1] == '\0')
@@ -41,7 +41,7 @@ void	check_for_element(t_data *data, char **content, char *elem)
 	}
 	if (!found_elem)
 	{
-		ft_matrix_free(content, data->lines);
+		ft_free_str_array(content);
 		error_manager(ERROR_TEXTURE, IS_MISSING_ELEM, data);
 	}
 }
