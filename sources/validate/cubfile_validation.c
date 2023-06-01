@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 10:20:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/26 23:19:45 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/01 23:11:22 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ void	cubfile_validation(t_data *data, char *cubfile_name)
 	//check_map_for_empty_line(data, cubfile_content);
 	content_matrix = ft_split(cubfile_content, '\n');
 	free(cubfile_content);
-	get_data_info(data, content_matrix);
 	texture_validation(data, content_matrix);
 	color_validation(data, content_matrix);
 	//map_validation(data, content_matrix);

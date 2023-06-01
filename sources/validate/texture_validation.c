@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 23:08:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/26 23:28:51 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/01 23:20:36 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void	check_for_number_of_elements(t_data *data, char **content)
 	{
 		if (!is_any_texture_initial_char(content[i][0]))
 		{
-			ft_matrix_free(content, data->lines);
+			ft_free_str_array(content);
 			error_manager(ERROR_TEXTURE, INVALID_DEFINITION, data);
 		}
 		else
@@ -45,7 +45,7 @@ void	check_for_number_of_elements(t_data *data, char **content)
 	}
 	if (elems < NUM_OF_ELEM_BEFORE_MAP)
 	{
-		ft_matrix_free(content, data->lines);
+		ft_free_str_array(content);
 		error_manager(ERROR_TEXTURE, IS_MISSING_ELEM, data);
 	}
 }
@@ -85,7 +85,7 @@ static void	check_for_texture_path(t_data *data, char **content, char *txtr)
 	if (!txtr_path)
 	{
 		free(txtr_path);
-		ft_matrix_free(content, data->lines);
+		ft_free_str_array(content);
 		error_manager(ERROR_MALLOC, MALLOC_ERROR, data);
 	}
 	error = is_file_readable(txtr_path);
@@ -94,7 +94,7 @@ static void	check_for_texture_path(t_data *data, char **content, char *txtr)
 		printf(GREY"cub3D: [%s] (Texture %sfile) is invalid\n"\
 		RESET, txtr_path, txtr);
 		free(txtr_path);
-		ft_matrix_free(content, data->lines);
+		ft_free_str_array(content);
 		error_manager(ERROR_FILE, error, data);
 	}
 	free(txtr_path);
@@ -112,4 +112,3 @@ void	texture_validation(t_data *data, char **file_content)
 	check_for_texture_path(data, file_content, "EA ");
 	check_for_texture_path(data, file_content, "WE ");
 }
-
