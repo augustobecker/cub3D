@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   render_map.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 10:10:25 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/01 20:18:11 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 14:39:26 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
+
+void render_rect_player(t_data *data,t_img *img, int x_start, int y_start, int color);
 
 void	img_pix_put(t_img *img, int x, int y, int color)
 {
@@ -18,7 +20,7 @@ void	img_pix_put(t_img *img, int x, int y, int color)
 	int		i;
 
 	i = img->bpp - 8;
-    pixel = img->addr + (y * img->line_len + x * (img->bpp / 8));
+    pixel = img->addr+ (y * img->line_len + x * (img->bpp / 8));
 	while (i >= 0)
 	{
 		/* big endian, MSB is the leftmost bit */
@@ -41,11 +43,34 @@ void render_fov(t_data *data)
 	img_pix_put(&data->img, line_x, line_y, RED_PIXEL);
 }
 
+
 void render_player(t_data *data)
 {
 	render_fov(data);
-	img_pix_put(&data->img, data->player.x, data->player.y, WHITE_PIXEL);
+	//img_pix_put(&data->img, data->player.x, data->player.y, WHITE_PIXEL);
+	render_rect_player(data, &data->img, data->player.x, data->player.y, WHITE_PIXEL);
 }
+
+void render_rect_player(t_data *data,t_img *img, int x_start, int y_start, int color)
+{
+	int x;
+	int y;
+
+	y = y_start;
+	while (y < (y_start + data->player.height))
+	{
+		printf("Valor de y = %d\nValor total= %f\n", y, (y_start + data->player.height));
+		x = x_start;
+		while (x < (x_start + data->player.width))
+		{
+			img_pix_put(img, x, y, color);
+			x++;
+		}
+		y++;
+	}
+}
+
+
 
 void render_rect(t_img *img, int x_start, int y_start, int color)
 {
@@ -76,9 +101,9 @@ void identify_rect(t_data *data, int x, int y)
 		render_rect(&data->img, x * TILE_SIZE * MINIMAP_SCALE, y * TILE_SIZE * MINIMAP_SCALE, WALL_COLOR);
 	if (data->map[y][x] == '0')
 		render_rect(&data->img, x * TILE_SIZE * MINIMAP_SCALE, y * TILE_SIZE * MINIMAP_SCALE, FLOOR_COLOR);
-	if ((data->map[y][x] == 'N') 
-	|| (data->map[y][x] == 'S') 
-	|| (data->map[y][x] == 'W') 
+	if ((data->map[y][x] == 'N')
+	|| (data->map[y][x] == 'S')
+	|| (data->map[y][x] == 'W')
 	|| (data->map[y][x] == 'E'))
 		render_rect(&data->img, x * TILE_SIZE * MINIMAP_SCALE, y * TILE_SIZE * MINIMAP_SCALE, FLOOR_COLOR);
 	render_player(data);

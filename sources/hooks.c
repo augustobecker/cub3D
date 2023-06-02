@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 04:23:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/18 09:07:12 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/02 15:00:27 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,16 +71,20 @@ int	handle_input(int keysym, t_data *data)
 	player_rotate = 0;
 	if (keysym == KEY_Q || keysym == KEY_ESC)
 		close_game(data);
-	if (keysym == KEY_UP || keysym == KEY_W)
+	if (keysym == KEY_W)
 		player_walk = NORTH_DIR * WALK_SPEED;
-	if (keysym == KEY_DOWN || keysym == KEY_D)
+	if (keysym == KEY_A)
+		player_walk =  WEST_DIR * WALK_SPEED;
+	if (keysym == KEY_S)
 		player_walk = SOUTH_DIR * WALK_SPEED;
-	if (keysym == KEY_LEFT || keysym == KEY_A)
-		player_rotate =  WEST_DIR * ROTATION_SPEED;
-	if (keysym == KEY_RIGHT || keysym == KEY_S)
-		player_rotate =  EAST_DIR * ROTATION_SPEED;
-	if ((keysym == KEY_UP || keysym == KEY_W)
-	|| (keysym == KEY_DOWN || keysym == KEY_D)
+	if (keysym == KEY_D)
+		player_walk = EAST_DIR * WALK_SPEED;
+	if (keysym == KEY_LEFT)
+		player_rotate = WEST_DIR * ROTATION_SPEED;
+	if (keysym == KEY_RIGHT)
+		player_rotate = EAST_DIR * ROTATION_SPEED;
+	if ((keysym == KEY_W)
+	|| (keysym == KEY_D)
 	|| (keysym == KEY_LEFT || keysym == KEY_A)
 	|| (keysym == KEY_RIGHT || keysym == KEY_S))
 		player_update_position(data, player_walk, player_rotate);

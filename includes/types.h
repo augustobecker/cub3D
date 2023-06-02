@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   types.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/23 02:18:58 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 13:18:54 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,15 @@ typedef struct s_img
 	int		endian;
 }	t_img;
 
+typedef struct s_rect
+{
+	int	x;
+	int	y;
+	int width;
+	int height;
+	int color;
+}	t_rect;
+
 typedef enum s_vertical_dir
 {
 	NORTH,
@@ -46,7 +55,13 @@ typedef struct s_player
 {
 	double				x;
 	double				y;
+	double				width;
+	double				height;
 	double				rotation_angle;
+	int					turn_direction; // -1 for left, +1 for right
+	int					walk_direction; // -1 for back, +1 for front
+	double				walkSpeed;
+	double				turnSpeed;
 	t_vertical_dir		vertical_dir;
 	t_horizontal_dir	horizontal_dir;
 }	t_player;
@@ -62,6 +77,8 @@ typedef struct s_data
 	int				lines;
 	t_img			img;
 	t_player		player;
+	t_img			floor;
+	t_img			wall;
 }	t_data;
 
 typedef struct s_error_info

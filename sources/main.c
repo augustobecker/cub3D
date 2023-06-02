@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/26 23:16:12 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 14:51:02 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@ void set_player_pos(t_data *data);
 void define_start_direction(t_data *data, int x, int y);
 void get_map_data(t_data *data);
 void print_map(t_data *data);
+void set_player(t_data *data);
+int  handle_no_event(void);
+void init_all(t_data *data);
 
 int main ( int argc, char **argv )
 {
@@ -24,28 +27,42 @@ int main ( int argc, char **argv )
 
 	arguments_validation(argc, argv);
 	data = create_data();
-	cubfile_validation(data, argv[MAP_ARG]);
-
-	get_map_data(data);
-	print_map(data);
-	set_minilibx(data);
-	set_img(data);
-	set_player_pos(data);
+	//cubfile_validation(data, argv[MAP_ARG]);
+	map_init(argv[1], data);
+	init_all(data);
+	render_map(data);
 
 	// Tecla Pressionada
 	mlx_hook(data->win_ptr, KeyPress, KeyPressMask, handle_input, data);
 
 	// X na janela
-	mlx_hook(data->win_ptr, DestroyNotify, ButtonPressMask, close_game, data);
+	mlx_hook(data->win_ptr, DestroyNotify, NoEventMask, close_game, data);
 
 	// Renderizar imagem (com exposure para mesmo sendo sobreposta reprintar)
-	mlx_hook(data->win_ptr, Expose, ExposureMask, render_map, data);
+	//mlx_hook(data->win_ptr, Expose, ExposureMask, , data);
+
+	// quando no acontecer nenhum evento
+	mlx_loop_hook(data->win_ptr, &handle_no_event, data);
+
+	//mlx_hook(data->win_ptr, Expose, ExposureMask, render_map, data);
+
+	//desenhar quando a tela for sobreposta
+	//mlx_expose_hook(game->win_ptr, &ft_redraw, game);
 
 	mlx_loop(data->mlx_ptr);
 
+	//setup()
 	clear_data(data);
 
 	return (0);
+}
+
+void init_all(t_data *data){
+	set_minilibx(data);
+	data->wall.mlx_img = mlx_new_image(data->mlx_ptr, 32, 32);
+	set_img(data);
+	set_player_pos(data);
+	set_player(data);
 }
 
 void set_img(t_data *data)
@@ -140,4 +157,19 @@ void print_map(t_data *data)
 		y++;
 	}
 	printf("columns: %d | rows: %d\n", data->columns, data->rows);
+}
+
+
+void set_player(t_data *data){
+	data->player.height = 3;
+	data->player.width = 3;
+	data->player.walk_direction = 0;
+	data->player.turn_direction = 0;
+	data->player.walkSpeed = 100;
+	data->player.turnSpeed = 45 * (PI / 180);
+}
+
+int	handle_no_event(void)
+{
+	return (0);
 }

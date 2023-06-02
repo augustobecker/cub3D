@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cubfile_validation.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 10:20:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/01 23:11:22 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 08:53:25 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	cubfile_validation(t_data *data, char *cubfile_name)
 {
 	char		*cubfile_content;
 	char		**content_matrix;
-	
+
 	cubfile_content = read_file(cubfile_name);
 	if (!cubfile_content[0])
 	{

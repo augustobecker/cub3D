@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/22 15:21:19 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 12:37:28 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@
 # define DEGREES_TO_RADIANS			PI / 180
 
 # define ROTATION_SPEED				10 * DEGREES_TO_RADIANS
-# define WALK_SPEED					3
+# define WALK_SPEED					5
 
 # define NORTH_DIR					-1
 # define SOUTH_DIR					1
@@ -38,10 +38,8 @@
 # define KEY_S						115
 # define KEY_D						100
 
-# define KEY_UP  					65362
 # define KEY_LEFT  					65361
 # define KEY_RIGHT 					65363
-# define KEY_DOWN  					65364
 
 # define KEY_Q						113
 # define KEY_ESC  					65307
