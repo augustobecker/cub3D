@@ -35,11 +35,11 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/texture_validation.c		\
 				$(SRCS_PATH)/validate/map_validation.c			\
 				$(SRCS_PATH)/validate/utils.c					\
+				$(SRCS_PATH)/setup/setup.c						\
 				$(SRCS_PATH)/error/error_manager.c				\
 				$(SRCS_PATH)/file/get_content.c					\
 				$(SRCS_PATH)/clear.c							\
 				$(SRCS_PATH)/create.c							\
-				$(SRCS_PATH)/map/map_init.c						\
 				$(SRCS_PATH)/MiniLibx/setup.c
 
 GREEN		=	\033[0;32m
@@ -72,7 +72,7 @@ val:
 				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map1.cub
 
 val2:
-				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map2.cub
+				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map3.cub
 
 
 .PHONY:			all clean fclean re

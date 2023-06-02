@@ -77,5 +77,6 @@ void	ft_free_str_array(char **string_array);
 char	ft_decimal_converter_to_hex(char digit, char type);
 int		ft_print_reversed_str(char *str);
 char	*ft_strappend(char **s1, const char *s2);
+char	**ft_copy_str_array(char **str_array);
 
 #endif

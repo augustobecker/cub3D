@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/01 23:14:47 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 21:53:59 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,11 @@ int		handle_input(int keysym, t_data *data);
 int		render_map(t_data *data);
 void	img_pix_put(t_img *img, int x, int y, int color);
 char	*read_file(char const *filename);
-void	color_validation(t_data *data, char **file_content);
-void	check_for_element(t_data *data, char **content, char *elem);
-void    check_map_for_empty_line(t_data *data, char *cubfile_content);
+void	color_validation(char **file_content);
+void	check_for_element(char **content, char *elem);
+void    check_map_for_empty_line(char *cubfile_content);
+t_data	*setup_data(char **cubfile_content);
+
 
 /**
  * @brief Validate the arguments that were entered on the command line.
@@ -87,35 +89,29 @@ void    set_minilibx(t_data *data);
 /**
  * @brief Validate the elements that were written on the cubfile passed.
  *
- * @param data struct data containing relevant info of the project (to be freed if necessary).
- *
  * @param cubfile_name name of the cubfile passed.
  *
- * @return Nothing. In case there's an error, the function handles it.
+ * @return The content of the cubfile passed, already validated. In case there's an error, the function handles it.
 */
-void	cubfile_validation(t_data *data, char *cubfile_name);
+char **cubfile_validation(char *cubfile_name);
 
 /**
  * @brief Validate the texture elements in a cubfile.
- *
- * @param data struct data containing relevant info of the project (to be freed if necessary).
  *
  * @param file_content A matrix with the .cub content.
  *
  * @return Nothing. In case there's an error, the function handles it.
 */
-void    texture_validation(t_data *data, char **file_content);
+void    texture_validation(char **file_content);
 
 /**
  * @brief Validate the Map in a cubfile.
- *
- * @param data struct data containing relevant info of the project (to be freed if necessary).
  *
  * @param file_content A matrix with the .cub content
  *
  * @return Nothing. In case there's an error, the function handles it.
 */
-void    map_validation(t_data *data, char **file_content);
+void    map_validation(char **file_content);
 
 /**
  * @brief Checks if the given file can be opened and read.

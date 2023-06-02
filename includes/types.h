@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   types.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 13:18:54 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/02 20:59:01 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,10 @@ typedef struct s_player
 	t_horizontal_dir	horizontal_dir;
 }	t_player;
 
+typedef struct s_txtr
+{
+	char	*path;
+}	t_txtr;
 
 typedef struct s_data
 {
@@ -79,6 +83,10 @@ typedef struct s_data
 	t_player		player;
 	t_img			floor;
 	t_img			wall;
+	t_txtr			no_txtr;
+	t_txtr			so_txtr;
+	t_txtr			ea_txtr;
+	t_txtr			we_txtr;
 }	t_data;
 
 typedef struct s_error_info
