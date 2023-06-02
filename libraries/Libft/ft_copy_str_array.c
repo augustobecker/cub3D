@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 21:24:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 21:46:37 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 00:00:07 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ static size_t	str_array_len(char **str_array);
 
 char	**ft_copy_str_array(char **str_array)
 {
-	char 	**new_str_array;
+	char	**new_str_array;
 	size_t	length;
 	size_t	i;
 
@@ -54,5 +54,5 @@ static size_t	str_array_len(char **str_array)
 		length++;
 		str_array++;
 	}
-	return(length);
+	return (length);
 }

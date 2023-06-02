@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 23:23:51 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 23:58:47 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,6 @@ char	*read_file(char const *filename);
 void	color_validation(char **file_content);
 void	check_for_element(char **content, char *elem);
 void    check_map_for_empty_line(char *cubfile_content);
-t_data	*setup_data(char **cubfile_content);
-
 
 /**
  * @brief Validate the arguments that were entered on the command line.
@@ -121,5 +119,15 @@ void    map_validation(char **file_content);
  * @return 0 for no error. Enum with the file error specified.
 */
 t_error_file	is_file_readable(char *filename);
+
+/**
+ * @brief Setup a struct with important information for
+ * the project development
+ *
+ * @param cubfile_content content of the file passed to the project.
+ *
+ * @return 0 for no error. Enum with the file error specified.
+*/
+t_data	*setup_data(char **cubfile_content);
 
 #endif

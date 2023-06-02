@@ -15,7 +15,7 @@
 void	ft_free_str_array(char **string_array)
 {
 	char	**temp_ptr;
-	
+
 	temp_ptr = string_array;
 	while (string_array && *string_array)
 		free(*string_array++);
