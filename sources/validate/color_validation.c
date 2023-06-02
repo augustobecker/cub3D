@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   color_validation.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 23:17:08 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 22:42:12 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 18:11:55 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -127,6 +127,7 @@ static void	check_for_texture_color(char **content, char txtr)
 		ft_free_str_array(rgb_colors);
 		error_manager(ERROR_TEXTURE, INVALID_COLOR, 0);
 	}
+	free(color);
 	ft_free_str_array(rgb_colors);
 }
 

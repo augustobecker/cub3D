@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   setup.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 22:43:48 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 18:14:02 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,6 @@ void get_map_data(t_data *data)
 void init_all(t_data *data)
 {
 	set_minilibx(data);
-	data->wall.mlx_img = mlx_new_image(data->mlx_ptr, 32, 32);
 	set_img(data);
 	set_player_pos(data);
 	set_player(data);
