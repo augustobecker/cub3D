@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 23:26:56 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 00:04:56 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,8 +71,8 @@ void set_player(t_data *data){
 	data->player.width = 3;
 	data->player.walk_direction = 0;
 	data->player.turn_direction = 0;
-	data->player.walkSpeed = 100;
-	data->player.turnSpeed = 45 * (PI / 180);
+	data->player.walk_speed = 100;
+	data->player.turn_speed = 45 * (PI / 180);
 }
 
 static void	get_map_info(t_data *data)
