@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:11:03 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/22 15:12:35 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 00:24:32 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ static void	check_arg_extension(char *filename);
 
 void	arguments_validation(int argc, char *const *argv)
 {
-	int error;
+	int	error;
 
 	error = NO_ERROR;
 	check_arguments_nbr(argc);
