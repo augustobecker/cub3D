@@ -6,12 +6,12 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 23:58:47 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 00:21:56 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CUB_3D_H
-# define CUB_3D_H
+#ifndef CUB3D_H
+# define CUB3D_H
 
 # include "stdio.h"
 # include "stdlib.h"
@@ -30,17 +30,16 @@
 # include <math.h>
 # include <fcntl.h>
 
-void    print_message_file_is_invalid(char *filename, char *description);
-
-int		close_game(t_data *data); 				// refatorar
-int		handle_input(int keysym, t_data *data); // refatorar
-int		render_map(t_data *data); 				// refatorar
-
-void	img_pix_put(t_img *img, int x, int y, int color);
-char	*read_file(char const *filename);
-void	color_validation(char **file_content);
-void	check_for_element(char **content, char *elem);
-void    check_map_for_empty_line(char *cubfile_content);
+void			print_message_file_is_invalid(char *filename, \
+char *description);
+int				close_game(t_data *data);
+int				handle_input(int keysym, t_data *data);
+int				render_map(t_data *data);
+void			img_pix_put(t_img *img, int x, int y, int color);
+char			*read_file(char const *filename);
+void			color_validation(char **file_content);
+void			check_for_element(char **content, char *elem);
+void			check_map_for_empty_line(char *cubfile_content);
 
 /**
  * @brief Validate the arguments that were entered on the command line.
@@ -50,7 +49,7 @@ void    check_map_for_empty_line(char *cubfile_content);
  *
  * @return Nothing. In case there's an error, the function handles it.
 */
-void	arguments_validation(int argc, char *const *argv);
+void			arguments_validation(int argc, char *const *argv);
 
 /**
  * @brief Prints an error message and exit the program.
@@ -59,7 +58,8 @@ void	arguments_validation(int argc, char *const *argv);
  *
  * @return Nothing. It exits the program.
 */
-void	error_manager(t_error error_type, int error_code, t_data *data);
+void			error_manager(t_error error_type, int error_code, \
+t_data *data);
 
 /**
  * @brief Allocate memory for a data type called t_data.
@@ -67,31 +67,32 @@ void	error_manager(t_error error_type, int error_code, t_data *data);
  * @return The allocated memory, all set to NULL in case of pointer, and 0
  * in case of integers.
 */
-t_data  *create_data(void);
+t_data			*create_data(void);
 
 /**
  * @brief Free all the memory allocated for a t_data pointer and its content.
  *
  * @param data the data to be freed.
 */
-void	clear_data(t_data *data);
+void			clear_data(t_data *data);
 
 /**
  * @brief Init MiniLibx Graphics Library, pointers, windowns and etc.
  *
  * @param data struct data to store the minilix
- * pointers returned from the init process.void	img_pix_put(t_img *img, int x, int y, int color)
+ * pointers returned from the init process.
 */
-void    setup_minilibx(t_data *data);
+void			setup_minilibx(t_data *data);
 
 /**
  * @brief Validate the elements that were written on the cubfile passed.
  *
  * @param cubfile_name name of the cubfile passed.
  *
- * @return The content of the cubfile passed, already validated. In case there's an error, the function handles it.
+ * @return The content of the cubfile passed, already validated. 
+ * In case there's an error, the function handles it.
 */
-char **cubfile_validation(char *cubfile_name);
+char			**cubfile_validation(char *cubfile_name);
 
 /**
  * @brief Validate the texture elements in a cubfile.
@@ -100,7 +101,7 @@ char **cubfile_validation(char *cubfile_name);
  *
  * @return Nothing. In case there's an error, the function handles it.
 */
-void    texture_validation(char **file_content);
+void			texture_validation(char **file_content);
 
 /**
  * @brief Validate the Map in a cubfile.
@@ -109,7 +110,7 @@ void    texture_validation(char **file_content);
  *
  * @return Nothing. In case there's an error, the function handles it.
 */
-void    map_validation(char **file_content);
+void			map_validation(char **file_content);
 
 /**
  * @brief Checks if the given file can be opened and read.
@@ -128,6 +129,6 @@ t_error_file	is_file_readable(char *filename);
  *
  * @return 0 for no error. Enum with the file error specified.
 */
-t_data	*setup_data(char **cubfile_content);
+t_data			*setup_data(char **cubfile_content);
 
 #endif

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 12:37:28 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/03 00:16:10 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@
 
 # define MINI_TILE_SIZE				TILE_SIZE * MINIMAP_SCALE
 
-#define BITS_IN_A_BYTE				8
+# define BITS_IN_A_BYTE				8
 
 # define MINIMAP_SCALE				1 // 0.5 or 1
 
