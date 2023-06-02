@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   hooks.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 04:23:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 15:00:27 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/02 23:53:02 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@ void	ft_destroy_images(t_data *data)
 int	close_game(t_data *data)
 {
 	ft_destroy_images(data);
-	mlx_destroy_window(data->mlx_ptr, data->win_ptr);
-	mlx_destroy_display(data->mlx_ptr);
 	clear_data(data);
 	exit (0);
 	return (0);
