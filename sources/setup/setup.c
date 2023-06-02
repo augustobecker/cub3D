@@ -3,20 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   setup.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 18:14:02 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/02 23:26:56 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
-
-void set_img(t_data *data)
-{
-	data->img.mlx_img = mlx_new_image(data->mlx_ptr, data->columns * TILE_SIZE, data->rows * TILE_SIZE);
-	data->img.addr = mlx_get_data_addr(data->img.mlx_img, &data->img.bpp, &data->img.line_len, &data->img.endian);
-}
 
 void define_start_direction(t_data *data, int x, int y)
 {
@@ -81,31 +75,26 @@ void set_player(t_data *data){
 	data->player.turnSpeed = 45 * (PI / 180);
 }
 
-void get_map_data(t_data *data)
+static void	get_map_info(t_data *data)
 {
-	int	x;
+	int	longest_line;
 	int	y;
+	int	x;
 
+	longest_line = 0;
 	y = 0;
 	while (data->map[y])
 	{
 		x = 0;
 		while (data->map[y][x])
 			x++;
+		if (x > longest_line)
+			longest_line = x;
 		y++;
 	}
-	data->columns = x;
+	data->columns = longest_line;
 	data->rows = y;
 }
-
-void init_all(t_data *data)
-{
-	set_minilibx(data);
-	set_img(data);
-	set_player_pos(data);
-	set_player(data);
-}
-
 
 t_data *setup_data(char **cubfile_content)
 {
@@ -115,8 +104,10 @@ t_data *setup_data(char **cubfile_content)
 	data->map = ft_copy_str_array(&cubfile_content[NUM_OF_ELEM_BEFORE_MAP]);
 	if (!data->map)
 		error_manager(ERROR_MALLOC, MALLOC_ERROR, data);
+	get_map_info(data);
 	ft_free_str_array(cubfile_content);
-	get_map_data(data);
-	init_all(data);
+	get_map_info(data);
+	set_player_pos(data);
+	set_player(data);
 	return (data);
 }

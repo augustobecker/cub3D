@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 21:53:59 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/02 23:23:51 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,11 @@
 # include <fcntl.h>
 
 void    print_message_file_is_invalid(char *filename, char *description);
-void	map_init(char *map_path, t_data *game);
-void	get_map_data(t_data *data);
-int		close_game(t_data *data);
-int		handle_input(int keysym, t_data *data);
-int		render_map(t_data *data);
+
+int		close_game(t_data *data); 				// refatorar
+int		handle_input(int keysym, t_data *data); // refatorar
+int		render_map(t_data *data); 				// refatorar
+
 void	img_pix_put(t_img *img, int x, int y, int color);
 char	*read_file(char const *filename);
 void	color_validation(char **file_content);
@@ -84,7 +84,7 @@ void	clear_data(t_data *data);
  * @param data struct data to store the minilix
  * pointers returned from the init process.void	img_pix_put(t_img *img, int x, int y, int color)
 */
-void    set_minilibx(t_data *data);
+void    setup_minilibx(t_data *data);
 
 /**
  * @brief Validate the elements that were written on the cubfile passed.

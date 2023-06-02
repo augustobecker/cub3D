@@ -74,5 +74,7 @@ val:
 val2:
 				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map3.cub
 
+seg-clean:		
+				@$(CLEANUP) vgcore*
 
 .PHONY:			all clean fclean re
