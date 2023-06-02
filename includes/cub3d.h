@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 00:21:56 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 01:33:59 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ char			*read_file(char const *filename);
 void			color_validation(char **file_content);
 void			check_for_element(char **content, char *elem);
 void			check_map_for_empty_line(char *cubfile_content);
+void			check_for_texture_color(char **content, char txtr);
 
 /**
  * @brief Validate the arguments that were entered on the command line.
