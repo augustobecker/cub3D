@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 02:34:34 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 06:25:48 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,15 @@ void			img_pix_put(t_img *img, int x, int y, int color);
 char			*read_file(char const *filename);
 void			color_validation(char **file_content);
 void			check_for_element(char **content, char *elem);
-//void			check_map_for_empty_line(char *cubfile_content);
 void			check_for_texture_color(char **content, char txtr);
+
+void			print_error_msg(char *error_msg);
+void			message_error_texture(t_error_texture error_code);
+void			message_error_map(t_error_map error_code);
+void			message_error_mlx(t_error_mlx error_code);
+void			message_error_arg(t_error_arg error_code);
+void			message_error_malloc(t_error_malloc error_code);
+void			message_error_file(t_error_file error_code);
 
 /**
  * @brief Validate the arguments that were entered on the command line.

@@ -6,21 +6,15 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:26:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 02:31:02 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 06:26:51 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-static void	print_error_msg(char *error_msg);
-
-static void message_error_arg(t_error_arg error_code);
-static void message_error_malloc(t_error_malloc error_code);
-static void message_error_file(t_error_file error_code);
-
-static void message_error_texture(t_error_texture error_code);
-static void message_error_map(t_error_map error_code);
-static void message_error_mlx(t_error_mlx error_code);
+void	message_error_arg(t_error_arg error_code);
+void	message_error_malloc(t_error_malloc error_code);
+void	message_error_file(t_error_file error_code);
 
 void	error_manager(t_error error_type, int error_code, t_data *data)
 {
@@ -41,12 +35,7 @@ void	error_manager(t_error error_type, int error_code, t_data *data)
 	exit(0);
 }
 
-static void	print_error_msg(char *error_msg)
-{
-	printf(GREY"cub3D: %s\n"RESET, error_msg);
-}
-
-static void message_error_arg(t_error_arg error_code)
+void	message_error_arg(t_error_arg error_code)
 {
 	if (error_code == INCORRET_ARGS_NBR)
 		print_error_msg("Incorret number of arguments.\n""usage:\n" \
@@ -56,13 +45,13 @@ static void message_error_arg(t_error_arg error_code)
 		"\t./cub3D [a map in format *.cub]");
 }
 
-static void message_error_malloc(t_error_malloc error_code)
+void	message_error_malloc(t_error_malloc error_code)
 {
 	if (error_code == MALLOC_ERROR)
 		print_error_msg("Malloc error.");
 }
 
-static void message_error_file(t_error_file error_code)
+void	message_error_file(t_error_file error_code)
 {
 	if (error_code == FILE_DOESNT_EXIST)
 		print_error_msg("The file doesn't exist.");
@@ -70,44 +59,4 @@ static void message_error_file(t_error_file error_code)
 		print_error_msg("The file doesn't have read permission.");
 	if (error_code == FILE_FAILED_TO_OPEN)
 		print_error_msg("The file failed to open.");
-}
-
-static void message_error_texture(t_error_texture error_code)
-{
-	if (error_code == INVALID_DEFINITION)
-		print_error_msg("Texture invalid definition.\n" \
-		"The valid texture elements are: SO, NO, EA, WE, F and C.\n" \
-		"Only empty lines are accepted between the elements, keep an eye out.");
-	if (error_code == IS_MISSING_ELEM)
-		print_error_msg("Missing textures. \n" \
-		"The valid texture elements are: SO, NO, EA, WE, F and C.");
-	if (error_code == MULTIPLE_DEFINITION)
-		print_error_msg("Texture multiple definition");
-	if (error_code == INVALID_COLOR)
-		print_error_msg("The texture color is invalid.\n" \
-		"The valid colours follow this pattern: [0-255],[0-255],[0-255].\n" \
-		"Here's an example: 125,12,125");
-}
-
-static void message_error_map(t_error_map error_code)
-{
-	if (error_code == INVALID_ELEMENT)
-		print_error_msg("Map invalid parameter. \n" \
-		"The valid parameters are 1, 0, N, S, E and W.");
-	if (error_code == MULTIPLE_START_POSITION)
-		print_error_msg("Multiple definition of player starting position on map. \n" \
-		"The parameter for starting positions is N, S, E or W. It is defined only once");
-	if (error_code == MISSING_START_POSITION)
-		print_error_msg("Missing definition of player starting position on map. \n" \
-		"The parameter for starting positions is N, S, E or W. It is defined only once");
-	if (error_code == EMPTY_LINE)
-		print_error_msg("Invalid Map. There is a blank line in the middle of the content.");
-}
-
-static void message_error_mlx(t_error_mlx error_code)
-{
-	if (error_code == INIT_ERROR)
-		print_error_msg("Couldn't find mlx pointer. Try it using a VNC.");
-	if (error_code == WINDOW_INIT_ERROR)
-		print_error_msg("Couldn't create the Window.");
 }

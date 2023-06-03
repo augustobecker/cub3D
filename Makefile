@@ -38,6 +38,7 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/utils.c					\
 				$(SRCS_PATH)/setup/setup.c						\
 				$(SRCS_PATH)/error/error_manager.c				\
+				$(SRCS_PATH)/error/error_messages.c				\
 				$(SRCS_PATH)/file/get_content.c					\
 				$(SRCS_PATH)/clear.c							\
 				$(SRCS_PATH)/create.c							\
