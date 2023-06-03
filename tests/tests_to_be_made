@@ -1,12 +1,13 @@
 sample-empty.cub			OK
+sample.c					OK
 sample-miss-elem.cub		OK
 sample-mult-elem.cub		OK
 sample-wrong-txtr.cub		OK
 sample-wrong-colour.cub		OK
 sample-empty-line.cub		OK
-
-sample2.cub
-sample.c
-sample.cub
+sample-multiplayer.cub		OK
+sample.cub					OK
+sample2.cub					OK
+sample3.cub					OK
 
 tests_to_be_made

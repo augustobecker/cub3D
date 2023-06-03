@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 10:20:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 02:46:45 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 02:56:42 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ char	**cubfile_validation(char *cubfile_name)
 	free(cubfile_content);
 	texture_validation(content_matrix);
 	color_validation(content_matrix);
-	//map_validation(content_matrix);
+	map_validation(content_matrix);
 	return (content_matrix);
 }
 
