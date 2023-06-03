@@ -6,37 +6,37 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 02:45:09 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 05:44:10 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-void	define_start_direction(t_data *data, int x, int y)
+void	set_player_starting_orientation(t_data *data, int x, int y)
 {
 	if (data->map[y][x] == 'N')
 	{
 		data->player.vertical_dir = NORTH;
-		data->player.rotation_angle = 0.5 * PI; // 90
+		data->player.rotation_angle = 0.5 * PI;
 	}
 	if (data->map[y][x] == 'S')
 	{
 		data->player.vertical_dir = SOUTH;
-		data->player.rotation_angle = 1.5 * PI; // 270
+		data->player.rotation_angle = 1.5 * PI;
 	}
 	if (data->map[y][x] == 'E')
 	{
 		data->player.horizontal_dir = EAST;
-		data->player.rotation_angle = 0; // 0 || 360
+		data->player.rotation_angle = 0;
 	}
 	if (data->map[y][x] == 'W')
 	{
 		data->player.horizontal_dir = WEST;
-		data->player.rotation_angle = PI; // 180
+		data->player.rotation_angle = PI;
 	}
 }
 
-void	set_player_pos(t_data *data)
+void	set_player_starting_position(t_data *data)
 {
 	int	x;
 	int	y;
@@ -54,7 +54,7 @@ void	set_player_pos(t_data *data)
 			{
 				data->player.x = x;
 				data->player.y = y;
-				define_start_direction(data, x, y);
+				set_player_starting_orientation(data, x, y);
 			}
 			x++;
 		}
@@ -64,7 +64,7 @@ void	set_player_pos(t_data *data)
 	data->player.y += TILE_SIZE * MINIMAP_SCALE / 2;
 }
 
-void	set_player(t_data *data)
+void	set_player_info(t_data *data)
 {
 	data->player.height = 3;
 	data->player.width = 3;
@@ -106,7 +106,7 @@ t_data	*setup_data(char **cubfile_content)
 	get_map_info(data);
 	ft_free_str_array(cubfile_content);
 	get_map_info(data);
-	set_player_pos(data);
-	set_player(data);
+	set_player_starting_position(data);
+	set_player_info(data);
 	return (data);
 }

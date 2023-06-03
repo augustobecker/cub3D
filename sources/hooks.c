@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 04:23:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 23:53:02 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 05:59:58 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	close_game(t_data *data)
 	return (0);
 }
 
-double normalize_angle(double angle)
+double	normalize_angle(double angle)
 {
 	if (angle >= (2 * PI))
 		angle -= 2 * PI;
@@ -62,7 +62,7 @@ void	player_update_position(t_data *data, int player_walk, double rotate_player)
 
 int	handle_input(int keysym, t_data *data)
 {
-	int 	player_walk;
+	int		player_walk;
 	double	player_rotate;
 
 	player_walk = 0;
@@ -72,7 +72,7 @@ int	handle_input(int keysym, t_data *data)
 	if (keysym == KEY_W)
 		player_walk = NORTH_DIR * WALK_SPEED;
 	if (keysym == KEY_A)
-		player_walk =  WEST_DIR * WALK_SPEED;
+		player_walk = WEST_DIR * WALK_SPEED;
 	if (keysym == KEY_S)
 		player_walk = SOUTH_DIR * WALK_SPEED;
 	if (keysym == KEY_D)
@@ -82,9 +82,9 @@ int	handle_input(int keysym, t_data *data)
 	if (keysym == KEY_RIGHT)
 		player_rotate = EAST_DIR * ROTATION_SPEED;
 	if ((keysym == KEY_W)
-	|| (keysym == KEY_D)
-	|| (keysym == KEY_LEFT || keysym == KEY_A)
-	|| (keysym == KEY_RIGHT || keysym == KEY_S))
+		|| (keysym == KEY_D)
+		|| (keysym == KEY_LEFT || keysym == KEY_A)
+		|| (keysym == KEY_RIGHT || keysym == KEY_S))
 		player_update_position(data, player_walk, player_rotate);
 	return (0);
 }

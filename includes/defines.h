@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 02:19:12 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 05:55:34 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,7 @@
 # define FLOOR_COLOR				0x0B2631
 # define WALL_COLOR					0x2DAADE
 
-# define DEGREES_TO_RADIANS			PI / 180
-
-# define ROTATION_SPEED				10 * DEGREES_TO_RADIANS
+# define ROTATION_SPEED				0.1745
 # define WALK_SPEED					5
 
 # define NORTH_DIR					-1
@@ -62,15 +60,15 @@
 
 # define TILE_SIZE                  32
 
-# define MINI_TILE_SIZE				TILE_SIZE * MINIMAP_SCALE
+# define MINI_TILE_SIZE				32
 
 # define BITS_IN_A_BYTE				8
 
-# define MINIMAP_SCALE				1 // 0.5 or 1
+# define MINIMAP_SCALE				1
 
 # define PI                         3.1416
 
-# define FOV_ANGLE                  60 * (PI / 180)
+# define FOV_ANGLE                  1.0472
 
 # define WALL_STRIP_WIDTH           1
 

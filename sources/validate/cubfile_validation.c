@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 10:20:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 02:56:42 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 05:43:35 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,9 +44,7 @@ static void	check_map_for_empty_line(char *cubfile_content)
 	while (cubfile_content[i])
 	{
 		if ((cubfile_content[i] == '\n')
-			&& ((cubfile_content[i + 1] == EMPTY_SPACE)
-				|| (cubfile_content[i + 1] == FLOOR)
-				|| (cubfile_content[i + 1] == WALL)))
+			&& (ft_strchr("0 1", cubfile_content[i + 1])))
 			is_map = true;
 		if (is_map)
 		{

@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/27 23:19:51 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/26 04:21:20 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 05:57:33 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,5 @@ t_data	*create_data(void)
 		error_manager(ERROR_MALLOC, MALLOC_ERROR, 0);
 	new->mlx_ptr = NULL;
 	new->win_ptr = NULL;
-	
-
 	return (new);
 }
