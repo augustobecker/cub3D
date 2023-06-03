@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/03 20:34:55 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 21:18:24 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 21:39:28 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ t_img	new_texture(void *mlx, char *path, t_data *data)
 
 	texure.mlx_img = \
 	mlx_xpm_file_to_image(mlx, path, &texure.width, &texure.height);
-	if (texure.mlx_img == NULL)
+	if (!texure.mlx_img)
 		error_manager(ERROR_TEXTURE, INVALID_FILE_CONTENT, data);
 	return (texure);
 }

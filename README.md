@@ -15,8 +15,8 @@
 <p align="center">🚧 Under construction</p>
 
 <h3>Pontos para revisão</h3>
-<p> Validação de mapa - O mapa está cercado por WALLS(1)? <\p>
-<p> Leak de memória - xpm inválido passado ao xpm_file_to_img <\p>
+<p> Validação de mapa - O mapa está cercado por WALLS(1)? </p>
+<p> Leak de memória - xpm inválido passado ao xpm_file_to_img </p>
 
 <p align="center">
 	:mage_man: Project done in partnership with 

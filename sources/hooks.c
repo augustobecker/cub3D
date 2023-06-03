@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 04:23:15 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 05:59:58 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 21:42:34 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_destroy_images(t_data *data)
 
 int	close_game(t_data *data)
 {
-	ft_destroy_images(data);
+	//ft_destroy_images(data);
 	clear_data(data);
 	exit (0);
 	return (0);

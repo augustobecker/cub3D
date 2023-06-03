@@ -37,12 +37,12 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/map_validation.c			\
 				$(SRCS_PATH)/validate/utils.c					\
 				$(SRCS_PATH)/textures/setup.c					\
-				$(SRCS_PATH)/setup/setup.c						\
 				$(SRCS_PATH)/error/error_manager.c				\
 				$(SRCS_PATH)/error/error_messages.c				\
 				$(SRCS_PATH)/file/get_content.c					\
-				$(SRCS_PATH)/clear.c							\
-				$(SRCS_PATH)/create.c							\
+				$(SRCS_PATH)/data_operations/clear.c			\
+				$(SRCS_PATH)/data_operations/create.c			\
+				$(SRCS_PATH)/data_operations/setup.c			\
 				$(SRCS_PATH)/MiniLibx/setup.c
 
 GREEN		=	\033[0;32m
