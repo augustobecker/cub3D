@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/03 06:17:29 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 06:29:53 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 21:02:01 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,9 @@ void	message_error_texture(t_error_texture error_code)
 		print_error_msg("The texture color is invalid.\n" \
 		"The valid colours follow this pattern: [0-255],[0-255],[0-255].\n" \
 		"Here's an example: 125,12,125");
+	if (error_code == INVALID_FILE_CONTENT)
+		print_error_msg("Can't use the Texture file.\n"\
+		"Please, confirm that it is a valid xpm.");
 }
 
 void	message_error_map(t_error_map error_code)

@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 06:25:48 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 20:37:53 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,10 @@ void			message_error_mlx(t_error_mlx error_code);
 void			message_error_arg(t_error_arg error_code);
 void			message_error_malloc(t_error_malloc error_code);
 void			message_error_file(t_error_file error_code);
+
+char			*get_texture_path(char **content, char *txtr);
+
+void			setup_textures(t_data *data);
 
 /**
  * @brief Validate the arguments that were entered on the command line.

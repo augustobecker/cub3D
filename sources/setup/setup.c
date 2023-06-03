@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 05:44:10 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 21:17:12 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,6 +95,34 @@ static void	get_map_info(t_data *data)
 	data->rows = y;
 }
 
+void	set_textures_info(t_data *data, char **cubfile_content)
+{
+	data->no_txtr.path = get_texture_path(cubfile_content, "NO ");
+	if (!data->no_txtr.path)
+	{
+		ft_free_str_array(cubfile_content);
+		error_manager(ERROR_MALLOC, MALLOC_ERROR, data);
+	}
+	data->so_txtr.path = get_texture_path(cubfile_content, "SO ");
+	if (!data->so_txtr.path)
+	{
+		ft_free_str_array(cubfile_content);
+		error_manager(ERROR_MALLOC, MALLOC_ERROR, data);
+	}
+	data->ea_txtr.path = get_texture_path(cubfile_content, "EA ");
+	if (!data->ea_txtr.path)
+	{
+		ft_free_str_array(cubfile_content);
+		error_manager(ERROR_MALLOC, MALLOC_ERROR, data);
+	}
+	data->we_txtr.path = get_texture_path(cubfile_content, "WE ");
+	if (!data->we_txtr.path)
+	{
+		ft_free_str_array(cubfile_content);
+		error_manager(ERROR_MALLOC, MALLOC_ERROR, data);
+	}
+}
+
 t_data	*setup_data(char **cubfile_content)
 {
 	t_data	*data;
@@ -104,6 +132,7 @@ t_data	*setup_data(char **cubfile_content)
 	if (!data->map)
 		error_manager(ERROR_MALLOC, MALLOC_ERROR, data);
 	get_map_info(data);
+	set_textures_info(data, cubfile_content);
 	ft_free_str_array(cubfile_content);
 	get_map_info(data);
 	set_player_starting_position(data);

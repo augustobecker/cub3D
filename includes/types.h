@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 05:50:27 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 20:53:34 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,8 @@ typedef struct s_img
 	int		bpp;
 	int		line_len;
 	int		endian;
+	int		width;
+	int		height;
 }	t_img;
 
 typedef struct s_rect
@@ -69,6 +71,7 @@ typedef struct s_player
 typedef struct s_txtr
 {
 	char	*path;
+	t_img	img;
 }	t_txtr;
 
 typedef struct s_data

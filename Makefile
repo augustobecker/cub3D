@@ -36,6 +36,7 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/texture_validation.c		\
 				$(SRCS_PATH)/validate/map_validation.c			\
 				$(SRCS_PATH)/validate/utils.c					\
+				$(SRCS_PATH)/textures/setup.c					\
 				$(SRCS_PATH)/setup/setup.c						\
 				$(SRCS_PATH)/error/error_manager.c				\
 				$(SRCS_PATH)/error/error_messages.c				\

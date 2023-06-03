@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 05:55:34 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 20:13:24 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,9 @@
 # define DEFINES_H
 
 # define NO_ERROR					0
+
+# define RESOLUTION_WIDTH			1280
+# define RESOLUTION_HEIGHT			720
 
 # define WHITE_PIXEL        		0xFFFFFF
 # define BLUE_PIXEL         		0x0000FF

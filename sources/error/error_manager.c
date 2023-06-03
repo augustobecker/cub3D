@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:26:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 06:26:51 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 20:19:09 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	error_manager(t_error error_type, int error_code, t_data *data)
 	if (error_type == ERROR_MAP)
 		message_error_map(error_code);
 	if (data)
-		free(data);
+		clear_data(data);
 	exit(0);
 }
 

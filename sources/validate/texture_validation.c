@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 23:08:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/02 22:21:17 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 20:32:00 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static t_bool	is_any_texture_initial_char(char c)
 	return (false);
 }
 
-void	check_for_number_of_elements(char **content)
+static void	check_for_number_of_elements(char **content)
 {
 	int	i;
 	int	elems;
@@ -48,31 +48,6 @@ void	check_for_number_of_elements(char **content)
 		ft_free_str_array(content);
 		error_manager(ERROR_TEXTURE, IS_MISSING_ELEM, 0);
 	}
-}
-
-static char	*get_texture_path(char **content, char *txtr)
-{
-	char	*txtr_path;
-	int		compare;
-	int		i;
-
-	i = 0;
-	txtr_path = NULL;
-	while (content[i])
-	{
-		compare = 0;
-		while ((content[i][compare]) && (content[i][compare] == txtr[compare]))
-		{
-			if (txtr[compare + 1] == '\0')
-			{
-				txtr_path = ft_strtrim(&content[i][compare], " '\"");
-				break ;
-			}
-			compare++;
-		}
-		i++;
-	}
-	return (txtr_path);
 }
 
 static void	check_for_texture_path(char **content, char *txtr)
