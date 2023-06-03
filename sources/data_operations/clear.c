@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 02:53:50 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 21:47:12 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 21:55:15 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,16 +16,14 @@ static void	free_images(t_data *data)
 {
 	if (data->img.mlx_img)
 		mlx_destroy_image(data->mlx_ptr, data->img.mlx_img);
-	/*
-	if (data->no_txtr)
+	if (data->no_txtr.img.mlx_img)
 		mlx_destroy_image(data->mlx_ptr, data->no_txtr.img.mlx_img);
-	if (data->so_txtr)
+	if (data->so_txtr.img.mlx_img)
 		mlx_destroy_image(data->mlx_ptr, data->so_txtr.img.mlx_img);
-	if (data->ea_txtr)
+	if (data->ea_txtr.img.mlx_img)
 		mlx_destroy_image(data->mlx_ptr, data->ea_txtr.img.mlx_img);
-	if (data->we_txtr)
+	if (data->we_txtr.img.mlx_img)
 		mlx_destroy_image(data->mlx_ptr, data->we_txtr.img.mlx_img);
-	*/
 }
 
 void	clear_data(t_data *data)
