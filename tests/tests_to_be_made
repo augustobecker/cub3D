@@ -3,6 +3,7 @@ sample-miss-elem.cub		OK
 sample-mult-elem.cub		OK
 sample-wrong-txtr.cub		OK
 sample-wrong-colour.cub		OK
+sample-empty-line.cub		OK
 
 sample2.cub
 sample.c

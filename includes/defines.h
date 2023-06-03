@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 00:16:10 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 02:19:12 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,10 @@
 # define FOV_ANGLE                  60 * (PI / 180)
 
 # define WALL_STRIP_WIDTH           1
+
+# define WALL						'1'
+# define EMPTY_SPACE				' '
+# define FLOOR						'0'
 
 # define BLACK				        "\033[0;30m"
 # define RED				        "\033[0;31m"

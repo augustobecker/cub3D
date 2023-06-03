@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:26:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/05/22 15:30:37 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 02:31:02 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,6 +100,8 @@ static void message_error_map(t_error_map error_code)
 	if (error_code == MISSING_START_POSITION)
 		print_error_msg("Missing definition of player starting position on map. \n" \
 		"The parameter for starting positions is N, S, E or W. It is defined only once");
+	if (error_code == EMPTY_LINE)
+		print_error_msg("Invalid Map. There is a blank line in the middle of the content.");
 }
 
 static void message_error_mlx(t_error_mlx error_code)

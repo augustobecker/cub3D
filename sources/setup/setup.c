@@ -6,13 +6,13 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 00:04:56 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 02:45:09 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-void define_start_direction(t_data *data, int x, int y)
+void	define_start_direction(t_data *data, int x, int y)
 {
 	if (data->map[y][x] == 'N')
 	{
@@ -36,7 +36,7 @@ void define_start_direction(t_data *data, int x, int y)
 	}
 }
 
-void set_player_pos(t_data *data)
+void	set_player_pos(t_data *data)
 {
 	int	x;
 	int	y;
@@ -45,28 +45,27 @@ void set_player_pos(t_data *data)
 	while (y < data->rows)
 	{
 		x = 0;
-		while (x < data->columns)
+		while (data->map[y][x])
 		{
-				if ((data->map[y][x] == 'N')
+			if ((data->map[y][x] == 'N')
 				|| (data->map[y][x] == 'S')
 				|| (data->map[y][x] == 'W')
 				|| (data->map[y][x] == 'E'))
-				{
-					data->player.x = x;
-					data->player.y = y;
-					define_start_direction(data, x, y);
-				}
+			{
+				data->player.x = x;
+				data->player.y = y;
+				define_start_direction(data, x, y);
+			}
 			x++;
 		}
 		y++;
 	}
-	data->player.x *= TILE_SIZE * MINIMAP_SCALE;
-	data->player.y *= TILE_SIZE * MINIMAP_SCALE;
 	data->player.x += TILE_SIZE * MINIMAP_SCALE / 2;
 	data->player.y += TILE_SIZE * MINIMAP_SCALE / 2;
 }
 
-void set_player(t_data *data){
+void	set_player(t_data *data)
+{
 	data->player.height = 3;
 	data->player.width = 3;
 	data->player.walk_direction = 0;
@@ -96,7 +95,7 @@ static void	get_map_info(t_data *data)
 	data->rows = y;
 }
 
-t_data *setup_data(char **cubfile_content)
+t_data	*setup_data(char **cubfile_content)
 {
 	t_data	*data;
 

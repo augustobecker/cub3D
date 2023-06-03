@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 04:30:29 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 01:03:54 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 02:45:44 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@
 //     player_starting_pos = 0;
 //     while (map[line])
 //     {
+
 //         column = 0;
 //         while (map[line][column])
 //         {
