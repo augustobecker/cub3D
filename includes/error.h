@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/03 00:07:34 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 21:00:32 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/04 16:37:48 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,8 @@ typedef enum e_error_map
 	INVALID_ELEMENT,
 	MULTIPLE_START_POSITION,
 	MISSING_START_POSITION,
-	EMPTY_LINE
+	EMPTY_LINE,
+	NOT_SURROUNDED_BY_WALLS
 }	t_error_map;
 
 typedef enum e_error_file

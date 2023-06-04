@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 02:53:50 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 21:57:58 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/04 22:13:58 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,22 @@
 
 static void	free_images(t_data *data)
 {
-	if (data->img.mlx_img)
-		mlx_destroy_image(data->mlx_ptr, data->img.mlx_img);
-	if (data->no_txtr.img.mlx_img)
-		mlx_destroy_image(data->mlx_ptr, data->no_txtr.img.mlx_img);
-	if (data->so_txtr.img.mlx_img)
-		mlx_destroy_image(data->mlx_ptr, data->so_txtr.img.mlx_img);
-	if (data->ea_txtr.img.mlx_img)
-		mlx_destroy_image(data->mlx_ptr, data->ea_txtr.img.mlx_img);
-	if (data->we_txtr.img.mlx_img)
-		mlx_destroy_image(data->mlx_ptr, data->we_txtr.img.mlx_img);
+	if (data->no_txtr.img)
+		mlx_destroy_image(data->mlx_ptr, data->no_txtr.img->mlx_img);
+	if (data->no_txtr.path)
+		free(data->no_txtr.path);
+	if (data->so_txtr.img)
+		mlx_destroy_image(data->mlx_ptr, data->so_txtr.img->mlx_img);
+	if (data->so_txtr.path)
+		free(data->so_txtr.path);
+	if (data->ea_txtr.img)
+		mlx_destroy_image(data->mlx_ptr, data->ea_txtr.img->mlx_img);
+	if (data->ea_txtr.path)
+		free(data->ea_txtr.path);
+	if (data->we_txtr.img)
+		mlx_destroy_image(data->mlx_ptr, data->we_txtr.img->mlx_img);
+	if (data->we_txtr.path)
+		free(data->we_txtr.path);
 }
 
 void	clear_data(t_data *data)
@@ -38,13 +44,5 @@ void	clear_data(t_data *data)
 		mlx_destroy_display(data->mlx_ptr);
 		free(data->mlx_ptr);
 	}
-	if (data->no_txtr.path)
-		free(data->no_txtr.path);
-	if (data->so_txtr.path)
-		free(data->so_txtr.path);
-	if (data->ea_txtr.path)
-		free(data->ea_txtr.path);
-	if (data->we_txtr.path)
-		free(data->we_txtr.path);
 	free(data);
 }

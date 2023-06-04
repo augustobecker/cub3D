@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   types.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 00:08:15 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/04 22:13:21 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,14 @@ typedef enum e_bool
 	false,
 	true
 }	t_bool;
+
+typedef struct s_ray
+{
+	int		angle;
+	int		num_ray;
+	double	distance_to_wall;
+	double	orientation;
+}	t_ray;
 
 typedef struct s_img
 {
@@ -57,20 +65,12 @@ typedef struct s_player
 {
 	double				x;
 	double				y;
-	double				rotation_angle;
-	double				dx;
-	double				dy;
-	double				xo;
-	double				yo;
-	double				distance;
-	double				ray_angle;
 	double				angle;
-	int					ray;
+	double				distance_to_wall;
 	int					turn_direction;
 	int					walk_direction;
 	double				walk_speed;
 	double				turn_speed;
-	int					status;
 	int					turn;
 	int					move;
 }	t_player;
@@ -78,7 +78,7 @@ typedef struct s_player
 typedef struct s_txtr
 {
 	char	*path;
-	t_img	img;
+	t_img	*img;
 }	t_txtr;
 
 typedef struct s_color
@@ -91,11 +91,8 @@ typedef struct s_data
 	void			*mlx_ptr;
 	void			*win_ptr;
 	char			**map;
-	int				columns;
-	int				rows;
-	int				lines;
-	t_img			*full_img;
 	t_player		player;
+	t_img			*full_img;
 	t_txtr			no_txtr;
 	t_txtr			so_txtr;
 	t_txtr			ea_txtr;

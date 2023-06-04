@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 23:47:01 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/04 20:31:06 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@
 
 # define RESOLUTION_WIDTH			1280
 # define RESOLUTION_HEIGHT			720
+
+# define HORIZONTAL					1
+# define VERTICAL					2
 
 # define WHITE_PIXEL        		0xFFFFFF
 # define BLUE_PIXEL         		0x0000FF
@@ -65,7 +68,7 @@
 
 # define MINI_TILE_SIZE				32
 
-# define BITS_IN_A_BYTE				8
+# define BITS_PER_BYTE				8
 
 # define MINIMAP_SCALE				1
 

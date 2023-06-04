@@ -26,6 +26,20 @@ SRCS_PATH	= ./sources
 INCLUDES	= -I ./includes
 
 SRCS 		=	$(SRCS_PATH)/main.c								\
+				$(SRCS_PATH)/data_operations/clear.c			\
+				$(SRCS_PATH)/data_operations/create.c			\
+				$(SRCS_PATH)/data_operations/setup.c			\
+				$(SRCS_PATH)/error/error_manager.c				\
+				$(SRCS_PATH)/error/error_messages.c				\
+				$(SRCS_PATH)/hooks/events.c						\
+				$(SRCS_PATH)/images/setup.c						\
+				$(SRCS_PATH)/map/get_content.c					\
+				$(SRCS_PATH)/map/utils.c						\
+				$(SRCS_PATH)/MiniLibx/setup.c					\
+				$(SRCS_PATH)/render/cast_ray.c					\
+				$(SRCS_PATH)/render/pixel_put.c					\
+				$(SRCS_PATH)/render/raycasting.c				\
+				$(SRCS_PATH)/render/distance_to_wall.c			\
 				$(SRCS_PATH)/validate/file_validate.c			\
 				$(SRCS_PATH)/validate/arguments_validation.c	\
 				$(SRCS_PATH)/validate/color_validation.c		\
@@ -33,15 +47,7 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/cubfile_validation.c		\
 				$(SRCS_PATH)/validate/texture_validation.c		\
 				$(SRCS_PATH)/validate/map_validation.c			\
-				$(SRCS_PATH)/validate/utils.c					\
-				$(SRCS_PATH)/textures/setup.c					\
-				$(SRCS_PATH)/error/error_manager.c				\
-				$(SRCS_PATH)/error/error_messages.c				\
-				$(SRCS_PATH)/file/get_content.c					\
-				$(SRCS_PATH)/data_operations/clear.c			\
-				$(SRCS_PATH)/data_operations/create.c			\
-				$(SRCS_PATH)/data_operations/setup.c			\
-				$(SRCS_PATH)/MiniLibx/setup.c
+				$(SRCS_PATH)/validate/utils.c
 
 GREEN		=	\033[0;32m
 RED			=	\033[0;31m
