@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   setup.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 21:17:12 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 23:14:29 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,8 +66,8 @@ void	set_player_starting_position(t_data *data)
 
 void	set_player_info(t_data *data)
 {
-	data->player.height = 3;
-	data->player.width = 3;
+	data->player.ray = 0;
+	data->player.ray_angle = 0;
 	data->player.walk_direction = 0;
 	data->player.turn_direction = 0;
 	data->player.walk_speed = 100;

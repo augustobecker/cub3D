@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   types.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 20:53:34 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 23:07:07 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,15 +57,21 @@ typedef struct s_player
 {
 	double				x;
 	double				y;
-	double				width;
-	double				height;
 	double				rotation_angle;
+	double				dx;
+	double				dy;
+	double				xo;
+	double				yo;
+	double				distance;
+	double				ray_angle;
+	int					ray;
 	int					turn_direction;
 	int					walk_direction;
 	double				walk_speed;
 	double				turn_speed;
-	t_vertical_dir		vertical_dir;
-	t_horizontal_dir	horizontal_dir;
+	int					status;
+	int					turn;
+	int					move;
 }	t_player;
 
 typedef struct s_txtr
@@ -73,6 +79,11 @@ typedef struct s_txtr
 	char	*path;
 	t_img	img;
 }	t_txtr;
+
+typedef struct s_color
+{
+	int		*rbg;
+}	t_color;
 
 typedef struct s_data
 {
@@ -82,14 +93,14 @@ typedef struct s_data
 	int				columns;
 	int				rows;
 	int				lines;
-	t_img			img;
+	t_img			full_img;
 	t_player		player;
-	t_img			floor;
-	t_img			wall;
 	t_txtr			no_txtr;
 	t_txtr			so_txtr;
 	t_txtr			ea_txtr;
 	t_txtr			we_txtr;
+	t_color			ceiling;
+	t_color			floor;
 }	t_data;
 
 typedef struct s_error_info

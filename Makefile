@@ -26,8 +26,6 @@ SRCS_PATH	= ./sources
 INCLUDES	= -I ./includes
 
 SRCS 		=	$(SRCS_PATH)/main.c								\
-				$(SRCS_PATH)/hooks.c							\
-				$(SRCS_PATH)/render_map.c						\
 				$(SRCS_PATH)/validate/file_validate.c			\
 				$(SRCS_PATH)/validate/arguments_validation.c	\
 				$(SRCS_PATH)/validate/color_validation.c		\
@@ -77,7 +75,7 @@ val:
 val2:
 				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map3.cub
 
-seg-clean:		
+seg-clean:
 				@$(CLEANUP) vgcore*
 
 .PHONY:			all clean fclean re

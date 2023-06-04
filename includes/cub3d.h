@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 22:36:01 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/03 23:12:45 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,9 @@ char			*get_texture_path(char **content, char *txtr);
 void			setup_textures(t_data *data);
 
 int				handle_no_event(void);
+
+//drawn
+double			normalize_radiun_angle(double angle);
 
 /**
  * @brief Validate the arguments that were entered on the command line.
