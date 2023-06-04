@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 20:13:24 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 23:47:01 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@
 # define GREEN_RGB                  1
 # define BLUE_RGB                   2
 
-# define TILE_SIZE                  32
+# define TILE_SIZE                  64
 
 # define MINI_TILE_SIZE				32
 
@@ -74,6 +74,8 @@
 # define FOV_ANGLE                  1.0472
 
 # define WALL_STRIP_WIDTH           1
+
+# define MAX 2147483647
 
 # define WALL						'1'
 # define EMPTY_SPACE				' '

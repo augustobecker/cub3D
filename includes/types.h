@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 23:07:07 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/04 00:08:15 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,7 @@ typedef struct s_player
 	double				yo;
 	double				distance;
 	double				ray_angle;
+	double				angle;
 	int					ray;
 	int					turn_direction;
 	int					walk_direction;
@@ -93,7 +94,7 @@ typedef struct s_data
 	int				columns;
 	int				rows;
 	int				lines;
-	t_img			full_img;
+	t_img			*full_img;
 	t_player		player;
 	t_txtr			no_txtr;
 	t_txtr			so_txtr;
