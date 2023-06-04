@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 20:37:53 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/03 22:36:01 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,8 @@ void			message_error_file(t_error_file error_code);
 char			*get_texture_path(char **content, char *txtr);
 
 void			setup_textures(t_data *data);
+
+int				handle_no_event(void);
 
 /**
  * @brief Validate the arguments that were entered on the command line.
@@ -101,7 +103,7 @@ void			setup_minilibx(t_data *data);
  *
  * @param cubfile_name name of the cubfile passed.
  *
- * @return The content of the cubfile passed, already validated. 
+ * @return The content of the cubfile passed, already validated.
  * In case there's an error, the function handles it.
 */
 char			**cubfile_validation(char *cubfile_name);

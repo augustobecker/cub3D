@@ -1,27 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   eventes.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 22:35:43 by gnuncio-         ###   ########.fr       */
+/*   Created: 2023/06/03 22:34:58 by gnuncio-          #+#    #+#             */
+/*   Updated: 2023/06/03 22:35:16 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-int	main(int argc, char **argv)
+int	handle_no_event(void)
 {
-	t_data	*data;
-	char	**cubfile_content;
-
-	arguments_validation(argc, argv);
-	cubfile_content = cubfile_validation(argv[MAP_ARG]);
-	data = setup_data(cubfile_content);
-	setup_minilibx(data);
-	setup_textures(data);
 	return (0);
 }
-
