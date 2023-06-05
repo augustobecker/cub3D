@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   distance_to_wall.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:37:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 22:40:51 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/05 18:13:52 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,20 @@ double	get_player_distance_to_wall(t_data *data, t_player *player, t_ray *ray)
 	double	correct;
 
 	correct = cos(normalize_radian_angle(player->angle - ray->angle));
+
+	//remover
+	printf("CORRECT VALUE = %f\n", correct);
+
 	horizontal_wall_dist = distance_horizontal_wall(data, player, ray) * correct;
+
+	//remover
+	printf("horizontal_wall_dist = %f\n", horizontal_wall_dist);
+
 	vertical_wall_dist = distance_vertical_wall(data, player, ray) * correct;
+
+	//remover
+	printf("vertical_wall_dist = %f\n", vertical_wall_dist);
+
 	if (vertical_wall_dist < horizontal_wall_dist)
 	{
 		ray->orientation = VERTICAL;
@@ -66,7 +78,7 @@ t_ray *ray)
 
 static double	distance_vertical_wall(t_data *data, t_player *player, \
 t_ray *ray)
-{	
+{
 	double	x_intercept;
 	double	y_intercept;
 	double	x_step;

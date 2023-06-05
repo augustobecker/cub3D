@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   setup.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 21:45:14 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/05 16:55:25 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ void	set_player_starting_position(t_data *data)
 				data->player.x = x * TILE_SIZE;
 				data->player.y = y * TILE_SIZE;
 				set_player_starting_angle(data, x, y);
+				data->map[y][x] = '0';
 				break ;
 			}
 			x++;
@@ -52,7 +53,7 @@ void	set_player_info(t_data *data)
 {
 	data->player.walk_direction = 0;
 	data->player.turn_direction = 0;
-	data->player.walk_speed = 100;
+	data->player.walk_speed = 5;
 	data->player.turn_speed = 45 * (PI / 180);
 }
 

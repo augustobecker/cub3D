@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 22:29:01 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/05 18:12:43 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -168,5 +168,8 @@ t_error_file	is_file_readable(char *filename);
  * @return 0 for no error. Enum with the file error specified.
 */
 t_data			*setup_data(char **cubfile_content);
+
+
+int				key_press(int key, t_data *data);
 
 #endif
