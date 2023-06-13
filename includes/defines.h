@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 20:31:06 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/13 00:55:43 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,13 +72,13 @@
 
 # define MINIMAP_SCALE				1
 
-# define PI                         3.1416
+# define PI                         3.14159265358979323846
 
-# define FOV_ANGLE                  1.0472
+# define FOV_ANGLE                  1.04719755119659774614
 
 # define WALL_STRIP_WIDTH           1
 
-# define MAX 2147483647
+# define MAX						2147483647
 
 # define WALL						'1'
 # define EMPTY_SPACE				' '

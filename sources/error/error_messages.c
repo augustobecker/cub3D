@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/03 06:17:29 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 21:02:01 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/13 16:20:41 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,8 @@ void	message_error_map(t_error_map error_code)
 	if (error_code == EMPTY_LINE)
 		print_error_msg("Invalid Map. There is a blank line in the " \
 		"middle of the content.");
+	if (error_code == NOT_SURROUNDED_BY_WALLS)
+		print_error_msg("Invalid Map. It's not surrounded by walls.");
 }
 
 void	message_error_mlx(t_error_mlx error_code)

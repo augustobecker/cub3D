@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:38:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 22:42:50 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/13 17:00:41 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,15 @@ void	cast_ray(t_data *data, t_ray *ray)
 	pixel_y = 0;
 	height = wall_height(ray);
 	start_wall = floor((RESOLUTION_HEIGHT - height) / 2);
+	printf("START WALL:\t %d\n", start_wall);
+	printf("HEIGHT: \t%d\n", height);
+	printf("CEILING: \t %d until %d\n", start_wall, start_wall + height);
 	while (pixel_y < RESOLUTION_HEIGHT)
 	{
 		if (pixel_y < start_wall)
-			img_pix_put(data->full_img, pixel_x, pixel_y, 113);
+			img_pix_put(data->full_img, pixel_x, pixel_y, 1);
 		else if (pixel_y > start_wall + height)
-			img_pix_put(data->full_img, pixel_x, pixel_y, 113);
+			img_pix_put(data->full_img, pixel_x, pixel_y, 220);
 		else
 			set_txtr_to_put(data, &data->player, ray, pixel_y);
 		pixel_y++;
@@ -44,7 +47,8 @@ int	wall_height(t_ray *ray)
 
 	if (ray->distance_to_wall == 0)
 		return (0);
-	height = TILE_SIZE / ray->distance_to_wall * (RESOLUTION_WIDTH / (2 * tan (PI / 6)));
+	height = RESOLUTION_HEIGHT / tan (PI / 60) * TILE_SIZE / ray->distance_to_wall;
+	//height = TILE_SIZE / ray->distance_to_wall * (RESOLUTION_WIDTH / (2 * tan (PI / 6)));
 	return (ceil(height));
 }
 

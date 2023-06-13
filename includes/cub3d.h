@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 22:29:01 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/13 16:30:29 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,9 @@
 
 # include <math.h>
 # include <fcntl.h>
+
+void			print_ray(t_ray *ray);
+void			print_player(t_data *data, char *where);
 
 void			print_message_file_is_invalid(char *filename, \
 char *description);
@@ -70,7 +73,7 @@ void			img_pixel_put_txtr(t_img *win, t_img *txtr, t_player *player, \
 t_ray *ray, int px_y);
 
 //map/utils
-t_bool			is_wall(char **map, int x, int y);
+int			is_wall(char **map, int x, int y);
 
 //render/ distance
 double			get_player_distance_to_wall(t_data *data, t_player *player, \

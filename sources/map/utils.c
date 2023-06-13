@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:45:48 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 21:48:44 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/13 16:30:15 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ static t_bool	exists_in_map(char **map, int x, int y)
 	int	row;
 
 	row = 0;
+	if (x < 0 || y < 0)
+		return (false);
 	while (map[row] && row <= y)
 	{
 		column = 0;
@@ -32,11 +34,12 @@ static t_bool	exists_in_map(char **map, int x, int y)
 	return (false);
 }
 
-t_bool	is_wall(char **map, int x, int y)
+int	is_wall(char **map, int x, int y)
 {
 	if (!exists_in_map(map, x, y))
-		error_manager(ERROR_MAP, NOT_SURROUNDED_BY_WALLS, 0);
+		return -1;
+		//error_manager(ERROR_MAP, NOT_SURROUNDED_BY_WALLS, 0);
 	if (map[y][x] == '1')
-		return (true);
-	return (false);
+		return (1);
+	return (0);
 }
