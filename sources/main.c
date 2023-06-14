@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/12 23:28:39 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/13 21:17:00 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ int	update_player(t_data *data)
 void print_ray(t_ray *ray)
 {
 	printf("RAY %d INFO\n", ray->num_ray);
+	printf("\tangle: %f\n", ray->angle);
 	printf("\tangle: %f\n", ray->angle * 180/PI);
 	printf("\tdistance to wall: %f\n", ray->distance_to_wall);
 	printf("\torientation: ");
@@ -57,7 +58,7 @@ void print_ray(t_ray *ray)
 void print_player(t_data *data, char *where)
 {
 	printf("PLAYER INFO %s\n", where);
-	printf("\tx: %f | y: %f\n", data->player.x / TILE_SIZE, data->player.y / TILE_SIZE);
+	printf("\tx: %f | y: %f\n", data->player.x, data->player.y);
 	printf("\tangle: %f\n", data->player.angle * 180 / PI);
 	printf("\tdistance to wall: %f\n", data->player.distance_to_wall);
 	printf("\tturn_direction: %d | walk_direction: %d\n", data->player.turn_direction, data->player.walk_direction);

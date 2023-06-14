@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/13 00:55:43 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/14 04:44:15 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@
 
 # define WALL_STRIP_WIDTH           1
 
-# define MAX						2147483647
+# define MAX						32767
 
 # define WALL						'1'
 # define EMPTY_SPACE				' '
