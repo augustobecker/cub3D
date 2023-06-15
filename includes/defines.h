@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/05 16:29:26 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/14 04:44:15 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 # define NO_ERROR					0
 
-# define RESOLUTION_WIDTH			1280
-# define RESOLUTION_HEIGHT			720
+# define RESOLUTION_WIDTH			640
+# define RESOLUTION_HEIGHT			400
 
 # define HORIZONTAL					1
 # define VERTICAL					2
@@ -74,11 +74,11 @@
 
 # define PI                         3.14159265358979323846
 
-# define FOV_ANGLE                  1.0472
+# define FOV_ANGLE                  1.04719755119659774614
 
 # define WALL_STRIP_WIDTH           1
 
-# define MAX 2147483647
+# define MAX						32767
 
 # define UP 1
 # define DOWN 2

@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/05 16:26:02 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/12 23:22:55 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,10 @@ typedef enum e_bool
 
 typedef struct s_ray
 {
-	int		angle;
+	double	angle;
 	int		num_ray;
 	double	distance_to_wall;
-	double	orientation;
+	int		orientation;
 }	t_ray;
 
 typedef struct s_img
@@ -65,8 +65,15 @@ typedef struct s_player
 {
 	double				x;
 	double				y;
+	double				dx;
+	double				dy;
+	double				xo;
+	double				yo;
 	double				angle;
+	double				ray_ang;
 	double				distance_to_wall;
+	int					ray;
+	int					status;
 	int					turn_direction;
 	int					walk_direction;
 	double				walk_speed;

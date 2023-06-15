@@ -13,7 +13,7 @@
 NAME		= 	cub3D
 
 COMPILER 	=	clang
-CFLAGS 		= 	-Wall -Wextra -Werror
+CFLAGS 		= 	-Wall -Wextra
 MLX_FLAGS	=	-lmlx -lXext -lX11
 MATH_LIB	= 	-lm
 CLEANUP 	= 	rm -rf

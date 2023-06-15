@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/05 18:12:43 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/13 16:30:29 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,13 @@
 # include <math.h>
 # include <fcntl.h>
 
+double			ft_radian_domain(double angle);
+void			ft_drawn(t_data *data);
+void			ft_distance_wall(t_data *data);
+void			ft_raycast(t_data *data);
+
+void			print_player(t_data *data, char *where);
+
 void			print_message_file_is_invalid(char *filename, \
 char *description);
 int				close_game(t_data *data);
@@ -51,33 +58,12 @@ void			message_error_file(t_error_file error_code);
 
 char			*get_texture_path(char **content, char *txtr);
 
-void			render(t_data *data);
-void			raycasting(t_data *data);
-void			cast_ray(t_data *data, t_ray *ray);
-
-//images
 void			setup_textures(t_data *data);
 t_img			*new_image(void *mlx_ptr, int width, int height);
 
 int				handle_no_event(void);
 
-//raycast
-int				wall_height(t_ray *ray);
-
-//pixel_put
-void			img_pix_put(t_img *img, int x, int y, int color);
-void			img_pixel_put_txtr(t_img *win, t_img *txtr, t_player *player, \
-t_ray *ray, int px_y);
-
-//map/utils
-t_bool			is_wall(char **map, int x, int y);
-
-//render/ distance
-double			get_player_distance_to_wall(t_data *data, t_player *player, \
-t_ray *ray);
-
-//drawn
-double			normalize_radian_angle(double angle);
+int				is_wall(char **map, int x, int y);
 
 /**
  * @brief Validate the arguments that were entered on the command line.

@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/05 16:55:25 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/12 23:09:17 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,8 +53,11 @@ void	set_player_info(t_data *data)
 {
 	data->player.walk_direction = 0;
 	data->player.turn_direction = 0;
-	data->player.walk_speed = 5;
+	data->player.walk_speed = 10;
 	data->player.turn_speed = 45 * (PI / 180);
+	data->player.turn = 0;
+	data->player.move = 0;
+	data->player.distance_to_wall = 0;
 }
 
 void	set_textures_info(t_data *data, char **cubfile_content)
