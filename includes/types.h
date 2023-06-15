@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   types.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
 /*   Updated: 2023/06/12 23:22:55 by acesar-l         ###   ########.fr       */
@@ -106,6 +106,12 @@ typedef struct s_data
 	t_txtr			we_txtr;
 	t_color			ceiling;
 	t_color			floor;
+	int		fr;
+	int		fg;
+	int		fb;
+	int		cr;
+	int		cg;
+	int		cb;
 }	t_data;
 
 typedef struct s_error_info

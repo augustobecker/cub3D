@@ -73,7 +73,7 @@ fclean:
 re:				fclean $(NAME)
 
 run:
-				@./cub3D maps/map2.cub
+				@./cub3D maps/map3.cub
 
 val:
 				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map1.cub

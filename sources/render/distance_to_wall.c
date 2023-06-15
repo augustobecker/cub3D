@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   distance_to_wall.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:37:56 by acesar-l          #+#    #+#             */
 /*   Updated: 2023/06/14 05:11:07 by acesar-l         ###   ########.fr       */

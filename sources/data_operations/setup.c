@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   setup.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
 /*   Updated: 2023/06/12 23:09:17 by acesar-l         ###   ########.fr       */
@@ -40,6 +40,7 @@ void	set_player_starting_position(t_data *data)
 				data->player.x = x * TILE_SIZE;
 				data->player.y = y * TILE_SIZE;
 				set_player_starting_angle(data, x, y);
+				data->map[y][x] = '0';
 				break ;
 			}
 			x++;
