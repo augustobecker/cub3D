@@ -15,8 +15,8 @@
 
 # define NO_ERROR					0
 
-# define RESOLUTION_WIDTH			1280
-# define RESOLUTION_HEIGHT			720
+# define RESOLUTION_WIDTH			640
+# define RESOLUTION_HEIGHT			400
 
 # define HORIZONTAL					1
 # define VERTICAL					2

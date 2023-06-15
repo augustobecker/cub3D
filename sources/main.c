@@ -34,10 +34,8 @@ int close_game(t_data *data)
 }
 
 int	update_player(t_data *data)
-{
-	printf("trying to render\n");
-	print_player(data, "update player hook");
-	render(data);
+{	
+	ft_raycast(data);
 	return (0);
 }
 
@@ -59,7 +57,9 @@ void print_player(t_data *data, char *where)
 {
 	printf("PLAYER INFO %s\n", where);
 	printf("\tx: %f | y: %f\n", data->player.x, data->player.y);
-	printf("\tangle: %f\n", data->player.angle * 180 / PI);
+	printf("\tPlayer angle: %f\n", data->player.angle * 180 / PI);
+	printf("\tRAY %d\n", data->player.ray);
+	printf("\tRay angle: %f\n", data->player.ray_ang * 180 / PI);
 	printf("\tdistance to wall: %f\n", data->player.distance_to_wall);
 	printf("\tturn_direction: %d | walk_direction: %d\n", data->player.turn_direction, data->player.walk_direction);
 	printf("\twalk_speed: %f | turn_speed: %f\n", data->player.walk_speed, data->player.turn_speed);
@@ -77,16 +77,10 @@ int	main(int argc, char **argv)
 	data = setup_data(cubfile_content);
 	setup_minilibx(data);
 	setup_textures(data);
-	print_player(data, "MAIN");
-	render(data);
-	// our	
+	ft_raycast(data);
 	mlx_loop_hook(data->mlx_ptr, update_player, data);
 	mlx_hook(data->win_ptr, KeyPress, KeyPressMask, handle_input, data);
 	mlx_hook(data->win_ptr, DestroyNotify, ButtonPressMask, close_game, data);
 	mlx_loop(data->mlx_ptr);
-
-	
-	//TODO - colocar o hook para fechar janela!
-	//TODO Colocar pra setar as novas inforamções na struct
 	return (0);
 }

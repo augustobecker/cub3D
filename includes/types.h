@@ -65,8 +65,15 @@ typedef struct s_player
 {
 	double				x;
 	double				y;
+	double				dx;
+	double				dy;
+	double				xo;
+	double				yo;
 	double				angle;
+	double				ray_ang;
 	double				distance_to_wall;
+	int					ray;
+	int					status;
 	int					turn_direction;
 	int					walk_direction;
 	double				walk_speed;
