@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   setup.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/03 20:34:55 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 22:16:00 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/15 10:44:57 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	setup_textures(t_data *data)
 t_img	*new_image(void *mlx_ptr, int width, int height)
 {
 	t_img	*img;
-	
+
 	img = malloc(sizeof(t_img));
 	img->mlx_img = mlx_new_image(mlx_ptr, width, height);
 	img->addr = mlx_get_data_addr(img->mlx_img, \

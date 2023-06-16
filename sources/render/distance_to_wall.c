@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:37:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/14 05:11:07 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/15 12:00:52 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,31 +18,6 @@ static double	ft_horizontal_wall(t_data *data);
 static double	ft_vertical_wall(t_data *data);
 double			ft_distance(double x1, double y1, double x2, double y2);
 double			ft_radian_domain(double angle);
-
-int	ft_iswall(char **map, double i, double j)
-{
-	int	x;
-	int	y;
-	int	line_size;
-	int	column_size;
-
-	line_size = -1;
-	column_size = 0;
-	while (map[++line_size])
-	{
-		if (column_size < (int)ft_strlen(map[line_size]))
-			column_size = ft_strlen(map[line_size]);
-	}
-	y = (int) floor(i / TILE_SIZE);
-	x = (int) floor(j / TILE_SIZE);
-	if (x < 0 || y < 0 || x > column_size || y > line_size - 1)
-		return (-1);
-	if (map[y][x] == '0')
-		return (0);
-	else
-		return (1);
-}
-
 
 void	ft_distance_wall(t_data *data)
 {

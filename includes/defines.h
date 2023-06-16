@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/14 04:44:15 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/15 15:30:19 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@
 # define WALL_COLOR					0x2DAADE
 
 # define ROTATION_SPEED				0.1745
-# define WALK_SPEED					5
+# define WALK_SPEED					8
 
 # define NORTH_DIR					-1
 # define SOUTH_DIR					1
@@ -47,6 +47,8 @@
 
 # define KEY_Q						113
 # define KEY_ESC  					65307
+
+# define STOP						0
 
 # define EXEC_ARG                   0
 # define MAP_ARG                   	1
@@ -69,8 +71,6 @@
 # define MINI_TILE_SIZE				32
 
 # define BITS_PER_BYTE				8
-
-# define MINIMAP_SCALE				1
 
 # define PI                         3.14159265358979323846
 
@@ -99,5 +99,14 @@
 # define WHITE				        "\033[0;37m"
 # define GREY				        "\033[0;90m"
 # define RESET				        "\033[0m"
+
+# define END						11
+# define NEW_LINE					10
+# define NO 2
+# define SO 3
+# define WE 4
+# define EA 5
+# define F 6
+# define C 7
 
 #endif

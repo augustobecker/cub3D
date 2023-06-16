@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/13 16:30:29 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/15 15:41:35 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -153,9 +153,17 @@ t_error_file	is_file_readable(char *filename);
  *
  * @return 0 for no error. Enum with the file error specified.
 */
-t_data			*setup_data(char **cubfile_content);
+t_data	*setup_data(char **cubfile_content, char **map);
 
 
 int				key_press(int key, t_data *data);
+
+int				ft_iswall(char **map, double i, double j);
+
+int				ft_move_and_turn(t_data *data);
+
+char			**ft_get_map(char **text);
+
+char			**ft_read_all_file(const char *path);
 
 #endif

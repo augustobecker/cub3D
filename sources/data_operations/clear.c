@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   clear.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 02:53:50 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 22:13:58 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/15 12:30:26 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,11 @@ void	clear_data(t_data *data)
 	if (data->map)
 		ft_free_str_array(data->map);
 	free_images(data);
+	free(data->no_txtr.img);
+	free(data->so_txtr.img);
+	free(data->ea_txtr.img);
+	free(data->we_txtr.img);
+	mlx_clear_window(data->mlx_ptr,data->win_ptr);
 	if (data->mlx_ptr && data->win_ptr)
 		mlx_destroy_window(data->mlx_ptr, data->win_ptr);
 	if (data->mlx_ptr)

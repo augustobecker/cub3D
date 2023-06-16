@@ -1,0 +1,8220 @@
+PLAYER SETUP
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.866434
+horizontal_wall_dist = 111.062724
+vertical_wall_dist = 64.000501
+RAY_DISTANCE_TO_WALL =64.000501
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.866842
+horizontal_wall_dist = 111.273060
+vertical_wall_dist = 64.000503
+RAY_DISTANCE_TO_WALL =64.000503
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.867250
+horizontal_wall_dist = 111.483996
+vertical_wall_dist = 64.000504
+RAY_DISTANCE_TO_WALL =64.000504
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.867657
+horizontal_wall_dist = 111.695534
+vertical_wall_dist = 64.000506
+RAY_DISTANCE_TO_WALL =64.000506
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.868063
+horizontal_wall_dist = 111.907676
+vertical_wall_dist = 64.000507
+RAY_DISTANCE_TO_WALL =64.000507
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.868469
+horizontal_wall_dist = 112.120427
+vertical_wall_dist = 64.000508
+RAY_DISTANCE_TO_WALL =64.000508
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.868875
+horizontal_wall_dist = 112.333788
+vertical_wall_dist = 64.000510
+RAY_DISTANCE_TO_WALL =64.000510
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.869279
+horizontal_wall_dist = 112.547763
+vertical_wall_dist = 64.000511
+RAY_DISTANCE_TO_WALL =64.000511
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.869683
+horizontal_wall_dist = 112.762354
+vertical_wall_dist = 64.000513
+RAY_DISTANCE_TO_WALL =64.000513
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.870087
+horizontal_wall_dist = 112.977565
+vertical_wall_dist = 64.000514
+RAY_DISTANCE_TO_WALL =64.000514
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.870490
+horizontal_wall_dist = 113.193398
+vertical_wall_dist = 64.000516
+RAY_DISTANCE_TO_WALL =64.000516
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.870892
+horizontal_wall_dist = 113.409857
+vertical_wall_dist = 64.000517
+RAY_DISTANCE_TO_WALL =64.000517
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.871294
+horizontal_wall_dist = 113.626945
+vertical_wall_dist = 64.000518
+RAY_DISTANCE_TO_WALL =64.000518
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.871695
+horizontal_wall_dist = 113.844664
+vertical_wall_dist = 64.000520
+RAY_DISTANCE_TO_WALL =64.000520
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.872096
+horizontal_wall_dist = 114.063017
+vertical_wall_dist = 64.000521
+RAY_DISTANCE_TO_WALL =64.000521
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.872496
+horizontal_wall_dist = 114.282009
+vertical_wall_dist = 64.000523
+RAY_DISTANCE_TO_WALL =64.000523
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.872895
+horizontal_wall_dist = 114.501641
+vertical_wall_dist = 64.000524
+RAY_DISTANCE_TO_WALL =64.000524
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.873294
+horizontal_wall_dist = 114.721917
+vertical_wall_dist = 64.000525
+RAY_DISTANCE_TO_WALL =64.000525
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.873693
+horizontal_wall_dist = 114.942840
+vertical_wall_dist = 64.000527
+RAY_DISTANCE_TO_WALL =64.000527
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.874090
+horizontal_wall_dist = 115.164413
+vertical_wall_dist = 64.000528
+RAY_DISTANCE_TO_WALL =64.000528
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.874487
+horizontal_wall_dist = 115.386639
+vertical_wall_dist = 64.000529
+RAY_DISTANCE_TO_WALL =64.000529
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.874884
+horizontal_wall_dist = 115.609522
+vertical_wall_dist = 64.000531
+RAY_DISTANCE_TO_WALL =64.000531
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.875280
+horizontal_wall_dist = 115.833065
+vertical_wall_dist = 64.000532
+RAY_DISTANCE_TO_WALL =64.000532
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.875675
+horizontal_wall_dist = 116.057271
+vertical_wall_dist = 64.000534
+RAY_DISTANCE_TO_WALL =64.000534
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.876070
+horizontal_wall_dist = 116.282143
+vertical_wall_dist = 64.000535
+RAY_DISTANCE_TO_WALL =64.000535
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.876464
+horizontal_wall_dist = 116.507684
+vertical_wall_dist = 64.000536
+RAY_DISTANCE_TO_WALL =64.000536
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.876858
+horizontal_wall_dist = 116.733898
+vertical_wall_dist = 64.000538
+RAY_DISTANCE_TO_WALL =64.000538
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.877251
+horizontal_wall_dist = 116.960789
+vertical_wall_dist = 64.000539
+RAY_DISTANCE_TO_WALL =64.000539
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.877643
+horizontal_wall_dist = 117.188358
+vertical_wall_dist = 64.000541
+RAY_DISTANCE_TO_WALL =64.000541
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.878035
+horizontal_wall_dist = 117.416611
+vertical_wall_dist = 64.000542
+RAY_DISTANCE_TO_WALL =64.000542
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.878426
+horizontal_wall_dist = 117.645550
+vertical_wall_dist = 64.000543
+RAY_DISTANCE_TO_WALL =64.000543
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.878817
+horizontal_wall_dist = 117.875178
+vertical_wall_dist = 64.000545
+RAY_DISTANCE_TO_WALL =64.000545
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.879207
+horizontal_wall_dist = 118.105500
+vertical_wall_dist = 64.000546
+RAY_DISTANCE_TO_WALL =64.000546
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.879597
+horizontal_wall_dist = 118.336518
+vertical_wall_dist = 64.000547
+RAY_DISTANCE_TO_WALL =64.000547
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.879986
+horizontal_wall_dist = 118.568236
+vertical_wall_dist = 64.000549
+RAY_DISTANCE_TO_WALL =64.000549
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.880374
+horizontal_wall_dist = 118.800658
+vertical_wall_dist = 64.000550
+RAY_DISTANCE_TO_WALL =64.000550
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.880762
+horizontal_wall_dist = 119.033786
+vertical_wall_dist = 64.000551
+RAY_DISTANCE_TO_WALL =64.000551
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.881149
+horizontal_wall_dist = 119.267625
+vertical_wall_dist = 64.000553
+RAY_DISTANCE_TO_WALL =64.000553
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.881535
+horizontal_wall_dist = 119.502178
+vertical_wall_dist = 64.000554
+RAY_DISTANCE_TO_WALL =64.000554
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.881921
+horizontal_wall_dist = 119.737449
+vertical_wall_dist = 64.000556
+RAY_DISTANCE_TO_WALL =64.000556
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.882307
+horizontal_wall_dist = 119.973441
+vertical_wall_dist = 64.000557
+RAY_DISTANCE_TO_WALL =64.000557
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.882691
+horizontal_wall_dist = 120.210159
+vertical_wall_dist = 64.000558
+RAY_DISTANCE_TO_WALL =64.000558
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.883076
+horizontal_wall_dist = 120.447604
+vertical_wall_dist = 64.000560
+RAY_DISTANCE_TO_WALL =64.000560
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.883459
+horizontal_wall_dist = 120.685782
+vertical_wall_dist = 64.000561
+RAY_DISTANCE_TO_WALL =64.000561
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.883842
+horizontal_wall_dist = 120.924696
+vertical_wall_dist = 64.000562
+RAY_DISTANCE_TO_WALL =64.000562
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.884225
+horizontal_wall_dist = 121.164350
+vertical_wall_dist = 64.000564
+RAY_DISTANCE_TO_WALL =64.000564
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.884606
+horizontal_wall_dist = 121.404748
+vertical_wall_dist = 64.000565
+RAY_DISTANCE_TO_WALL =64.000565
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.884988
+horizontal_wall_dist = 121.645892
+vertical_wall_dist = 64.000566
+RAY_DISTANCE_TO_WALL =64.000566
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.885368
+horizontal_wall_dist = 121.887788
+vertical_wall_dist = 64.000568
+RAY_DISTANCE_TO_WALL =64.000568
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.885748
+horizontal_wall_dist = 122.130439
+vertical_wall_dist = 64.000569
+RAY_DISTANCE_TO_WALL =64.000569
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.886128
+horizontal_wall_dist = 122.373848
+vertical_wall_dist = 64.000570
+RAY_DISTANCE_TO_WALL =64.000570
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.886507
+horizontal_wall_dist = 122.618021
+vertical_wall_dist = 64.000572
+RAY_DISTANCE_TO_WALL =64.000572
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.886885
+horizontal_wall_dist = 122.862960
+vertical_wall_dist = 64.000573
+RAY_DISTANCE_TO_WALL =64.000573
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.887263
+horizontal_wall_dist = 123.108669
+vertical_wall_dist = 64.000574
+RAY_DISTANCE_TO_WALL =64.000574
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.887640
+horizontal_wall_dist = 123.355153
+vertical_wall_dist = 64.000576
+RAY_DISTANCE_TO_WALL =64.000576
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.888016
+horizontal_wall_dist = 123.602416
+vertical_wall_dist = 64.000577
+RAY_DISTANCE_TO_WALL =64.000577
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.888392
+horizontal_wall_dist = 123.850461
+vertical_wall_dist = 64.000578
+RAY_DISTANCE_TO_WALL =64.000578
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.888767
+horizontal_wall_dist = 124.099293
+vertical_wall_dist = 64.000580
+RAY_DISTANCE_TO_WALL =64.000580
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.889142
+horizontal_wall_dist = 124.348916
+vertical_wall_dist = 64.000581
+RAY_DISTANCE_TO_WALL =64.000581
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.889516
+horizontal_wall_dist = 124.599333
+vertical_wall_dist = 64.000582
+RAY_DISTANCE_TO_WALL =64.000582
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.889890
+horizontal_wall_dist = 124.850550
+vertical_wall_dist = 64.000584
+RAY_DISTANCE_TO_WALL =64.000584
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.890262
+horizontal_wall_dist = 125.102569
+vertical_wall_dist = 64.000585
+RAY_DISTANCE_TO_WALL =64.000585
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.890635
+horizontal_wall_dist = 125.355396
+vertical_wall_dist = 64.000586
+RAY_DISTANCE_TO_WALL =64.000586
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.891007
+horizontal_wall_dist = 125.609035
+vertical_wall_dist = 64.000588
+RAY_DISTANCE_TO_WALL =64.000588
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.891378
+horizontal_wall_dist = 125.863489
+vertical_wall_dist = 64.000589
+RAY_DISTANCE_TO_WALL =64.000589
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.891748
+horizontal_wall_dist = 126.118764
+vertical_wall_dist = 64.000590
+RAY_DISTANCE_TO_WALL =64.000590
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.892118
+horizontal_wall_dist = 126.374863
+vertical_wall_dist = 64.000592
+RAY_DISTANCE_TO_WALL =64.000592
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.892487
+horizontal_wall_dist = 126.631790
+vertical_wall_dist = 64.000593
+RAY_DISTANCE_TO_WALL =64.000593
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.892856
+horizontal_wall_dist = 126.889551
+vertical_wall_dist = 64.000594
+RAY_DISTANCE_TO_WALL =64.000594
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.893224
+horizontal_wall_dist = 127.148149
+vertical_wall_dist = 64.000596
+RAY_DISTANCE_TO_WALL =64.000596
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.893592
+horizontal_wall_dist = 127.407590
+vertical_wall_dist = 64.000597
+RAY_DISTANCE_TO_WALL =64.000597
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.893959
+horizontal_wall_dist = 127.667876
+vertical_wall_dist = 64.000598
+RAY_DISTANCE_TO_WALL =64.000598
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.894325
+horizontal_wall_dist = 127.929014
+vertical_wall_dist = 64.000600
+RAY_DISTANCE_TO_WALL =64.000600
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.894691
+horizontal_wall_dist = 128.187001
+vertical_wall_dist = 64.000601
+RAY_DISTANCE_TO_WALL =64.000601
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.895056
+horizontal_wall_dist = 128.449846
+vertical_wall_dist = 64.000602
+RAY_DISTANCE_TO_WALL =64.000602
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.895421
+horizontal_wall_dist = 128.713556
+vertical_wall_dist = 64.000604
+RAY_DISTANCE_TO_WALL =64.000604
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.895785
+horizontal_wall_dist = 128.978135
+vertical_wall_dist = 64.000605
+RAY_DISTANCE_TO_WALL =64.000605
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.896148
+horizontal_wall_dist = 129.243588
+vertical_wall_dist = 64.000606
+RAY_DISTANCE_TO_WALL =64.000606
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.896511
+horizontal_wall_dist = 129.509919
+vertical_wall_dist = 64.000607
+RAY_DISTANCE_TO_WALL =64.000607
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.896873
+horizontal_wall_dist = 129.777134
+vertical_wall_dist = 64.000609
+RAY_DISTANCE_TO_WALL =64.000609
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.897234
+horizontal_wall_dist = 130.045237
+vertical_wall_dist = 64.000610
+RAY_DISTANCE_TO_WALL =64.000610
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.897595
+horizontal_wall_dist = 130.314232
+vertical_wall_dist = 64.000611
+RAY_DISTANCE_TO_WALL =64.000611
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.897956
+horizontal_wall_dist = 130.584126
+vertical_wall_dist = 64.000613
+RAY_DISTANCE_TO_WALL =64.000613
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.898315
+horizontal_wall_dist = 130.854922
+vertical_wall_dist = 64.000614
+RAY_DISTANCE_TO_WALL =64.000614
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.898674
+horizontal_wall_dist = 131.126625
+vertical_wall_dist = 64.000615
+RAY_DISTANCE_TO_WALL =64.000615
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.899033
+horizontal_wall_dist = 131.399241
+vertical_wall_dist = 64.000617
+RAY_DISTANCE_TO_WALL =64.000617
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.899391
+horizontal_wall_dist = 131.672774
+vertical_wall_dist = 64.000618
+RAY_DISTANCE_TO_WALL =64.000618
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.899748
+horizontal_wall_dist = 131.947230
+vertical_wall_dist = 64.000619
+RAY_DISTANCE_TO_WALL =64.000619
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.900105
+horizontal_wall_dist = 132.222613
+vertical_wall_dist = 64.000620
+RAY_DISTANCE_TO_WALL =64.000620
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.900461
+horizontal_wall_dist = 132.498929
+vertical_wall_dist = 64.000622
+RAY_DISTANCE_TO_WALL =64.000622
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.900817
+horizontal_wall_dist = 132.776182
+vertical_wall_dist = 64.000623
+RAY_DISTANCE_TO_WALL =64.000623
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.901172
+horizontal_wall_dist = 133.054378
+vertical_wall_dist = 64.000624
+RAY_DISTANCE_TO_WALL =64.000624
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.901526
+horizontal_wall_dist = 133.333522
+vertical_wall_dist = 64.000626
+RAY_DISTANCE_TO_WALL =64.000626
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.901880
+horizontal_wall_dist = 133.613619
+vertical_wall_dist = 64.000627
+RAY_DISTANCE_TO_WALL =64.000627
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.902233
+horizontal_wall_dist = 133.894674
+vertical_wall_dist = 64.000628
+RAY_DISTANCE_TO_WALL =64.000628
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.902585
+horizontal_wall_dist = 134.176694
+vertical_wall_dist = 64.000629
+RAY_DISTANCE_TO_WALL =64.000629
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.902937
+horizontal_wall_dist = 134.459682
+vertical_wall_dist = 64.000631
+RAY_DISTANCE_TO_WALL =64.000631
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.903288
+horizontal_wall_dist = 134.743645
+vertical_wall_dist = 64.000632
+RAY_DISTANCE_TO_WALL =64.000632
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.903639
+horizontal_wall_dist = 135.028588
+vertical_wall_dist = 64.000633
+RAY_DISTANCE_TO_WALL =64.000633
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.903989
+horizontal_wall_dist = 135.314517
+vertical_wall_dist = 64.000634
+RAY_DISTANCE_TO_WALL =64.000634
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.904339
+horizontal_wall_dist = 135.601436
+vertical_wall_dist = 64.000636
+RAY_DISTANCE_TO_WALL =64.000636
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.904688
+horizontal_wall_dist = 135.889351
+vertical_wall_dist = 64.000637
+RAY_DISTANCE_TO_WALL =64.000637
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.905036
+horizontal_wall_dist = 136.178269
+vertical_wall_dist = 64.000638
+RAY_DISTANCE_TO_WALL =64.000638
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.905384
+horizontal_wall_dist = 136.468195
+vertical_wall_dist = 64.000639
+RAY_DISTANCE_TO_WALL =64.000639
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.905731
+horizontal_wall_dist = 136.759133
+vertical_wall_dist = 64.000641
+RAY_DISTANCE_TO_WALL =64.000641
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.906077
+horizontal_wall_dist = 137.051091
+vertical_wall_dist = 64.000642
+RAY_DISTANCE_TO_WALL =64.000642
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.906423
+horizontal_wall_dist = 137.344073
+vertical_wall_dist = 64.000643
+RAY_DISTANCE_TO_WALL =64.000643
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.906768
+horizontal_wall_dist = 137.638087
+vertical_wall_dist = 64.000644
+RAY_DISTANCE_TO_WALL =64.000644
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.907113
+horizontal_wall_dist = 137.933136
+vertical_wall_dist = 64.000646
+RAY_DISTANCE_TO_WALL =64.000646
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.907457
+horizontal_wall_dist = 138.229228
+vertical_wall_dist = 64.000647
+RAY_DISTANCE_TO_WALL =64.000647
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.907800
+horizontal_wall_dist = 138.526368
+vertical_wall_dist = 64.000648
+RAY_DISTANCE_TO_WALL =64.000648
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.908143
+horizontal_wall_dist = 138.824563
+vertical_wall_dist = 64.000649
+RAY_DISTANCE_TO_WALL =64.000649
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.908485
+horizontal_wall_dist = 139.123817
+vertical_wall_dist = 64.000651
+RAY_DISTANCE_TO_WALL =64.000651
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.908827
+horizontal_wall_dist = 139.424138
+vertical_wall_dist = 64.000652
+RAY_DISTANCE_TO_WALL =64.000652
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.909168
+horizontal_wall_dist = 139.725532
+vertical_wall_dist = 64.000653
+RAY_DISTANCE_TO_WALL =64.000653
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.909508
+horizontal_wall_dist = 140.028004
+vertical_wall_dist = 64.000654
+RAY_DISTANCE_TO_WALL =64.000654
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.909848
+horizontal_wall_dist = 140.331561
+vertical_wall_dist = 64.000656
+RAY_DISTANCE_TO_WALL =64.000656
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.910187
+horizontal_wall_dist = 140.636209
+vertical_wall_dist = 64.000657
+RAY_DISTANCE_TO_WALL =64.000657
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.910526
+horizontal_wall_dist = 140.941954
+vertical_wall_dist = 64.000658
+RAY_DISTANCE_TO_WALL =64.000658
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.910864
+horizontal_wall_dist = 141.248803
+vertical_wall_dist = 64.000659
+RAY_DISTANCE_TO_WALL =64.000659
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.911201
+horizontal_wall_dist = 141.556762
+vertical_wall_dist = 64.000661
+RAY_DISTANCE_TO_WALL =64.000661
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.911538
+horizontal_wall_dist = 141.865838
+vertical_wall_dist = 64.000662
+RAY_DISTANCE_TO_WALL =64.000662
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.911874
+horizontal_wall_dist = 142.176037
+vertical_wall_dist = 64.000663
+RAY_DISTANCE_TO_WALL =64.000663
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.912210
+horizontal_wall_dist = 142.487365
+vertical_wall_dist = 64.000664
+RAY_DISTANCE_TO_WALL =64.000664
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.912544
+horizontal_wall_dist = 142.799830
+vertical_wall_dist = 64.000665
+RAY_DISTANCE_TO_WALL =64.000665
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.912879
+horizontal_wall_dist = 143.113437
+vertical_wall_dist = 64.000667
+RAY_DISTANCE_TO_WALL =64.000667
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.913212
+horizontal_wall_dist = 143.428194
+vertical_wall_dist = 64.000668
+RAY_DISTANCE_TO_WALL =64.000668
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.913545
+horizontal_wall_dist = 143.744107
+vertical_wall_dist = 64.000669
+RAY_DISTANCE_TO_WALL =64.000669
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.913878
+horizontal_wall_dist = 144.061184
+vertical_wall_dist = 64.000670
+RAY_DISTANCE_TO_WALL =64.000670
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.914210
+horizontal_wall_dist = 144.379431
+vertical_wall_dist = 64.000672
+RAY_DISTANCE_TO_WALL =64.000672
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.914541
+horizontal_wall_dist = 144.698854
+vertical_wall_dist = 64.000673
+RAY_DISTANCE_TO_WALL =64.000673
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.914872
+horizontal_wall_dist = 145.019461
+vertical_wall_dist = 64.000674
+RAY_DISTANCE_TO_WALL =64.000674
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.915202
+horizontal_wall_dist = 145.341260
+vertical_wall_dist = 64.000675
+RAY_DISTANCE_TO_WALL =64.000675
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.915531
+horizontal_wall_dist = 145.664256
+vertical_wall_dist = 64.000676
+RAY_DISTANCE_TO_WALL =64.000676
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.915860
+horizontal_wall_dist = 145.988457
+vertical_wall_dist = 64.000678
+RAY_DISTANCE_TO_WALL =64.000678
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.916188
+horizontal_wall_dist = 146.313871
+vertical_wall_dist = 64.000679
+RAY_DISTANCE_TO_WALL =64.000679
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.916516
+horizontal_wall_dist = 146.640504
+vertical_wall_dist = 64.000680
+RAY_DISTANCE_TO_WALL =64.000680
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.916842
+horizontal_wall_dist = 146.968364
+vertical_wall_dist = 64.000681
+RAY_DISTANCE_TO_WALL =64.000681
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.917169
+horizontal_wall_dist = 147.297459
+vertical_wall_dist = 64.000682
+RAY_DISTANCE_TO_WALL =64.000682
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.917494
+horizontal_wall_dist = 147.627795
+vertical_wall_dist = 64.000684
+RAY_DISTANCE_TO_WALL =64.000684
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.917820
+horizontal_wall_dist = 147.959380
+vertical_wall_dist = 64.000685
+RAY_DISTANCE_TO_WALL =64.000685
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.918144
+horizontal_wall_dist = 148.292222
+vertical_wall_dist = 64.000686
+RAY_DISTANCE_TO_WALL =64.000686
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.918468
+horizontal_wall_dist = 148.626329
+vertical_wall_dist = 64.000687
+RAY_DISTANCE_TO_WALL =64.000687
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.918791
+horizontal_wall_dist = 148.961707
+vertical_wall_dist = 64.000688
+RAY_DISTANCE_TO_WALL =64.000688
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.919114
+horizontal_wall_dist = 149.298365
+vertical_wall_dist = 64.000690
+RAY_DISTANCE_TO_WALL =64.000690
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.919436
+horizontal_wall_dist = 149.636310
+vertical_wall_dist = 64.000691
+RAY_DISTANCE_TO_WALL =64.000691
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.919757
+horizontal_wall_dist = 149.975551
+vertical_wall_dist = 64.000692
+RAY_DISTANCE_TO_WALL =64.000692
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.920078
+horizontal_wall_dist = 150.316096
+vertical_wall_dist = 64.000693
+RAY_DISTANCE_TO_WALL =64.000693
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.920398
+horizontal_wall_dist = 150.657951
+vertical_wall_dist = 64.000694
+RAY_DISTANCE_TO_WALL =64.000694
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.920718
+horizontal_wall_dist = 151.001126
+vertical_wall_dist = 64.000695
+RAY_DISTANCE_TO_WALL =64.000695
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.921037
+horizontal_wall_dist = 151.345628
+vertical_wall_dist = 64.000697
+RAY_DISTANCE_TO_WALL =64.000697
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.921355
+horizontal_wall_dist = 151.691466
+vertical_wall_dist = 64.000698
+RAY_DISTANCE_TO_WALL =64.000698
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.921673
+horizontal_wall_dist = 152.038647
+vertical_wall_dist = 64.000699
+RAY_DISTANCE_TO_WALL =64.000699
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.921990
+horizontal_wall_dist = 152.387181
+vertical_wall_dist = 64.000700
+RAY_DISTANCE_TO_WALL =64.000700
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.922306
+horizontal_wall_dist = 152.737075
+vertical_wall_dist = 64.000701
+RAY_DISTANCE_TO_WALL =64.000701
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.922622
+horizontal_wall_dist = 153.088339
+vertical_wall_dist = 64.000702
+RAY_DISTANCE_TO_WALL =64.000702
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.922938
+horizontal_wall_dist = 153.440980
+vertical_wall_dist = 64.000704
+RAY_DISTANCE_TO_WALL =64.000704
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.923252
+horizontal_wall_dist = 153.795007
+vertical_wall_dist = 64.000705
+RAY_DISTANCE_TO_WALL =64.000705
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.923566
+horizontal_wall_dist = 154.150428
+vertical_wall_dist = 64.000706
+RAY_DISTANCE_TO_WALL =64.000706
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.923880
+horizontal_wall_dist = 154.507254
+vertical_wall_dist = 64.000707
+RAY_DISTANCE_TO_WALL =64.000707
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.924192
+horizontal_wall_dist = 154.865491
+vertical_wall_dist = 64.000708
+RAY_DISTANCE_TO_WALL =64.000708
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.924504
+horizontal_wall_dist = 155.225150
+vertical_wall_dist = 64.000709
+RAY_DISTANCE_TO_WALL =64.000709
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.924816
+horizontal_wall_dist = 155.586239
+vertical_wall_dist = 64.000711
+RAY_DISTANCE_TO_WALL =64.000711
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.925127
+horizontal_wall_dist = 155.948768
+vertical_wall_dist = 64.000712
+RAY_DISTANCE_TO_WALL =64.000712
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.925437
+horizontal_wall_dist = 156.312744
+vertical_wall_dist = 64.000713
+RAY_DISTANCE_TO_WALL =64.000713
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.925747
+horizontal_wall_dist = 156.678178
+vertical_wall_dist = 64.000714
+RAY_DISTANCE_TO_WALL =64.000714
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.926056
+horizontal_wall_dist = 157.045079
+vertical_wall_dist = 64.000715
+RAY_DISTANCE_TO_WALL =64.000715
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.926364
+horizontal_wall_dist = 157.413456
+vertical_wall_dist = 64.000716
+RAY_DISTANCE_TO_WALL =64.000716
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.926672
+horizontal_wall_dist = 157.783319
+vertical_wall_dist = 64.000717
+RAY_DISTANCE_TO_WALL =64.000717
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.926979
+horizontal_wall_dist = 158.154676
+vertical_wall_dist = 64.000719
+RAY_DISTANCE_TO_WALL =64.000719
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.927286
+horizontal_wall_dist = 158.527539
+vertical_wall_dist = 64.000720
+RAY_DISTANCE_TO_WALL =64.000720
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.927592
+horizontal_wall_dist = 158.901915
+vertical_wall_dist = 64.000721
+RAY_DISTANCE_TO_WALL =64.000721
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.927897
+horizontal_wall_dist = 159.277816
+vertical_wall_dist = 64.000722
+RAY_DISTANCE_TO_WALL =64.000722
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.928202
+horizontal_wall_dist = 159.655250
+vertical_wall_dist = 64.000723
+RAY_DISTANCE_TO_WALL =64.000723
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.928506
+horizontal_wall_dist = 160.034228
+vertical_wall_dist = 64.000724
+RAY_DISTANCE_TO_WALL =64.000724
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.928810
+horizontal_wall_dist = 160.414760
+vertical_wall_dist = 64.000725
+RAY_DISTANCE_TO_WALL =64.000725
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.929112
+horizontal_wall_dist = 160.796856
+vertical_wall_dist = 64.000727
+RAY_DISTANCE_TO_WALL =64.000727
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.929415
+horizontal_wall_dist = 161.180526
+vertical_wall_dist = 64.000728
+RAY_DISTANCE_TO_WALL =64.000728
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.929716
+horizontal_wall_dist = 161.565781
+vertical_wall_dist = 64.000729
+RAY_DISTANCE_TO_WALL =64.000729
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.930017
+horizontal_wall_dist = 161.952629
+vertical_wall_dist = 64.000730
+RAY_DISTANCE_TO_WALL =64.000730
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.930318
+horizontal_wall_dist = 162.341083
+vertical_wall_dist = 64.000731
+RAY_DISTANCE_TO_WALL =64.000731
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.930617
+horizontal_wall_dist = 162.731153
+vertical_wall_dist = 64.000732
+RAY_DISTANCE_TO_WALL =64.000732
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.930916
+horizontal_wall_dist = 163.122849
+vertical_wall_dist = 64.000733
+RAY_DISTANCE_TO_WALL =64.000733
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.931215
+horizontal_wall_dist = 163.516182
+vertical_wall_dist = 64.000734
+RAY_DISTANCE_TO_WALL =64.000734
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.931513
+horizontal_wall_dist = 163.911163
+vertical_wall_dist = 64.000735
+RAY_DISTANCE_TO_WALL =64.000735
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.931810
+horizontal_wall_dist = 164.307802
+vertical_wall_dist = 64.000737
+RAY_DISTANCE_TO_WALL =64.000737
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.932107
+horizontal_wall_dist = 164.706111
+vertical_wall_dist = 64.000738
+RAY_DISTANCE_TO_WALL =64.000738
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.932403
+horizontal_wall_dist = 165.106101
+vertical_wall_dist = 64.000739
+RAY_DISTANCE_TO_WALL =64.000739
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.932698
+horizontal_wall_dist = 165.507783
+vertical_wall_dist = 64.000740
+RAY_DISTANCE_TO_WALL =64.000740
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.932993
+horizontal_wall_dist = 165.911169
+vertical_wall_dist = 64.000741
+RAY_DISTANCE_TO_WALL =64.000741
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.933287
+horizontal_wall_dist = 166.316269
+vertical_wall_dist = 64.000742
+RAY_DISTANCE_TO_WALL =64.000742
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.933580
+horizontal_wall_dist = 166.723095
+vertical_wall_dist = 64.000743
+RAY_DISTANCE_TO_WALL =64.000743
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.933873
+horizontal_wall_dist = 167.131659
+vertical_wall_dist = 64.000744
+RAY_DISTANCE_TO_WALL =64.000744
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.934166
+horizontal_wall_dist = 167.541973
+vertical_wall_dist = 64.000745
+RAY_DISTANCE_TO_WALL =64.000745
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.934457
+horizontal_wall_dist = 167.954048
+vertical_wall_dist = 64.000746
+RAY_DISTANCE_TO_WALL =64.000746
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.934748
+horizontal_wall_dist = 168.367896
+vertical_wall_dist = 64.000748
+RAY_DISTANCE_TO_WALL =64.000748
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.935039
+horizontal_wall_dist = 168.783530
+vertical_wall_dist = 64.000749
+RAY_DISTANCE_TO_WALL =64.000749
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.935328
+horizontal_wall_dist = 169.200961
+vertical_wall_dist = 64.000750
+RAY_DISTANCE_TO_WALL =64.000750
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.935617
+horizontal_wall_dist = 169.620201
+vertical_wall_dist = 64.000751
+RAY_DISTANCE_TO_WALL =64.000751
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.935906
+horizontal_wall_dist = 170.041264
+vertical_wall_dist = 64.000752
+RAY_DISTANCE_TO_WALL =64.000752
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.936194
+horizontal_wall_dist = 170.464161
+vertical_wall_dist = 64.000753
+RAY_DISTANCE_TO_WALL =64.000753
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.936481
+horizontal_wall_dist = 170.888906
+vertical_wall_dist = 64.000754
+RAY_DISTANCE_TO_WALL =64.000754
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.936768
+horizontal_wall_dist = 171.315510
+vertical_wall_dist = 64.000755
+RAY_DISTANCE_TO_WALL =64.000755
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.937054
+horizontal_wall_dist = 171.743987
+vertical_wall_dist = 64.000756
+RAY_DISTANCE_TO_WALL =64.000756
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.937339
+horizontal_wall_dist = 172.174349
+vertical_wall_dist = 64.000757
+RAY_DISTANCE_TO_WALL =64.000757
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.937624
+horizontal_wall_dist = 172.606610
+vertical_wall_dist = 64.000758
+RAY_DISTANCE_TO_WALL =64.000758
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.937908
+horizontal_wall_dist = 173.040783
+vertical_wall_dist = 64.000759
+RAY_DISTANCE_TO_WALL =64.000759
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.938191
+horizontal_wall_dist = 173.476880
+vertical_wall_dist = 64.000760
+RAY_DISTANCE_TO_WALL =64.000760
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.938474
+horizontal_wall_dist = 173.914917
+vertical_wall_dist = 64.000761
+RAY_DISTANCE_TO_WALL =64.000761
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.938756
+horizontal_wall_dist = 174.354905
+vertical_wall_dist = 64.000763
+RAY_DISTANCE_TO_WALL =64.000763
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.939038
+horizontal_wall_dist = 174.796859
+vertical_wall_dist = 64.000764
+RAY_DISTANCE_TO_WALL =64.000764
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.939319
+horizontal_wall_dist = 175.240793
+vertical_wall_dist = 64.000765
+RAY_DISTANCE_TO_WALL =64.000765
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.939599
+horizontal_wall_dist = 175.686720
+vertical_wall_dist = 64.000766
+RAY_DISTANCE_TO_WALL =64.000766
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.939879
+horizontal_wall_dist = 176.134654
+vertical_wall_dist = 64.000767
+RAY_DISTANCE_TO_WALL =64.000767
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.940158
+horizontal_wall_dist = 176.584610
+vertical_wall_dist = 64.000768
+RAY_DISTANCE_TO_WALL =64.000768
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.940437
+horizontal_wall_dist = 177.036602
+vertical_wall_dist = 64.000769
+RAY_DISTANCE_TO_WALL =64.000769
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.940714
+horizontal_wall_dist = 177.490645
+vertical_wall_dist = 64.000770
+RAY_DISTANCE_TO_WALL =64.000770
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.940992
+horizontal_wall_dist = 177.946753
+vertical_wall_dist = 64.000771
+RAY_DISTANCE_TO_WALL =64.000771
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.941268
+horizontal_wall_dist = 178.404940
+vertical_wall_dist = 64.000772
+RAY_DISTANCE_TO_WALL =64.000772
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.941544
+horizontal_wall_dist = 178.865223
+vertical_wall_dist = 64.000773
+RAY_DISTANCE_TO_WALL =64.000773
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.941819
+horizontal_wall_dist = 179.327615
+vertical_wall_dist = 64.000774
+RAY_DISTANCE_TO_WALL =64.000774
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.942094
+horizontal_wall_dist = 179.792131
+vertical_wall_dist = 64.000775
+RAY_DISTANCE_TO_WALL =64.000775
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.942368
+horizontal_wall_dist = 180.258788
+vertical_wall_dist = 64.000776
+RAY_DISTANCE_TO_WALL =64.000776
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.942641
+horizontal_wall_dist = 180.727601
+vertical_wall_dist = 64.000777
+RAY_DISTANCE_TO_WALL =64.000777
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.942914
+horizontal_wall_dist = 181.198585
+vertical_wall_dist = 64.000778
+RAY_DISTANCE_TO_WALL =64.000778
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.943186
+horizontal_wall_dist = 181.671755
+vertical_wall_dist = 64.000779
+RAY_DISTANCE_TO_WALL =64.000779
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.943458
+horizontal_wall_dist = 182.147129
+vertical_wall_dist = 64.000780
+RAY_DISTANCE_TO_WALL =64.000780
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.943729
+horizontal_wall_dist = 182.624721
+vertical_wall_dist = 64.000781
+RAY_DISTANCE_TO_WALL =64.000781
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.943999
+horizontal_wall_dist = 183.104549
+vertical_wall_dist = 64.000782
+RAY_DISTANCE_TO_WALL =64.000782
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.944269
+horizontal_wall_dist = 183.586628
+vertical_wall_dist = 64.000783
+RAY_DISTANCE_TO_WALL =64.000783
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.944538
+horizontal_wall_dist = 184.070976
+vertical_wall_dist = 64.000784
+RAY_DISTANCE_TO_WALL =64.000784
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.944806
+horizontal_wall_dist = 184.557608
+vertical_wall_dist = 64.000785
+RAY_DISTANCE_TO_WALL =64.000785
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.945074
+horizontal_wall_dist = 185.046541
+vertical_wall_dist = 64.000786
+RAY_DISTANCE_TO_WALL =64.000786
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.945341
+horizontal_wall_dist = 185.537794
+vertical_wall_dist = 64.000787
+RAY_DISTANCE_TO_WALL =64.000787
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.945607
+horizontal_wall_dist = 186.031382
+vertical_wall_dist = 64.000788
+RAY_DISTANCE_TO_WALL =64.000788
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.945873
+horizontal_wall_dist = 186.527323
+vertical_wall_dist = 64.000789
+RAY_DISTANCE_TO_WALL =64.000789
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.946138
+horizontal_wall_dist = 187.025635
+vertical_wall_dist = 64.000790
+RAY_DISTANCE_TO_WALL =64.000790
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.946403
+horizontal_wall_dist = 187.526336
+vertical_wall_dist = 64.000791
+RAY_DISTANCE_TO_WALL =64.000791
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.946667
+horizontal_wall_dist = 188.029443
+vertical_wall_dist = 64.000792
+RAY_DISTANCE_TO_WALL =64.000792
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.946930
+horizontal_wall_dist = 188.534974
+vertical_wall_dist = 64.000793
+RAY_DISTANCE_TO_WALL =64.000793
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.947193
+horizontal_wall_dist = 189.042948
+vertical_wall_dist = 64.000794
+RAY_DISTANCE_TO_WALL =64.000794
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.947455
+horizontal_wall_dist = 189.553384
+vertical_wall_dist = 64.000795
+RAY_DISTANCE_TO_WALL =64.000795
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.947716
+horizontal_wall_dist = 190.066298
+vertical_wall_dist = 64.000796
+RAY_DISTANCE_TO_WALL =64.000796
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.947977
+horizontal_wall_dist = 190.581712
+vertical_wall_dist = 64.000797
+RAY_DISTANCE_TO_WALL =64.000797
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.948237
+horizontal_wall_dist = 191.099643
+vertical_wall_dist = 64.000798
+RAY_DISTANCE_TO_WALL =64.000798
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.948497
+horizontal_wall_dist = 191.620110
+vertical_wall_dist = 64.000799
+RAY_DISTANCE_TO_WALL =64.000799
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.948755
+horizontal_wall_dist = 192.143134
+vertical_wall_dist = 64.000800
+RAY_DISTANCE_TO_WALL =64.000800
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.949014
+horizontal_wall_dist = 192.668733
+vertical_wall_dist = 64.000801
+RAY_DISTANCE_TO_WALL =64.000801
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.949271
+horizontal_wall_dist = 193.196928
+vertical_wall_dist = 64.000802
+RAY_DISTANCE_TO_WALL =64.000802
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.949528
+horizontal_wall_dist = 193.727738
+vertical_wall_dist = 64.000803
+RAY_DISTANCE_TO_WALL =64.000803
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.949784
+horizontal_wall_dist = 194.261184
+vertical_wall_dist = 64.000804
+RAY_DISTANCE_TO_WALL =64.000804
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.950040
+horizontal_wall_dist = 194.797286
+vertical_wall_dist = 64.000805
+RAY_DISTANCE_TO_WALL =64.000805
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.950295
+horizontal_wall_dist = 195.336064
+vertical_wall_dist = 64.000806
+RAY_DISTANCE_TO_WALL =64.000806
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.950550
+horizontal_wall_dist = 195.877540
+vertical_wall_dist = 64.000807
+RAY_DISTANCE_TO_WALL =64.000807
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.950803
+horizontal_wall_dist = 196.421735
+vertical_wall_dist = 64.000808
+RAY_DISTANCE_TO_WALL =64.000808
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.951057
+horizontal_wall_dist = 196.968669
+vertical_wall_dist = 64.000809
+RAY_DISTANCE_TO_WALL =64.000809
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.951309
+horizontal_wall_dist = 197.518364
+vertical_wall_dist = 64.000810
+RAY_DISTANCE_TO_WALL =64.000810
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.951561
+horizontal_wall_dist = 198.070842
+vertical_wall_dist = 64.000811
+RAY_DISTANCE_TO_WALL =64.000811
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.951812
+horizontal_wall_dist = 198.626126
+vertical_wall_dist = 64.000812
+RAY_DISTANCE_TO_WALL =64.000812
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.952063
+horizontal_wall_dist = 199.184236
+vertical_wall_dist = 64.000813
+RAY_DISTANCE_TO_WALL =64.000813
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.952313
+horizontal_wall_dist = 199.745196
+vertical_wall_dist = 64.000814
+RAY_DISTANCE_TO_WALL =64.000814
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.952562
+horizontal_wall_dist = 200.309027
+vertical_wall_dist = 64.000815
+RAY_DISTANCE_TO_WALL =64.000815
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.952811
+horizontal_wall_dist = 200.875754
+vertical_wall_dist = 64.000816
+RAY_DISTANCE_TO_WALL =64.000816
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.953059
+horizontal_wall_dist = 201.445399
+vertical_wall_dist = 64.000817
+RAY_DISTANCE_TO_WALL =64.000817
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.953306
+horizontal_wall_dist = 202.017985
+vertical_wall_dist = 64.000818
+RAY_DISTANCE_TO_WALL =64.000818
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.953553
+horizontal_wall_dist = 202.593536
+vertical_wall_dist = 64.000819
+RAY_DISTANCE_TO_WALL =64.000819
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.953799
+horizontal_wall_dist = 203.172076
+vertical_wall_dist = 64.000819
+RAY_DISTANCE_TO_WALL =64.000819
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.954044
+horizontal_wall_dist = 203.753629
+vertical_wall_dist = 64.000820
+RAY_DISTANCE_TO_WALL =64.000820
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.954289
+horizontal_wall_dist = 204.338220
+vertical_wall_dist = 64.000821
+RAY_DISTANCE_TO_WALL =64.000821
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.954533
+horizontal_wall_dist = 204.925872
+vertical_wall_dist = 64.000822
+RAY_DISTANCE_TO_WALL =64.000822
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.954777
+horizontal_wall_dist = 205.516612
+vertical_wall_dist = 64.000823
+RAY_DISTANCE_TO_WALL =64.000823
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.955020
+horizontal_wall_dist = 206.110463
+vertical_wall_dist = 64.000824
+RAY_DISTANCE_TO_WALL =64.000824
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.955262
+horizontal_wall_dist = 206.707453
+vertical_wall_dist = 64.000825
+RAY_DISTANCE_TO_WALL =64.000825
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.955504
+horizontal_wall_dist = 207.307605
+vertical_wall_dist = 64.000826
+RAY_DISTANCE_TO_WALL =64.000826
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.955745
+horizontal_wall_dist = 207.910947
+vertical_wall_dist = 64.000827
+RAY_DISTANCE_TO_WALL =64.000827
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.955985
+horizontal_wall_dist = 208.517505
+vertical_wall_dist = 64.000828
+RAY_DISTANCE_TO_WALL =64.000828
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.956225
+horizontal_wall_dist = 209.127305
+vertical_wall_dist = 64.000829
+RAY_DISTANCE_TO_WALL =64.000829
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.956464
+horizontal_wall_dist = 209.740374
+vertical_wall_dist = 64.000830
+RAY_DISTANCE_TO_WALL =64.000830
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.956703
+horizontal_wall_dist = 210.356740
+vertical_wall_dist = 64.000831
+RAY_DISTANCE_TO_WALL =64.000831
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.956940
+horizontal_wall_dist = 210.976429
+vertical_wall_dist = 64.000831
+RAY_DISTANCE_TO_WALL =64.000831
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.957178
+horizontal_wall_dist = 211.599470
+vertical_wall_dist = 64.000832
+RAY_DISTANCE_TO_WALL =64.000832
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.957414
+horizontal_wall_dist = 212.225890
+vertical_wall_dist = 64.000833
+RAY_DISTANCE_TO_WALL =64.000833
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.957650
+horizontal_wall_dist = 212.855719
+vertical_wall_dist = 64.000834
+RAY_DISTANCE_TO_WALL =64.000834
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.957885
+horizontal_wall_dist = 213.488985
+vertical_wall_dist = 64.000835
+RAY_DISTANCE_TO_WALL =64.000835
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.958120
+horizontal_wall_dist = 214.125717
+vertical_wall_dist = 64.000836
+RAY_DISTANCE_TO_WALL =64.000836
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.958354
+horizontal_wall_dist = 214.765944
+vertical_wall_dist = 64.000837
+RAY_DISTANCE_TO_WALL =64.000837
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.958587
+horizontal_wall_dist = 215.409696
+vertical_wall_dist = 64.000838
+RAY_DISTANCE_TO_WALL =64.000838
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.958820
+horizontal_wall_dist = 216.057003
+vertical_wall_dist = 64.000839
+RAY_DISTANCE_TO_WALL =64.000839
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.959052
+horizontal_wall_dist = 216.707896
+vertical_wall_dist = 64.000840
+RAY_DISTANCE_TO_WALL =64.000840
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.959283
+horizontal_wall_dist = 217.362405
+vertical_wall_dist = 64.000840
+RAY_DISTANCE_TO_WALL =64.000840
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.959514
+horizontal_wall_dist = 218.020562
+vertical_wall_dist = 64.000841
+RAY_DISTANCE_TO_WALL =64.000841
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.959744
+horizontal_wall_dist = 218.682397
+vertical_wall_dist = 64.000842
+RAY_DISTANCE_TO_WALL =64.000842
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.959974
+horizontal_wall_dist = 219.347943
+vertical_wall_dist = 64.000843
+RAY_DISTANCE_TO_WALL =64.000843
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.960202
+horizontal_wall_dist = 220.017232
+vertical_wall_dist = 64.000844
+RAY_DISTANCE_TO_WALL =64.000844
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.960431
+horizontal_wall_dist = 220.690296
+vertical_wall_dist = 64.000845
+RAY_DISTANCE_TO_WALL =64.000845
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.960658
+horizontal_wall_dist = 221.367169
+vertical_wall_dist = 64.000846
+RAY_DISTANCE_TO_WALL =64.000846
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.960885
+horizontal_wall_dist = 222.047884
+vertical_wall_dist = 64.000847
+RAY_DISTANCE_TO_WALL =64.000847
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.961111
+horizontal_wall_dist = 222.732474
+vertical_wall_dist = 64.000847
+RAY_DISTANCE_TO_WALL =64.000847
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.961337
+horizontal_wall_dist = 223.420973
+vertical_wall_dist = 64.000848
+RAY_DISTANCE_TO_WALL =64.000848
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.961562
+horizontal_wall_dist = 224.113417
+vertical_wall_dist = 64.000849
+RAY_DISTANCE_TO_WALL =64.000849
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.961786
+horizontal_wall_dist = 224.809840
+vertical_wall_dist = 64.000850
+RAY_DISTANCE_TO_WALL =64.000850
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.962010
+horizontal_wall_dist = 225.510277
+vertical_wall_dist = 64.000851
+RAY_DISTANCE_TO_WALL =64.000851
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.962233
+horizontal_wall_dist = 226.214764
+vertical_wall_dist = 64.000852
+RAY_DISTANCE_TO_WALL =64.000852
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.962455
+horizontal_wall_dist = 226.923337
+vertical_wall_dist = 64.000853
+RAY_DISTANCE_TO_WALL =64.000853
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.962677
+horizontal_wall_dist = 227.636033
+vertical_wall_dist = 64.000853
+RAY_DISTANCE_TO_WALL =64.000853
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.962898
+horizontal_wall_dist = 228.352889
+vertical_wall_dist = 64.000854
+RAY_DISTANCE_TO_WALL =64.000854
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.963119
+horizontal_wall_dist = 229.073943
+vertical_wall_dist = 64.000855
+RAY_DISTANCE_TO_WALL =64.000855
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.963338
+horizontal_wall_dist = 229.799232
+vertical_wall_dist = 64.000856
+RAY_DISTANCE_TO_WALL =64.000856
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.963558
+horizontal_wall_dist = 230.528795
+vertical_wall_dist = 64.000857
+RAY_DISTANCE_TO_WALL =64.000857
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.963776
+horizontal_wall_dist = 231.262670
+vertical_wall_dist = 64.000858
+RAY_DISTANCE_TO_WALL =64.000858
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.963994
+horizontal_wall_dist = 232.000897
+vertical_wall_dist = 64.000859
+RAY_DISTANCE_TO_WALL =64.000859
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.964211
+horizontal_wall_dist = 232.743517
+vertical_wall_dist = 64.000859
+RAY_DISTANCE_TO_WALL =64.000859
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.964428
+horizontal_wall_dist = 233.490568
+vertical_wall_dist = 64.000860
+RAY_DISTANCE_TO_WALL =64.000860
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.964644
+horizontal_wall_dist = 234.242092
+vertical_wall_dist = 64.000861
+RAY_DISTANCE_TO_WALL =64.000861
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.964859
+horizontal_wall_dist = 234.998131
+vertical_wall_dist = 64.000862
+RAY_DISTANCE_TO_WALL =64.000862
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.965074
+horizontal_wall_dist = 235.758726
+vertical_wall_dist = 64.000863
+RAY_DISTANCE_TO_WALL =64.000863
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.965288
+horizontal_wall_dist = 236.523919
+vertical_wall_dist = 64.000864
+RAY_DISTANCE_TO_WALL =64.000864
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.965501
+horizontal_wall_dist = 237.293753
+vertical_wall_dist = 64.000864
+RAY_DISTANCE_TO_WALL =64.000864
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.965714
+horizontal_wall_dist = 238.068272
+vertical_wall_dist = 64.000865
+RAY_DISTANCE_TO_WALL =64.000865
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.965926
+horizontal_wall_dist = 238.847520
+vertical_wall_dist = 64.000866
+RAY_DISTANCE_TO_WALL =64.000866
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.966137
+horizontal_wall_dist = 239.631540
+vertical_wall_dist = 64.000867
+RAY_DISTANCE_TO_WALL =64.000867
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.966348
+horizontal_wall_dist = 240.420379
+vertical_wall_dist = 64.000868
+RAY_DISTANCE_TO_WALL =64.000868
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.966558
+horizontal_wall_dist = 241.214082
+vertical_wall_dist = 64.000868
+RAY_DISTANCE_TO_WALL =64.000868
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.966768
+horizontal_wall_dist = 242.012694
+vertical_wall_dist = 64.000869
+RAY_DISTANCE_TO_WALL =64.000869
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.966976
+horizontal_wall_dist = 242.816264
+vertical_wall_dist = 64.000870
+RAY_DISTANCE_TO_WALL =64.000870
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.967185
+horizontal_wall_dist = 243.624837
+vertical_wall_dist = 64.000871
+RAY_DISTANCE_TO_WALL =64.000871
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.967392
+horizontal_wall_dist = 244.438462
+vertical_wall_dist = 64.000872
+RAY_DISTANCE_TO_WALL =64.000872
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.967599
+horizontal_wall_dist = 245.257189
+vertical_wall_dist = 64.000872
+RAY_DISTANCE_TO_WALL =64.000872
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.967805
+horizontal_wall_dist = 246.081065
+vertical_wall_dist = 64.000873
+RAY_DISTANCE_TO_WALL =64.000873
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.968011
+horizontal_wall_dist = 246.910140
+vertical_wall_dist = 64.000874
+RAY_DISTANCE_TO_WALL =64.000874
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.968216
+horizontal_wall_dist = 247.744467
+vertical_wall_dist = 64.000875
+RAY_DISTANCE_TO_WALL =64.000875
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.968420
+horizontal_wall_dist = 248.584094
+vertical_wall_dist = 64.000876
+RAY_DISTANCE_TO_WALL =64.000876
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.968624
+horizontal_wall_dist = 249.429075
+vertical_wall_dist = 64.000876
+RAY_DISTANCE_TO_WALL =64.000876
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.968827
+horizontal_wall_dist = 250.279461
+vertical_wall_dist = 64.000877
+RAY_DISTANCE_TO_WALL =64.000877
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.969029
+horizontal_wall_dist = 251.135307
+vertical_wall_dist = 64.000878
+RAY_DISTANCE_TO_WALL =64.000878
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.969231
+horizontal_wall_dist = 251.996665
+vertical_wall_dist = 64.000879
+RAY_DISTANCE_TO_WALL =64.000879
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.969432
+horizontal_wall_dist = 252.863591
+vertical_wall_dist = 64.000880
+RAY_DISTANCE_TO_WALL =64.000880
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.969632
+horizontal_wall_dist = 253.736140
+vertical_wall_dist = 64.000880
+RAY_DISTANCE_TO_WALL =64.000880
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.969832
+horizontal_wall_dist = 254.614367
+vertical_wall_dist = 64.000881
+RAY_DISTANCE_TO_WALL =64.000881
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.970031
+horizontal_wall_dist = 255.498330
+vertical_wall_dist = 64.000882
+RAY_DISTANCE_TO_WALL =64.000882
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.970230
+horizontal_wall_dist = 512.788191
+vertical_wall_dist = 64.000883
+RAY_DISTANCE_TO_WALL =64.000883
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.970428
+horizontal_wall_dist = 514.579448
+vertical_wall_dist = 64.000883
+RAY_DISTANCE_TO_WALL =64.000883
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.970625
+horizontal_wall_dist = 516.382527
+vertical_wall_dist = 64.000884
+RAY_DISTANCE_TO_WALL =64.000884
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.970821
+horizontal_wall_dist = 518.197548
+vertical_wall_dist = 64.000885
+RAY_DISTANCE_TO_WALL =64.000885
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.971017
+horizontal_wall_dist = 520.024631
+vertical_wall_dist = 64.000886
+RAY_DISTANCE_TO_WALL =64.000886
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.971212
+horizontal_wall_dist = 521.863901
+vertical_wall_dist = 64.000887
+RAY_DISTANCE_TO_WALL =64.000887
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.971407
+horizontal_wall_dist = 523.715481
+vertical_wall_dist = 64.000887
+RAY_DISTANCE_TO_WALL =64.000887
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.971601
+horizontal_wall_dist = 525.579499
+vertical_wall_dist = 64.000888
+RAY_DISTANCE_TO_WALL =64.000888
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.971794
+horizontal_wall_dist = 527.456082
+vertical_wall_dist = 64.000889
+RAY_DISTANCE_TO_WALL =64.000889
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.971987
+horizontal_wall_dist = 529.345361
+vertical_wall_dist = 64.000890
+RAY_DISTANCE_TO_WALL =64.000890
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.972179
+horizontal_wall_dist = 531.247468
+vertical_wall_dist = 64.000890
+RAY_DISTANCE_TO_WALL =64.000890
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.972370
+horizontal_wall_dist = 533.162536
+vertical_wall_dist = 64.000891
+RAY_DISTANCE_TO_WALL =64.000891
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.972561
+horizontal_wall_dist = 535.090700
+vertical_wall_dist = 64.000892
+RAY_DISTANCE_TO_WALL =64.000892
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.972751
+horizontal_wall_dist = 537.032099
+vertical_wall_dist = 64.000892
+RAY_DISTANCE_TO_WALL =64.000892
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.972940
+horizontal_wall_dist = 538.986871
+vertical_wall_dist = 64.000893
+RAY_DISTANCE_TO_WALL =64.000893
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.973129
+horizontal_wall_dist = 540.955158
+vertical_wall_dist = 64.000894
+RAY_DISTANCE_TO_WALL =64.000894
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.973317
+horizontal_wall_dist = 542.937103
+vertical_wall_dist = 64.000895
+RAY_DISTANCE_TO_WALL =64.000895
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.973504
+horizontal_wall_dist = 544.932851
+vertical_wall_dist = 64.000895
+RAY_DISTANCE_TO_WALL =64.000895
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.973691
+horizontal_wall_dist = 546.942550
+vertical_wall_dist = 64.000896
+RAY_DISTANCE_TO_WALL =64.000896
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.973877
+horizontal_wall_dist = 548.966350
+vertical_wall_dist = 64.000897
+RAY_DISTANCE_TO_WALL =64.000897
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.974062
+horizontal_wall_dist = 551.004401
+vertical_wall_dist = 64.000898
+RAY_DISTANCE_TO_WALL =64.000898
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.974247
+horizontal_wall_dist = 553.056858
+vertical_wall_dist = 64.000898
+RAY_DISTANCE_TO_WALL =64.000898
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.974431
+horizontal_wall_dist = 555.123877
+vertical_wall_dist = 64.000899
+RAY_DISTANCE_TO_WALL =64.000899
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.974615
+horizontal_wall_dist = 557.205617
+vertical_wall_dist = 64.000900
+RAY_DISTANCE_TO_WALL =64.000900
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.974798
+horizontal_wall_dist = 559.302237
+vertical_wall_dist = 64.000900
+RAY_DISTANCE_TO_WALL =64.000900
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.974980
+horizontal_wall_dist = 561.413901
+vertical_wall_dist = 64.000901
+RAY_DISTANCE_TO_WALL =64.000901
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.975161
+horizontal_wall_dist = 563.540774
+vertical_wall_dist = 64.000902
+RAY_DISTANCE_TO_WALL =64.000902
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.975342
+horizontal_wall_dist = 565.683024
+vertical_wall_dist = 64.000903
+RAY_DISTANCE_TO_WALL =64.000903
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.975523
+horizontal_wall_dist = 567.840821
+vertical_wall_dist = 64.000903
+RAY_DISTANCE_TO_WALL =64.000903
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.975702
+horizontal_wall_dist = 570.014338
+vertical_wall_dist = 64.000904
+RAY_DISTANCE_TO_WALL =64.000904
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.975881
+horizontal_wall_dist = 572.203750
+vertical_wall_dist = 64.000905
+RAY_DISTANCE_TO_WALL =64.000905
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.976059
+horizontal_wall_dist = 574.409236
+vertical_wall_dist = 64.000905
+RAY_DISTANCE_TO_WALL =64.000905
+RAYCASTING 
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+[RAYCAST PLAYER]
+VALORES DE PLAYER
+player.x = 576.000000
+player.y = 192.000000
+player.angle = 3.141593
+player.walk_speed = 5.000000
+player.turn_speed = 0.785398
+player.turn = 0
+player.move = 0
+CORRECT VALUE = 0.976237

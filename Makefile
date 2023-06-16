@@ -32,9 +32,11 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/error/error_manager.c				\
 				$(SRCS_PATH)/error/error_messages.c				\
 				$(SRCS_PATH)/hooks/events.c						\
+				$(SRCS_PATH)/hooks/movements.c					\
 				$(SRCS_PATH)/images/setup.c						\
 				$(SRCS_PATH)/map/get_content.c					\
 				$(SRCS_PATH)/map/utils.c						\
+				$(SRCS_PATH)/map/get_map.c						\
 				$(SRCS_PATH)/MiniLibx/setup.c					\
 				$(SRCS_PATH)/render/cast_ray.c					\
 				$(SRCS_PATH)/render/pixel_put.c					\
@@ -76,7 +78,7 @@ run:
 				@./cub3D maps/map3.cub
 
 val:
-				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map1.cub
+				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map3.cub
 
 val2:
 				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map3.cub

@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/12 23:09:17 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/15 15:43:06 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,17 +88,19 @@ void	set_textures_info(t_data *data, char **cubfile_content)
 	}
 }
 
-t_data	*setup_data(char **cubfile_content)
+t_data	*setup_data(char **cubfile_content, char **map)
 {
 	t_data	*data;
 
 	data = create_data();
-	data->map = ft_copy_str_array(&cubfile_content[NUM_OF_ELEM_BEFORE_MAP]);
+	//data->map = ft_copy_str_array(&cubfile_content[NUM_OF_ELEM_BEFORE_MAP]);
+	data->map = ft_get_map(map);
 	if (!data->map)
 		error_manager(ERROR_MALLOC, MALLOC_ERROR, data);
 	set_textures_info(data, cubfile_content);
 	ft_free_str_array(cubfile_content);
 	set_player_starting_position(data);
 	set_player_info(data);
+	ft_free_str_array(map);
 	return (data);
 }

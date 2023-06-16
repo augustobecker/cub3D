@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/13 21:17:00 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/15 21:45:19 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,14 +16,35 @@ int	handle_input(int keysym, t_data *data)
 {
 	if (keysym == KEY_Q || keysym == KEY_ESC)
 		clear_data(data);
-	// if (keysym == KEY_W)
-	// 	render(data);
-	// if (keysym == KEY_D)
-	// 	render(data);
-	// if (keysym == KEY_A)
-	// 	render(data);
-	// if (keysym == KEY_S)
-	// 	render(data);
+	else if (keysym == KEY_W)
+		data->player.move = UP;
+	else if (keysym == KEY_D)
+		data->player.move = RIGHT;
+	else if (keysym == KEY_A)
+		data->player.move = LEFT;
+	else if (keysym == KEY_S)
+		data->player.move = DOWN;
+	else if (keysym == KEY_LEFT)
+		data->player.turn = LEFT;
+	else if (keysym == KEY_RIGHT)
+		data->player.turn = RIGHT;
+	return (0);
+}
+
+int ft_key_unpressed(int keysym, t_data *data)
+{
+	if (keysym == KEY_W)
+		data->player.move = STOP;
+	else if (keysym == KEY_D)
+		data->player.move = STOP;
+	else if (keysym == KEY_A)
+		data->player.move = STOP;
+	else if (keysym == KEY_S)
+		data->player.move = STOP;
+	else if (keysym == KEY_LEFT)
+		data->player.turn = STOP;
+	else if (keysym == KEY_RIGHT)
+		data->player.turn = STOP;
 	return (0);
 }
 
@@ -34,9 +55,20 @@ int close_game(t_data *data)
 }
 
 int	update_player(t_data *data)
-{	
+{
 	ft_raycast(data);
 	return (0);
+}
+
+void	print_map(char **map)
+{
+	int i;
+	i = 0;
+	while (map[i])
+	{
+		printf("%s", map[i]);
+		i++;
+	}
 }
 
 void print_ray(t_ray *ray)
@@ -67,20 +99,32 @@ void print_player(t_data *data, char *where)
 	printf("************************\n");
 }
 
+void	hook_window(t_data *data)
+{
+	mlx_loop_hook(data->mlx_ptr, ft_move_and_turn, data);
+	mlx_hook(data->win_ptr, 2, 1 , handle_input, data);
+	mlx_hook(data->win_ptr, 3, 10, ft_key_unpressed, data);
+	mlx_hook(data->win_ptr, 17, 0, close_game, data);
+	mlx_loop(data->mlx_ptr);
+}
+
 int	main(int argc, char **argv)
 {
 	t_data	*data;
 	char	**cubfile_content;
+	char	**map;
+
+	map = ft_read_all_file(argv[MAP_ARG]);
 
 	arguments_validation(argc, argv);
 	cubfile_content = cubfile_validation(argv[MAP_ARG]);
-	data = setup_data(cubfile_content);
+	data = setup_data(cubfile_content, map);
 	setup_minilibx(data);
 	setup_textures(data);
+	//print_map(data->map);
+	//close_game(data);
 	ft_raycast(data);
-	mlx_loop_hook(data->mlx_ptr, update_player, data);
-	mlx_hook(data->win_ptr, KeyPress, KeyPressMask, handle_input, data);
-	mlx_hook(data->win_ptr, DestroyNotify, ButtonPressMask, close_game, data);
-	mlx_loop(data->mlx_ptr);
+	hook_window(data);
+
 	return (0);
 }
