@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/15 21:45:19 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/16 21:32:15 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -112,19 +112,16 @@ int	main(int argc, char **argv)
 {
 	t_data	*data;
 	char	**cubfile_content;
-	char	**map;
-
-	map = ft_read_all_file(argv[MAP_ARG]);
 
 	arguments_validation(argc, argv);
 	cubfile_content = cubfile_validation(argv[MAP_ARG]);
-	data = setup_data(cubfile_content, map);
+	data = setup_data(cubfile_content);
 	setup_minilibx(data);
 	setup_textures(data);
-	//print_map(data->map);
-	//close_game(data);
-	ft_raycast(data);
-	hook_window(data);
+	print_map(data->map);
+	close_game(data);
+	//ft_raycast(data);
+	//hook_window(data);
 
 	return (0);
 }
