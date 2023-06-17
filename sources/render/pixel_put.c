@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:54:28 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 22:00:25 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/17 04:15:40 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,11 +44,11 @@ void	ft_drawn(t_data *data)
 
 void	ft_choice_wall(t_data *data, int i)
 {
-	if (data->player.angle > PI && data->player.status == HORIZONTAL)
+	if (data->player.ray_ang > PI && data->player.status == HORIZONTAL)
 		ft_drawn_wall (data, data->so_txtr.img, i);
-	else if (data->player.angle < PI && data->player.status == HORIZONTAL)
+	else if (data->player.ray_ang < PI && data->player.status == HORIZONTAL)
 		ft_drawn_wall (data, data->no_txtr.img, i);
-	else if (data->player.angle > PI / 2 && data->player.angle < 3 * PI / 2)
+	else if (data->player.ray_ang > PI / 2 && data->player.ray_ang < 3 * PI / 2)
 		ft_drawn_wall (data, data->we_txtr.img, i);
 	else
 		ft_drawn_wall (data, data->ea_txtr.img, i);
