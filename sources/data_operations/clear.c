@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 02:53:50 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/15 12:30:26 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/16 22:22:20 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,4 +50,5 @@ void	clear_data(t_data *data)
 		free(data->mlx_ptr);
 	}
 	free(data);
+	exit(0);
 }
