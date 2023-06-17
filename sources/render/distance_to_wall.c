@@ -6,121 +6,113 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:37:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 05:39:17 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/17 07:39:15 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-void			ft_distance_wall(t_data *data);
-static double	ft_loop_distance(t_data *data);
-static double	ft_horizontal_wall(t_data *data);
-static double	ft_vertical_wall(t_data *data);
-double			ft_distance(double x1, double y1, double x2, double y2);
-double			ft_radian_domain(double angle);
-
 double			get_player_distance_to_wall(t_data *data, t_player *player, \
 t_ray *ray);
+static double	distance_horizontal_wall(t_data *data, t_player *player, \
+t_ray *ray);
+static double	distance_vertical_wall(t_data *data, t_player *player, \
+t_ray *ray);
+static double	distance_to_wall(t_data *data, \
+double x_step, double y_step, double x_intercept, double y_intercept);
 
-void	ft_distance_wall(t_data *data)
+double			get_player_distance_to_wall(t_data *data, t_player *player, \
+t_ray *ray)
 {
-	double	dh;
-	double	dv;
-	double	correction;
+	double	horizontal_wall_dist;
+	double	vertical_wall_dist;
+	double	correct;
 
-	correction = cos(normalize_radian_angle(data->player.angle - data->player.ray_ang));
-	dh = ft_horizontal_wall(data) * correction;
-	dv = ft_vertical_wall(data) * correction;
-	if (dv < dh)
+	correct = cos(normalize_radian_angle(player->angle - ray->angle));
+	horizontal_wall_dist = distance_horizontal_wall(data, player, ray) * correct;
+	vertical_wall_dist = distance_vertical_wall(data, player, ray) * correct;
+	if (vertical_wall_dist < horizontal_wall_dist)
 	{
-		data->player.status = VERTICAL;
-		data->player.distance_to_wall = dv;
+		ray->orientation = VERTICAL;
+		return (vertical_wall_dist);
+	}
+	ray->orientation = HORIZONTAL;
+	return (horizontal_wall_dist);
+}
+
+static double	distance_horizontal_wall(t_data *data, t_player *player, \
+t_ray *ray)
+{
+	double	x_intercept;
+	double	y_intercept;
+	double	x_step;
+	double	y_step;
+
+	if (sin(ray->angle) == 0)
+		return (distance_vertical_wall(data, player, ray));
+	if (sin(ray->angle) > 0) // UP
+	{
+		y_step = -1 * TILE_SIZE;
+		y_intercept = floor(player->y / TILE_SIZE) * TILE_SIZE - 0.001;
+		x_intercept = (player->y - y_intercept) * cos(ray->angle) / sin(ray->angle) + player->x;
+		x_step = TILE_SIZE * cos(ray->angle) / sin(ray->angle);
 	}
 	else
 	{
-		data->player.status = HORIZONTAL;
-		data->player.distance_to_wall = dh;
+		y_step = TILE_SIZE;
+		y_intercept = floor(player->y / TILE_SIZE) * TILE_SIZE + TILE_SIZE;
+		x_intercept = (player->y - y_intercept) * cos(ray->angle) / sin (ray->angle) + player->x;
+		x_step = -1 * TILE_SIZE * cos(ray->angle) / sin (ray->angle);
 	}
+	return (distance_to_wall(data, x_step, y_step, x_intercept, y_intercept));
 }
 
-static double	ft_horizontal_wall(t_data *data)
-{
-	if (sin(data->player.ray_ang) == 0)
-		return (ft_vertical_wall (data));
-	if (sin(data->player.ray_ang) > 0)
+static double	distance_vertical_wall(t_data *data, t_player *player, \
+t_ray *ray)
+{	
+	double	x_intercept;
+	double	y_intercept;
+	double	x_step;
+	double	y_step;
+
+	if (cos(ray->angle) == 0)
+		return (distance_horizontal_wall(data, player, ray));
+	if (cos(ray->angle) > 0) // LEFT
 	{
-		data->player.dy = -1 * TILE_SIZE;
-		data->player.yo = floor(data->player.y / TILE_SIZE)
-			* TILE_SIZE - 0.001;
-		data->player.xo = (data->player.y - data->player.yo)
-			* cos(data->player.ray_ang) / sin(data->player.ray_ang) + data->player.x;
-		data->player.dx = TILE_SIZE
-			* cos(data->player.ray_ang) / sin(data->player.ray_ang);
+		x_step = TILE_SIZE;
+		y_step = -1 * tan(ray->angle) * TILE_SIZE;
+		x_intercept = floor(player->x / TILE_SIZE) * TILE_SIZE + TILE_SIZE;
+		y_intercept = tan(ray->angle) * (player->x - x_intercept) + player->y;
 	}
 	else
 	{
-		data->player.dy = TILE_SIZE;
-		data->player.yo = floor(data->player.y / TILE_SIZE)
-			* TILE_SIZE + TILE_SIZE;
-		data->player.xo = (data->player.y - data->player.yo)
-			* cos(data->player.ray_ang) / sin(data->player.ray_ang) + data->player.x;
-		data->player.dx = -1 * TILE_SIZE
-			* cos(data->player.ray_ang) / sin(data->player.ray_ang);
+		x_step = -1 * TILE_SIZE;
+		y_step = tan(ray->angle) * TILE_SIZE;
+		x_intercept = floor(player->x / TILE_SIZE) * TILE_SIZE - 0.001;
+		y_intercept = tan(ray->angle) * (player->x - x_intercept) + player->y;
 	}
-	return (ft_loop_distance(data));
+	return (distance_to_wall(data, x_step, y_step, x_intercept, y_intercept));
 }
 
-static double	ft_vertical_wall(t_data *data)
+static double	distance_to_wall(t_data *data, \
+double x_step, double y_step, double x_intercept, double y_intercept)
 {
-	if (cos(data->player.ray_ang) == 0)
-		return (ft_horizontal_wall (data));
-	if (cos(data->player.ray_ang) > 0)
-	{
-		data->player.dx = TILE_SIZE;
-		data->player.dy = -1 * tan (data->player.ray_ang) * TILE_SIZE;
-		data->player.xo = floor(data->player.x / TILE_SIZE)
-			* TILE_SIZE + TILE_SIZE;
-		data->player.yo = tan (data->player.ray_ang)
-			* (data->player.x - data->player.xo) + data->player.y;
-	}
-	else
-	{
-		data->player.dx = -1 * TILE_SIZE;
-		data->player.dy = tan (data->player.ray_ang) * TILE_SIZE;
-		data->player.xo = floor(data->player.x / TILE_SIZE)
-			* TILE_SIZE - 0.001;
-		data->player.yo = tan (data->player.ray_ang) * (data->player.x - data->player.xo)
-			+ data->player.y;
-	}
-	return (ft_loop_distance(data));
-}
+	double		player_distance_to_wall;
+	t_player	player;
 
-static double	ft_loop_distance(t_data *data)
-{
+	player = data->player;
 	while (!is_wall(data->map, \
-	(int) floor(data->player.xo / TILE_SIZE), \
-	(int) floor(data->player.yo / TILE_SIZE)))
+	(int) floor(x_intercept / TILE_SIZE), \
+	(int) floor(y_intercept / TILE_SIZE)))
 	{
-		data->player.yo += data->player.dy;
-		data->player.xo += data->player.dx;
+		x_intercept += x_step;
+		y_intercept += y_step;
 	}
 	if (is_wall(data->map, \
-	(int) floor(data->player.xo / TILE_SIZE), \
-	(int) floor(data->player.yo / TILE_SIZE)) == -1)
+	(int) floor(x_intercept / TILE_SIZE), \
+	(int) floor(y_intercept / TILE_SIZE)) == -1)
 		return (MAX);
-	return (ft_distance(data->player.x, data->player.y, data->player.xo, data->player.yo));
-}
-
-double	ft_distance(double x1, double y1, double x2, double y2)
-{
-	return (sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2)));
-}
-
-double	normalize_radian_angle(double angle)
-{
-	if (angle > 2 * PI)
-		angle -= 2 * PI;
-	if (angle < 0)
-		angle += 2 * PI;
-	return (angle);
+	player_distance_to_wall = \
+	hypot(player.x - x_intercept, player.y - y_intercept);
+	return (player_distance_to_wall);
 }

@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 05:33:50 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/17 08:11:33 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,10 @@
 # include <math.h>
 # include <fcntl.h>
 
+void			print_ray(t_ray *ray);
 double			normalize_radian_angle(double angle);
-void			ft_drawn(t_data *data);
-void			ft_distance_wall(t_data *data);
-
+void			cast_ray(t_data *data, t_ray *ray);
+void			img_pix_put(t_img *img, int x, int y, int color);
 void			render(t_data *data);
 
 void			print_player(t_data *data, char *where);
@@ -65,6 +65,9 @@ t_img			*new_image(void *mlx_ptr, int width, int height);
 int				handle_no_event(void);
 
 int				is_wall(char **map, int x, int y);
+
+double			get_player_distance_to_wall(t_data *data, t_player *player, \
+t_ray *ray);
 
 /**
  * @brief Validate the arguments that were entered on the command line.
