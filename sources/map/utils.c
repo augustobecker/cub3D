@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:45:48 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/15 11:56:25 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/17 02:59:03 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
-
 
 int	ft_iswall(char **map, double i, double j)
 {
@@ -37,33 +36,38 @@ int	ft_iswall(char **map, double i, double j)
 		return (0);
 }
 
-// static t_bool	exists_in_map(char **map, int x, int y)
-// {
-// 	int	column;
-// 	int	row;
+static t_bool	exists_in_map(char **map, int x, int y)
+{
+	int	column;
+	int	row;
 
-// 	row = 0;
-// 	if (x < 0 || y < 0)
-// 		return (false);
-// 	while (map[row])
-// 	{
-// 		column = 0;
-// 		while (map[row][column])
-// 		{
-// 			if (row == y && column == x)
-// 				return (true);
-// 			column++;
-// 		}
-// 		row++;
-// 	}
-// 	return (false);
-// }
+	row = 0;
+	if (x < 0 || y < 0)
+		return (false);
+	while (map[row])
+	{
+		column = 0;
+		while (map[row][column])
+		{
+			if (row == y && column == x)
+				return (true);
+			column++;
+		}
+		row++;
+	}
+	return (false);
+}
 
-// int	is_wall(char **map, int x, int y)
-// {
-// 	if (!exists_in_map(map, x, y))
-// 		return (-1);
-// 	if (map[y][x] == '1')
-// 		return (1);
-// 	return (0);
-// }
+int	is_wall(char **map, double x, double y)
+{
+	int	x_map;
+	int	y_map;
+
+	x_map = (int) floor(x / TILE_SIZE);
+	y_map = (int) floor(y / TILE_SIZE);
+	if (!exists_in_map(map, x_map, y_map))
+		return (-1);
+	if (map[y_map][x_map] != '1')
+		return (0);
+	return (1);
+}

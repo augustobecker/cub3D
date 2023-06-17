@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/16 21:32:26 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/17 02:55:08 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ t_img			*new_image(void *mlx_ptr, int width, int height);
 
 int				handle_no_event(void);
 
-int				is_wall(char **map, int x, int y);
+int				is_wall(char **map, double x, double y);
 
 /**
  * @brief Validate the arguments that were entered on the command line.

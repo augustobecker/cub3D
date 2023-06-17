@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/16 21:32:15 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/17 02:44:53 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,9 +119,8 @@ int	main(int argc, char **argv)
 	setup_minilibx(data);
 	setup_textures(data);
 	print_map(data->map);
-	close_game(data);
-	//ft_raycast(data);
-	//hook_window(data);
-
+	//close_game(data);
+	ft_raycast(data);
+	hook_window(data);
 	return (0);
 }

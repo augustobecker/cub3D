@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   distance_to_wall.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:37:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/15 12:00:52 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/17 02:54:22 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,12 +94,12 @@ static double	ft_vertical_wall(t_data *data)
 
 static double	ft_loop_distance(t_data *data)
 {
-	while (ft_iswall(data->map, data->player.xo, data->player.yo) == 0)
+	while (is_wall(data->map, data->player.xo, data->player.yo) == 0)
 	{
 		data->player.yo += data->player.dy;
 		data->player.xo += data->player.dx;
 	}
-	if (ft_iswall(data->map, data->player.xo, data->player.yo) == -1)
+	if (is_wall(data->map, data->player.xo, data->player.yo) == -1)
 		return (MAX);
 	return (ft_distance(data->player.x, data->player.y, data->player.xo, data->player.yo));
 }
