@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:45:48 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 02:59:03 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/17 04:23:06 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,16 +58,11 @@ static t_bool	exists_in_map(char **map, int x, int y)
 	return (false);
 }
 
-int	is_wall(char **map, double x, double y)
+int	is_wall(char **map, int x, int y)
 {
-	int	x_map;
-	int	y_map;
-
-	x_map = (int) floor(x / TILE_SIZE);
-	y_map = (int) floor(y / TILE_SIZE);
-	if (!exists_in_map(map, x_map, y_map))
+	if (!exists_in_map(map, x, y))
 		return (-1);
-	if (map[y_map][x_map] != '1')
+	if (map[y][x] != '1')
 		return (0);
 	return (1);
 }

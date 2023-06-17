@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/16 22:08:49 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/17 04:41:20 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ int close_game(t_data *data)
 
 int	update_player(t_data *data)
 {
-	ft_raycast(data);
+	render(data);
 	return (0);
 }
 
@@ -120,7 +120,7 @@ int	main(int argc, char **argv)
 	setup_textures(data);
 	//print_map(data->map);
 	//close_game(data);
-	ft_raycast(data);
+	render(data);
 	hook_window(data);
 	return (0);
 }

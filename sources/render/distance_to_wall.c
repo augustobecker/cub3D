@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:37:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 04:13:32 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/17 05:39:17 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,16 @@ static double	ft_vertical_wall(t_data *data);
 double			ft_distance(double x1, double y1, double x2, double y2);
 double			ft_radian_domain(double angle);
 
+double			get_player_distance_to_wall(t_data *data, t_player *player, \
+t_ray *ray);
+
 void	ft_distance_wall(t_data *data)
 {
 	double	dh;
 	double	dv;
 	double	correction;
 
-	correction = cos(ft_radian_domain(data->player.angle - data->player.ray_ang));
+	correction = cos(normalize_radian_angle(data->player.angle - data->player.ray_ang));
 	dh = ft_horizontal_wall(data) * correction;
 	dv = ft_vertical_wall(data) * correction;
 	if (dv < dh)
@@ -94,12 +97,16 @@ static double	ft_vertical_wall(t_data *data)
 
 static double	ft_loop_distance(t_data *data)
 {
-	while (is_wall(data->map, data->player.xo, data->player.yo) == 0)
+	while (!is_wall(data->map, \
+	(int) floor(data->player.xo / TILE_SIZE), \
+	(int) floor(data->player.yo / TILE_SIZE)))
 	{
 		data->player.yo += data->player.dy;
 		data->player.xo += data->player.dx;
 	}
-	if (is_wall(data->map, data->player.xo, data->player.yo) == -1)
+	if (is_wall(data->map, \
+	(int) floor(data->player.xo / TILE_SIZE), \
+	(int) floor(data->player.yo / TILE_SIZE)) == -1)
 		return (MAX);
 	return (ft_distance(data->player.x, data->player.y, data->player.xo, data->player.yo));
 }
@@ -109,7 +116,7 @@ double	ft_distance(double x1, double y1, double x2, double y2)
 	return (sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2)));
 }
 
-double	ft_radian_domain(double angle)
+double	normalize_radian_angle(double angle)
 {
 	if (angle > 2 * PI)
 		angle -= 2 * PI;
