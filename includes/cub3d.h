@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 08:11:33 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/17 23:17:44 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -169,5 +169,12 @@ int				ft_move_and_turn(t_data *data);
 char			**ft_get_map(char **text);
 
 char			**ft_read_all_file(const char *path);
+
+// Colocar descrição dessas funções
+int				close_game(t_data *data);
+
+int				key_press(int keysym, t_data *data);
+
+int				key_unpress(int keysym, t_data *data);
 
 #endif

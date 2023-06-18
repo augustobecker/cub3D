@@ -33,6 +33,7 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/error/error_messages.c				\
 				$(SRCS_PATH)/hooks/events.c						\
 				$(SRCS_PATH)/hooks/movements.c					\
+				$(SRCS_PATH)/hooks/handle_key.c					\
 				$(SRCS_PATH)/images/setup.c						\
 				$(SRCS_PATH)/map/get_content.c					\
 				$(SRCS_PATH)/map/utils.c						\

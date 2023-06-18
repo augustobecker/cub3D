@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 02:53:50 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 21:17:23 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/17 23:14:30 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,4 +43,10 @@ void	clear_data(t_data *data)
 	}
 	free(data);
 	exit(0);
+}
+
+int close_game(t_data *data)
+{
+	clear_data(data);
+	return (0);
 }

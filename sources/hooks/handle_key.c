@@ -6,27 +6,44 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 18:09:17 by gnuncio-          #+#    #+#             */
-/*   Updated: 2023/06/05 18:12:19 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/17 23:16:56 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-int	key_press(int key, t_data *data)
+int	key_press(int keysym, t_data *data)
 {
-	if (key == KEY_ESC || key == KEY_Q)
-		close_game(data);
-	else if (key == KEY_A)
-		data->player.move = LEFT;
-	else if (key == KEY_D)
-		data->player.move = RIGHT;
-	else if (key == KEY_W)
+	if (keysym == KEY_Q || keysym == KEY_ESC)
+		clear_data(data);
+	else if (keysym == KEY_W)
 		data->player.move = UP;
-	else if (key == KEY_S)
+	else if (keysym == KEY_D)
+		data->player.move = RIGHT;
+	else if (keysym == KEY_A)
+		data->player.move = LEFT;
+	else if (keysym == KEY_S)
 		data->player.move = DOWN;
-	if (key == KEY_LEFT)
+	else if (keysym == KEY_LEFT)
 		data->player.turn = LEFT;
-	else if (key == KEY_RIGHT)
-		data->player.turn =  RIGHT;
+	else if (keysym == KEY_RIGHT)
+		data->player.turn = RIGHT;
+	return (0);
+}
+
+int key_unpress(int keysym, t_data *data)
+{
+	if (keysym == KEY_W)
+		data->player.move = STOP;
+	else if (keysym == KEY_D)
+		data->player.move = STOP;
+	else if (keysym == KEY_A)
+		data->player.move = STOP;
+	else if (keysym == KEY_S)
+		data->player.move = STOP;
+	else if (keysym == KEY_LEFT)
+		data->player.turn = STOP;
+	else if (keysym == KEY_RIGHT)
+		data->player.turn = STOP;
 	return (0);
 }
