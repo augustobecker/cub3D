@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:09:00 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 04:41:20 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/17 21:01:49 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -118,8 +118,6 @@ int	main(int argc, char **argv)
 	data = setup_data(cubfile_content);
 	setup_minilibx(data);
 	setup_textures(data);
-	//print_map(data->map);
-	//close_game(data);
 	render(data);
 	hook_window(data);
 	return (0);

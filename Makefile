@@ -58,7 +58,7 @@ RESET		=	\033[0m
 all:			$(NAME)
 
 $(NAME):		$(LIBFT)
-				@$(COMPILER) -g $(INCLUDES) $(SRCS) $(CFLAGS) $(MLX_FLAGS) $(MATH_LIB) -o $(NAME) $(LIBFT)
+				@$(COMPILER) $(INCLUDES) $(SRCS) $(CFLAGS) $(MLX_FLAGS) $(MATH_LIB) -o $(NAME) $(LIBFT)
 				@echo "$(NAME): $(GREEN)$(NAME) was generated$(RESET)"
 
 ${LIBFT}:
