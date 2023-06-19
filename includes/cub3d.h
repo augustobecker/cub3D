@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 10:42:41 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/19 13:18:43 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,19 +30,14 @@
 # include <math.h>
 # include <fcntl.h>
 
-void			print_ray(t_ray *ray);
 double			normalize_radian_angle(double angle);
 void			cast_ray(t_data *data, t_ray *ray);
 void			img_pix_put(t_img *img, int x, int y, int color);
 void			render(t_data *data);
 
-void			print_player(t_data *data, char *where);
-
 void			print_message_file_is_invalid(char *filename, \
 char *description);
 int				close_game(t_data *data);
-int				handle_input(int keysym, t_data *data);
-int				render_map(t_data *data);
 void			img_pix_put(t_img *img, int x, int y, int color);
 char			*read_file(char const *filename);
 void			color_validation(char **file_content);
@@ -61,8 +56,6 @@ char			*get_texture_path(char **content, char *txtr);
 
 void			setup_textures(t_data *data);
 t_img			*new_image(void *mlx_ptr, int width, int height);
-
-int				handle_no_event(void);
 
 int				is_wall(char **map, int x, int y);
 
@@ -157,26 +150,20 @@ t_error_file	is_file_readable(char *filename);
  *
  * @return 0 for no error. Enum with the file error specified.
 */
-t_data	*setup_data(char **cubfile_content);
+t_data			*setup_data(char **cubfile_content);
 
-
-int				key_press(int key, t_data *data);
+// Colocar descrição dessas funções
 
 int				ft_iswall(char **map, double i, double j);
 
 int				ft_move_and_turn(t_data *data);
-
-char			**ft_get_map(char **text);
-
-char			**ft_read_all_file(const char *path);
-
-// Colocar descrição dessas funções
-int				close_game(t_data *data);
 
 int				key_press(int keysym, t_data *data);
 
 int				key_unpress(int keysym, t_data *data);
 
 void			setup_colors(t_data *data, char **content);
+
+void			hook_setup(t_data *data);
 
 #endif

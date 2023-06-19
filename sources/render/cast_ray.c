@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:38:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 12:04:58 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/19 13:14:06 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,6 @@ static void	set_txtr_to_put(t_data *data, t_player *plr, t_ray *ray, int px_y)
 		img_pixel_put_txtr(win, data->ea_txtr.img, plr, ray, px_y);
 }
 
-
 void	img_pixel_put_txtr(t_img *win, t_img *txtr, t_player *player, \
 t_ray *ray, int px_y)
 {
@@ -98,8 +97,8 @@ static int	get_px_color(t_img *img, int x, int y)
 	char	*byte;
 
 	if (x < 0)
-        x *= -1;
-    if (y < 0)
+		x *= -1;
+	if (y < 0)
 		y *= -1;
 	byte = img->addr + ((y * img->line_len) + (x * img->bpp / BITS_PER_BYTE));
 	return (*(unsigned int *)byte);

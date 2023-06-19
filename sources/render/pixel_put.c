@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pixel_put.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:54:28 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 07:49:49 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/19 13:10:59 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 void	img_pix_put(t_img *img, int x, int y, int color)
 {
-	char    *pixel;
+	char	*pixel;
 	int		i;
 
 	i = img->bpp - BITS_PER_BYTE;
-    pixel = img->addr + (y * img->line_len + x * (img->bpp / BITS_PER_BYTE));
+	pixel = img->addr + (y * img->line_len + x * (img->bpp / BITS_PER_BYTE));
 	while (i >= 0)
 	{
 		if (img->endian != 0)

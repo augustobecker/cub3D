@@ -31,14 +31,13 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/data_operations/setup.c			\
 				$(SRCS_PATH)/error/error_manager.c				\
 				$(SRCS_PATH)/error/error_messages.c				\
-				$(SRCS_PATH)/hooks/events.c						\
 				$(SRCS_PATH)/hooks/movements.c					\
 				$(SRCS_PATH)/hooks/handle_key.c					\
+				$(SRCS_PATH)/hooks/setup.c						\
 				$(SRCS_PATH)/images/setup.c						\
-				$(SRCS_PATH)/colors/colors.c						\
+				$(SRCS_PATH)/colors/colors.c					\
 				$(SRCS_PATH)/map/get_content.c					\
 				$(SRCS_PATH)/map/utils.c						\
-				$(SRCS_PATH)/map/get_map.c						\
 				$(SRCS_PATH)/MiniLibx/setup.c					\
 				$(SRCS_PATH)/render/cast_ray.c					\
 				$(SRCS_PATH)/render/pixel_put.c					\
