@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 12:01:31 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/19 12:34:45 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,15 +40,6 @@ typedef struct s_img
 	int		height;
 }	t_img;
 
-typedef struct s_rect
-{
-	int	x;
-	int	y;
-	int	width;
-	int	height;
-	int	color;
-}	t_rect;
-
 typedef enum s_vertical_dir
 {
 	NORTH,
@@ -65,19 +56,8 @@ typedef struct s_player
 {
 	double				x;
 	double				y;
-	double				dx;
-	double				dy;
-	double				xo;
-	double				yo;
 	double				angle;
-	double				ray_ang;
-	double				distance_to_wall;
-	int					ray;
-	int					status;
-	int					turn_direction;
-	int					walk_direction;
 	double				walk_speed;
-	double				turn_speed;
 	int					turn;
 	int					move;
 }	t_player;
@@ -109,12 +89,6 @@ typedef struct s_data
 	t_txtr			we_txtr;
 	t_color			ceiling;
 	t_color			floor;
-	int		fr;
-	int		fg;
-	int		fb;
-	int		cr;
-	int		cg;
-	int		cb;
 }	t_data;
 
 typedef struct s_error_info
