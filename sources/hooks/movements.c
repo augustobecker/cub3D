@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   movements.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 19:27:49 by gnuncio-          #+#    #+#             */
-/*   Updated: 2023/06/17 05:37:01 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/19 12:09:30 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,9 @@ static void	ft_move_utils(t_data *data)
 static void	ft_turn_utils(t_data *data)
 {
 	if (data->player.turn == LEFT)
-		data->player.angle = normalize_radian_angle(data->player.angle + (PI / 90));
+		data->player.angle = normalize_radian_angle(data->player.angle
+				+ (PI / 90));
 	if (data->player.turn == RIGHT)
-		data->player.angle = normalize_radian_angle(data->player.angle - (PI / 90));
+		data->player.angle = normalize_radian_angle(data->player.angle
+				- (PI / 90));
 }

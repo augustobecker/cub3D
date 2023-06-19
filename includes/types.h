@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/12 23:22:55 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/19 12:01:31 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,10 @@ typedef struct s_txtr
 
 typedef struct s_color
 {
-	int		*rbg;
+	int		rbg;
+	int		r;
+	int		g;
+	int		b;
 }	t_color;
 
 typedef struct s_data

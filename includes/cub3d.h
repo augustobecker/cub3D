@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 23:17:44 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/19 10:42:41 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -176,5 +176,7 @@ int				close_game(t_data *data);
 int				key_press(int keysym, t_data *data);
 
 int				key_unpress(int keysym, t_data *data);
+
+void			setup_colors(t_data *data, char **content);
 
 #endif

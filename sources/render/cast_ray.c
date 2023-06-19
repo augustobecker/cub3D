@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cast_ray.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:38:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 08:39:13 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/19 12:04:58 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,9 @@ void	cast_ray(t_data *data, t_ray *ray)
 	while (pixel_y < RESOLUTION_HEIGHT)
 	{
 		if (pixel_y < start_wall)
-			img_pix_put(data->full_img, pixel_x, pixel_y, BLUE_PIXEL);
+			img_pix_put(data->full_img, pixel_x, pixel_y, data->ceiling.rbg);
 		else if (pixel_y > start_wall + height)
-			img_pix_put(data->full_img, pixel_x, pixel_y, WHITE_PIXEL);
+			img_pix_put(data->full_img, pixel_x, pixel_y, data->floor.rbg);
 		else
 			set_txtr_to_put(data, &data->player, ray, pixel_y);
 		pixel_y++;
@@ -61,7 +61,7 @@ static void	set_txtr_to_put(t_data *data, t_player *plr, t_ray *ray, int px_y)
 		img_pixel_put_txtr(win, data->no_txtr.img, plr, ray, px_y);
 	else if (ray->orientation == HORIZONTAL)
 		img_pixel_put_txtr(win, data->so_txtr.img, plr, ray, px_y);
-	else if ((ray->orientation == VERTICAL) 
+	else if ((ray->orientation == VERTICAL)
 		&& (cos(ray->angle) > 0))
 		img_pixel_put_txtr(win, data->we_txtr.img, plr, ray, px_y);
 	else
@@ -90,7 +90,7 @@ t_ray *ray, int px_y)
 		offset_y = 0;
 	else
 		offset_y = ((txtr->bpp) * (px_y - (RESOLUTION_HEIGHT - height) / 2)) / height;
-	img_pix_put(win, px_x, px_y, get_px_color(txtr, offset_x, offset_y));	
+	img_pix_put(win, px_x, px_y, get_px_color(txtr, offset_x, offset_y));
 }
 
 static int	get_px_color(t_img *img, int x, int y)
