@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 03:06:15 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 18:23:37 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,19 +78,5 @@ typedef struct s_data
 	t_color			ceiling;
 	t_color			floor;
 }	t_data;
-
-typedef struct s_error_info
-{
-	t_error	type;
-	int		code;
-}	t_error_info;
-
-typedef struct s_player_collision_rule
-{
-	double	x_intercept;
-	double	y_intercept;
-	double	x_step;
-	double	y_step;
-}	t_player_collision_rule;
 
 #endif

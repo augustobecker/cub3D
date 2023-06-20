@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   color_validation2.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 23:17:08 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 10:31:13 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/20 17:39:42 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,8 @@ t_bool	are_there_three_colors(char *color)
 			i++;
 		}
 	}
+	if (color[i - 1] == ',')
+		return (false);
 	return (true);
 }
 

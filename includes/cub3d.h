@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 17:08:33 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 18:12:54 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 # include "defines.h"
 # include "types.h"
-
+# include "util_types.h"
 # include "error.h"
 
 # include "libft.h"

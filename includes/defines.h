@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 05:36:36 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 18:24:19 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,6 @@
 
 # define HORIZONTAL					1
 # define VERTICAL					2
-
-# define WHITE_PIXEL        		0xFFFFFF
-# define BLUE_PIXEL         		0x0000FF
-# define RED_PIXEL          		0xFF0000
-# define BLACK_PIXEL        		0x000000
-
-# define FLOOR_COLOR				0x0B2631
-# define WALL_COLOR					0x2DAADE
 
 # define ROTATION_SPEED				0.03745
 # define WALK_SPEED					8
@@ -54,9 +46,6 @@
 # define MAP_ARG                   	1
 # define ARGS_NBR                   2
 
-# define WIN_WIDTH                  800
-# define WIN_HEIGHT                 400
-
 # define NUM_OF_ELEM_BEFORE_MAP     6
 
 # define MIN_RGB_LENGTH             5
@@ -68,15 +57,11 @@
 
 # define TILE_SIZE                  32
 
-# define MINI_TILE_SIZE				32
-
 # define BITS_PER_BYTE				8
 
 # define PI                         3.14159265358979323846
 
 # define FOV_ANGLE                  1.04719755119659774614
-
-# define WALL_STRIP_WIDTH           1
 
 # define MAX						32767
 

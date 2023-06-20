@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 16:43:24 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 17:32:28 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 18:21:52 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,24 +77,24 @@ static t_bool	do_vertical_edges_contain_floor(char **map)
 
 static t_bool	is_floor_surrounded_by_empty_space(char **map)
 {
-	int	x;
-	int	y;
-	int	columns;
+	size_t	columns;
+	size_t	x;
+	size_t	y;
 
 	y = 1;
 	while (map[y + 1])
 	{
 		x = 1;
-		columns = ft_strlen(map[y]);
-		while (x < columns - 2)
+		columns = ft_strlen(map[y]) - 1;
+		while (x < columns - 1)
 		{
-			if ((map[y][x] == FLOOR)
-			&& ((map[y + 1][x] == EMPTY_SPACE)
-			|| (map[y - 1][x] == EMPTY_SPACE)
-			|| (map[y][x + 1] == EMPTY_SPACE)
-			|| (map[y][x - 1] == EMPTY_SPACE)))
+			if (map[y][x] == FLOOR)
 			{
-				return (true);
+				if ((x > ft_strlen(map[y - 1])) || (x > ft_strlen(map[y + 1])))
+					return (true);
+				if ((map[y][++x] == EMPTY_SPACE) || (map[y][--x] == EMPTY_SPACE)
+				|| (map[++y][x] == EMPTY_SPACE) || (map[--y][x] == EMPTY_SPACE))
+					return (true);
 			}
 			x++;
 		}
