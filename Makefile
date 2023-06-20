@@ -97,4 +97,4 @@ val3:
 seg-clean:
 				@$(CLEANUP) vgcore*
 
-.PHONY:			all clean fclean re
+.PHONY:			all clean fclean re run run2 run3 val val2 val3 seg-clean

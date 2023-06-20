@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 16:43:24 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 18:21:52 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/21 01:06:46 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,17 +19,17 @@ static t_bool	is_floor_surrounded_by_empty_space(char **map);
 
 void	check_is_map_surrounded_by_walls(char **map)
 {
-	if (do_horizontal_edges_contain_floor(map))
+	if (do_horizontal_edges_contain_floor(&map[NUM_OF_ELEM_BEFORE_MAP]))
 	{
 		ft_free_str_array(map);
 		error_manager(ERROR_MAP, NOT_SURROUNDED_BY_WALLS, 0);
 	}
-	if (do_vertical_edges_contain_floor(map))
+	if (do_vertical_edges_contain_floor(&map[NUM_OF_ELEM_BEFORE_MAP]))
 	{
 		ft_free_str_array(map);
 		error_manager(ERROR_MAP, NOT_SURROUNDED_BY_WALLS, 0);
 	}
-	if (is_floor_surrounded_by_empty_space(map))
+	if (is_floor_surrounded_by_empty_space(&map[NUM_OF_ELEM_BEFORE_MAP]))
 	{
 		ft_free_str_array(map);
 		error_manager(ERROR_MAP, NOT_SURROUNDED_BY_WALLS, 0);
@@ -92,8 +92,8 @@ static t_bool	is_floor_surrounded_by_empty_space(char **map)
 			{
 				if ((x > ft_strlen(map[y - 1])) || (x > ft_strlen(map[y + 1])))
 					return (true);
-				if ((map[y][++x] == EMPTY_SPACE) || (map[y][--x] == EMPTY_SPACE)
-				|| (map[++y][x] == EMPTY_SPACE) || (map[--y][x] == EMPTY_SPACE))
+				if ((map[y][x + 1] == EMPTY_SPACE) || (map[y][x - 1] == EMPTY_SPACE)
+				|| (map[y + 1][x] == EMPTY_SPACE) || (map[y - 1][x] == EMPTY_SPACE))
 					return (true);
 			}
 			x++;
