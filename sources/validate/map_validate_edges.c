@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 16:43:24 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/21 01:06:46 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/21 01:16:29 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,8 +92,8 @@ static t_bool	is_floor_surrounded_by_empty_space(char **map)
 			{
 				if ((x > ft_strlen(map[y - 1])) || (x > ft_strlen(map[y + 1])))
 					return (true);
-				if ((map[y][x + 1] == EMPTY_SPACE) || (map[y][x - 1] == EMPTY_SPACE)
-				|| (map[y + 1][x] == EMPTY_SPACE) || (map[y - 1][x] == EMPTY_SPACE))
+				if ((map[y][x + 1] == EMPTY) || (map[y][x - 1] == EMPTY)
+				|| (map[y + 1][x] == EMPTY) || (map[y - 1][x] == EMPTY))
 					return (true);
 			}
 			x++;

@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/21 00:47:14 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/21 01:16:39 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@
 # define RIGHT						4
 
 # define WALL						'1'
-# define EMPTY_SPACE				' '
+# define EMPTY						' '
 # define FLOOR						'0'
 
 # define BLACK				        "\033[0;30m"
