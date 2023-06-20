@@ -12,6 +12,10 @@
 	</a>
 </p>
 
+<p align="center">
+	<img src="https://github.com/augustobecker/cub3D/assets/81205527/4a993fbd-ab4d-4caa-b92d-d262e46d7e08"">
+</p>
+
 <p align="center">🚧 Under construction</p>
 
 <p align="center">
