@@ -50,6 +50,7 @@ SRCS 		=	$(SRCS_PATH)/main.c								\
 				$(SRCS_PATH)/validate/cubfile_validation.c		\
 				$(SRCS_PATH)/validate/texture_validation.c		\
 				$(SRCS_PATH)/validate/map_validation.c			\
+				$(SRCS_PATH)/validate/map_validate_edges.c		\
 				$(SRCS_PATH)/validate/utils.c
 
 GREEN		=	\033[0;32m

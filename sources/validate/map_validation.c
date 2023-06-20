@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 04:30:29 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/03 05:32:07 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 17:08:59 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ void	map_validation(char **file_content)
 {
 	check_player_starting_pos(file_content);
 	check_map_char_elements(file_content);
+	check_is_map_surrounded_by_walls(file_content);
 }
 
 static void	check_player_starting_pos(char **map)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 23:28:00 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/20 17:08:33 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -154,7 +154,7 @@ t_data			*setup_data(char **cubfile_content);
 
 // Colocar descrição dessas funções
 
-int				ft_iswall(char **map, double i, double j);
+void			check_is_map_surrounded_by_walls(char **map);
 
 int				move_and_turn(t_data *data);
 

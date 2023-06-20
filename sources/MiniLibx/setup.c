@@ -6,12 +6,13 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/27 23:25:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/04 21:20:23 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 17:00:26 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
+void		setup_minilibx(t_data *data);
 static void	init_mlx_ptr(t_data *data);
 static void	init_mlx_win(t_data *data);
 
