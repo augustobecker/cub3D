@@ -77,13 +77,22 @@ fclean:
 re:				fclean $(NAME)
 
 run:
+				@./cub3D maps/map1.cub
+
+run2:
+				@./cub3D maps/map2.cub
+
+run3:
 				@./cub3D maps/map3.cub
 
 val:
-				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map3.cub
+				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map1.cub
 
 val2:
-				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D tests/sample-not-sur-map.cub
+				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map2.cub
+
+val3:
+				@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --quiet --tool=memcheck --keep-debuginfo=yes ./cub3D maps/map3.cub
 
 seg-clean:
 				@$(CLEANUP) vgcore*
