@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 03:03:30 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/19 22:44:42 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,14 +99,5 @@
 # define WHITE				        "\033[0;37m"
 # define GREY				        "\033[0;90m"
 # define RESET				        "\033[0m"
-
-# define END						11
-# define NEW_LINE					10
-# define NO 						2
-# define SO 						3
-# define WE 						4
-# define EA 						5
-# define F 							6
-# define C							7
 
 #endif

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cast_ray.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:38:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 03:42:09 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/19 22:44:17 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,8 +97,8 @@ static int	get_px_color(t_img *img, int x, int y)
 
 	if (x < 0)
 		x *= -1;
-	//if (y < 0)
-		//y *= -1;
+	if (y < 0)
+		y *= -1;
 	byte = img->addr + ((y * img->line_len) + (x * img->bpp / BITS_PER_BYTE));
 	return (*(unsigned int *)byte);
 }
