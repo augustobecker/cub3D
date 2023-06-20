@@ -1,11 +1,15 @@
-SO textures/SO.xpm
-WE textures/WE.xpm
-NO textures/NO.xpm
-EA textures/EA.xpm
+SO textures/map3/SO.xpm
+WE textures/map3/WE.xpm
+NO textures/map3/NO.xpm
+EA textures/map3/EA.xpm
 C 205,249,255
 F 157,157,157
-111111
-100101
-101001
-1100N1
-111111
+111111111
+100010001
+100000001
+100000001
+100010001
+100000001
+100000001
+1000N0001
+111111111

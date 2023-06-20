@@ -1,7 +1,7 @@
-SO textures/SO.xpm
-WE textures/WE.xpm
-NO textures/NO.xpm
-EA textures/EA.xpm
+SO textures/map1/SO.xpm
+WE textures/map1/WE.xpm
+NO textures/map1/NO.xpm
+EA textures/map1/EA.xpm
 F 220,100,0
 C 225,30,0
 111111111111111111111111111
