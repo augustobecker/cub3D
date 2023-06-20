@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   handle_key.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 18:09:17 by gnuncio-          #+#    #+#             */
-/*   Updated: 2023/06/19 12:10:06 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/21 00:37:35 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	key_press(int keysym, t_data *data)
 {
 	if (keysym == KEY_Q || keysym == KEY_ESC)
-		clear_data(data);
+		close_game(data);
 	else if (keysym == KEY_W)
 		data->player.move = UP;
 	else if (keysym == KEY_D)
