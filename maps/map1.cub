@@ -1,7 +1,7 @@
-NO ./textures/NO.texture
-SO ./textures/SO.texture
-WE ./textures/WE.texture
-EA ./textures/EA.texture
+SO textures/SO.xpm
+WE textures/WE.xpm
+NO textures/NO.xpm
+EA textures/EA.xpm
 F 220,100,0
 C 225,30,0
 111111111111111111111111111

@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 20:47:12 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 12:31:01 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/20 00:47:04 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,8 @@ void	set_player_starting_position(t_data *data)
 		{
 			if (ft_strchr("NSEW", data->map[y][x]))
 			{
-				data->player.x = x * TILE_SIZE;
-				data->player.y = y * TILE_SIZE;
+				data->player.x = (x * TILE_SIZE) + TILE_SIZE / 2;
+				data->player.y = (y * TILE_SIZE) + TILE_SIZE / 2;
 				set_player_starting_angle(data, x, y);
 				data->map[y][x] = '0';
 				break ;
