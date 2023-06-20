@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 05:19:23 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 05:36:36 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@
 # define FLOOR_COLOR				0x0B2631
 # define WALL_COLOR					0x2DAADE
 
-# define ROTATION_SPEED				0.01745
+# define ROTATION_SPEED				0.03745
 # define WALK_SPEED					8
 
 # define NORTH_DIR					-1
