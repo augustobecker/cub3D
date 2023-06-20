@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   types.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:16:31 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 12:34:45 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/20 03:06:15 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,18 +39,6 @@ typedef struct s_img
 	int		width;
 	int		height;
 }	t_img;
-
-typedef enum s_vertical_dir
-{
-	NORTH,
-	SOUTH
-}	t_vertical_dir;
-
-typedef enum s_horizontal_dir
-{
-	EAST,
-	WEST
-}	t_horizontal_dir;
 
 typedef struct s_player
 {
@@ -96,5 +84,13 @@ typedef struct s_error_info
 	t_error	type;
 	int		code;
 }	t_error_info;
+
+typedef struct s_player_collision_rule
+{
+	double	x_intercept;
+	double	y_intercept;
+	double	x_step;
+	double	y_step;
+}	t_player_collision_rule;
 
 #endif

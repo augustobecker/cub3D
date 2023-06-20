@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:37:56 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/17 07:39:15 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 03:26:43 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ t_ray *ray);
 static double	distance_vertical_wall(t_data *data, t_player *player, \
 t_ray *ray);
 static double	distance_to_wall(t_data *data, \
-double x_step, double y_step, double x_intercept, double y_intercept);
+t_player_collision_rule *player_hit);
 
-double			get_player_distance_to_wall(t_data *data, t_player *player, \
+double	get_player_distance_to_wall(t_data *data, t_player *player, \
 t_ray *ray)
 {
 	double	horizontal_wall_dist;
@@ -29,8 +29,10 @@ t_ray *ray)
 	double	correct;
 
 	correct = cos(normalize_radian_angle(player->angle - ray->angle));
-	horizontal_wall_dist = distance_horizontal_wall(data, player, ray) * correct;
-	vertical_wall_dist = distance_vertical_wall(data, player, ray) * correct;
+	horizontal_wall_dist = \
+	distance_horizontal_wall(data, player, ray) * correct;
+	vertical_wall_dist = \
+	distance_vertical_wall(data, player, ray) * correct;
 	if (vertical_wall_dist < horizontal_wall_dist)
 	{
 		ray->orientation = VERTICAL;
@@ -43,76 +45,79 @@ t_ray *ray)
 static double	distance_horizontal_wall(t_data *data, t_player *player, \
 t_ray *ray)
 {
-	double	x_intercept;
-	double	y_intercept;
-	double	x_step;
-	double	y_step;
+	t_player_collision_rule	player_hit;
 
 	if (sin(ray->angle) == 0)
 		return (distance_vertical_wall(data, player, ray));
-	if (sin(ray->angle) > 0) // UP
+	if (sin(ray->angle) > 0)
 	{
-		y_step = -1 * TILE_SIZE;
-		y_intercept = floor(player->y / TILE_SIZE) * TILE_SIZE - 0.001;
-		x_intercept = (player->y - y_intercept) * cos(ray->angle) / sin(ray->angle) + player->x;
-		x_step = TILE_SIZE * cos(ray->angle) / sin(ray->angle);
+		player_hit.y_step = -1 * TILE_SIZE;
+		player_hit.y_intercept = floor(player->y / TILE_SIZE) \
+		* TILE_SIZE - 0.001;
+		player_hit.x_intercept = (player->y - player_hit.y_intercept) * \
+		cos(ray->angle) / sin(ray->angle) + player->x;
+		player_hit.x_step = TILE_SIZE * cos(ray->angle) / sin(ray->angle);
 	}
 	else
 	{
-		y_step = TILE_SIZE;
-		y_intercept = floor(player->y / TILE_SIZE) * TILE_SIZE + TILE_SIZE;
-		x_intercept = (player->y - y_intercept) * cos(ray->angle) / sin (ray->angle) + player->x;
-		x_step = -1 * TILE_SIZE * cos(ray->angle) / sin (ray->angle);
+		player_hit.y_step = TILE_SIZE;
+		player_hit.y_intercept = floor(player->y / TILE_SIZE) * \
+		TILE_SIZE + TILE_SIZE;
+		player_hit.x_intercept = (player->y - player_hit.y_intercept) * \
+		cos(ray->angle) / sin (ray->angle) + player->x;
+		player_hit.x_step = -1 * TILE_SIZE * cos(ray->angle) / sin (ray->angle);
 	}
-	return (distance_to_wall(data, x_step, y_step, x_intercept, y_intercept));
+	return (distance_to_wall(data, &player_hit));
 }
 
 static double	distance_vertical_wall(t_data *data, t_player *player, \
 t_ray *ray)
-{	
-	double	x_intercept;
-	double	y_intercept;
-	double	x_step;
-	double	y_step;
+{
+	t_player_collision_rule	player_hit;
 
 	if (cos(ray->angle) == 0)
 		return (distance_horizontal_wall(data, player, ray));
-	if (cos(ray->angle) > 0) // LEFT
+	if (cos(ray->angle) > 0)
 	{
-		x_step = TILE_SIZE;
-		y_step = -1 * tan(ray->angle) * TILE_SIZE;
-		x_intercept = floor(player->x / TILE_SIZE) * TILE_SIZE + TILE_SIZE;
-		y_intercept = tan(ray->angle) * (player->x - x_intercept) + player->y;
+		player_hit.x_step = TILE_SIZE;
+		player_hit.y_step = -1 * tan(ray->angle) * TILE_SIZE;
+		player_hit.x_intercept = floor(player->x / TILE_SIZE) \
+		* TILE_SIZE + TILE_SIZE;
+		player_hit.y_intercept = tan(ray->angle) \
+		* (player->x - player_hit.x_intercept) + player->y;
 	}
 	else
 	{
-		x_step = -1 * TILE_SIZE;
-		y_step = tan(ray->angle) * TILE_SIZE;
-		x_intercept = floor(player->x / TILE_SIZE) * TILE_SIZE - 0.001;
-		y_intercept = tan(ray->angle) * (player->x - x_intercept) + player->y;
+		player_hit.x_step = -1 * TILE_SIZE;
+		player_hit.y_step = tan(ray->angle) * TILE_SIZE;
+		player_hit.x_intercept = \
+		floor(player->x / TILE_SIZE) * TILE_SIZE - 0.001;
+		player_hit.y_intercept = tan(ray->angle) \
+		* (player->x - player_hit.x_intercept) + player->y;
 	}
-	return (distance_to_wall(data, x_step, y_step, x_intercept, y_intercept));
+	return (distance_to_wall(data, &player_hit));
 }
 
 static double	distance_to_wall(t_data *data, \
-double x_step, double y_step, double x_intercept, double y_intercept)
+t_player_collision_rule *player_hit)
 {
 	double		player_distance_to_wall;
 	t_player	player;
 
 	player = data->player;
 	while (!is_wall(data->map, \
-	(int) floor(x_intercept / TILE_SIZE), \
-	(int) floor(y_intercept / TILE_SIZE)))
+	(int) floor(player_hit->x_intercept / TILE_SIZE), \
+	(int) floor(player_hit->y_intercept / TILE_SIZE)))
 	{
-		x_intercept += x_step;
-		y_intercept += y_step;
+		player_hit->x_intercept += player_hit->x_step;
+		player_hit->y_intercept += player_hit->y_step;
 	}
 	if (is_wall(data->map, \
-	(int) floor(x_intercept / TILE_SIZE), \
-	(int) floor(y_intercept / TILE_SIZE)) == -1)
+	(int) floor(player_hit->x_intercept / TILE_SIZE), \
+	(int) floor(player_hit->y_intercept / TILE_SIZE)) == -1)
 		return (MAX);
 	player_distance_to_wall = \
-	hypot(player.x - x_intercept, player.y - y_intercept);
+	hypot(player.x - player_hit->x_intercept, \
+	player.y - player_hit->y_intercept);
 	return (player_distance_to_wall);
 }

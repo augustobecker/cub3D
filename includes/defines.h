@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:17:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/15 15:30:19 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/20 03:03:30 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,10 +80,10 @@
 
 # define MAX						32767
 
-# define UP 1
-# define DOWN 2
-# define LEFT 3
-# define RIGHT 4
+# define UP							1
+# define DOWN						2
+# define LEFT						3
+# define RIGHT						4
 
 # define WALL						'1'
 # define EMPTY_SPACE				' '
@@ -102,11 +102,11 @@
 
 # define END						11
 # define NEW_LINE					10
-# define NO 2
-# define SO 3
-# define WE 4
-# define EA 5
-# define F 6
-# define C 7
+# define NO 						2
+# define SO 						3
+# define WE 						4
+# define EA 						5
+# define F 							6
+# define C							7
 
 #endif
