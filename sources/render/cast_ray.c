@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:38:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 22:44:17 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/19 23:25:17 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ void	img_pixel_put_txtr(t_data *data, t_img *txtr, t_ray *ray, int px_y)
 		offset_x = (int) floor(data->player.x + ray->distance_to_wall * \
 		cos(ray->angle)) % TILE_SIZE;
 	else
-		offset_x = (int) floor(data->player.y + ray->distance_to_wall * \
+		offset_x = (int) floor(data->player.y - ray->distance_to_wall * \
 		sin(ray->angle)) % TILE_SIZE;
 	offset_x = offset_x % txtr->bpp;
 	height = wall_height(ray);
@@ -95,10 +95,6 @@ static int	get_px_color(t_img *img, int x, int y)
 {
 	char	*byte;
 
-	if (x < 0)
-		x *= -1;
-	if (y < 0)
-		y *= -1;
 	byte = img->addr + ((y * img->line_len) + (x * img->bpp / BITS_PER_BYTE));
 	return (*(unsigned int *)byte);
 }

@@ -6,16 +6,16 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 19:27:49 by gnuncio-          #+#    #+#             */
-/*   Updated: 2023/06/19 12:09:30 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/19 23:27:53 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
-static void	ft_move_utils(t_data *data);
-static void	ft_turn_utils(t_data *data);
+static void	move_utils(t_data *data);
+static void	turn_utils(t_data *data);
 
-int	ft_move_and_turn(t_data *data)
+int	move_and_turn(t_data *data)
 {
 	if (data->player.move == UP && ft_iswall(data->map,
 			data->player.y - WALK_SPEED * sin(data->player.angle),
@@ -31,13 +31,13 @@ int	ft_move_and_turn(t_data *data)
 		data->player.x -= WALK_SPEED * cos(data->player.angle);
 		data->player.y += WALK_SPEED * sin(data->player.angle);
 	}
-	ft_move_utils (data);
-	ft_turn_utils (data);
+	move_utils (data);
+	turn_utils (data);
 	render(data);
 	return (0);
 }
 
-static void	ft_move_utils(t_data *data)
+static void	move_utils(t_data *data)
 {
 	if (data->player.move == RIGHT && ft_iswall(data->map,
 			data->player.y + WALK_SPEED * cos(data->player.angle),
@@ -55,7 +55,7 @@ static void	ft_move_utils(t_data *data)
 	}
 }
 
-static void	ft_turn_utils(t_data *data)
+static void	turn_utils(t_data *data)
 {
 	if (data->player.turn == LEFT)
 		data->player.angle = normalize_radian_angle(data->player.angle

@@ -6,7 +6,7 @@
 /*   By: gnuncio- <gnuncio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 19:14:37 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/19 13:18:43 by gnuncio-         ###   ########.fr       */
+/*   Updated: 2023/06/19 23:28:00 by gnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -156,7 +156,7 @@ t_data			*setup_data(char **cubfile_content);
 
 int				ft_iswall(char **map, double i, double j);
 
-int				ft_move_and_turn(t_data *data);
+int				move_and_turn(t_data *data);
 
 int				key_press(int keysym, t_data *data);
 
