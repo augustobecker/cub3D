@@ -6,7 +6,7 @@
 /*   By: acesar-l <acesar-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 20:38:04 by acesar-l          #+#    #+#             */
-/*   Updated: 2023/06/20 02:47:34 by acesar-l         ###   ########.fr       */
+/*   Updated: 2023/06/20 03:42:09 by acesar-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,9 +55,6 @@ int	wall_height(t_ray *ray)
 
 static void	set_txtr_to_put(t_data *data, t_ray *ray, int px_y)
 {
-	t_img	*win;
-
-	win = data->full_img;
 	if ((ray->orientation == HORIZONTAL) && (sin(ray->angle) > 0))
 		img_pixel_put_txtr(data, data->no_txtr.img, ray, px_y);
 	else if (ray->orientation == HORIZONTAL)
@@ -100,8 +97,8 @@ static int	get_px_color(t_img *img, int x, int y)
 
 	if (x < 0)
 		x *= -1;
-	if (y < 0)
-		y *= -1;
+	//if (y < 0)
+		//y *= -1;
 	byte = img->addr + ((y * img->line_len) + (x * img->bpp / BITS_PER_BYTE));
 	return (*(unsigned int *)byte);
 }
