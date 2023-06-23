@@ -3,20 +3,8 @@
 </h1>
 
 <p align="center">
-	:information_source:
+	:information_source: RayCasting in C
 </p>
-
-<p align="center">
-	<a href="https://www.42sp.org.br/" target="_blank">
-		<img src="https://img.shields.io/static/v1?label=&message=SP&color=000&style=for-the-badge&logo=42"">
-	</a>
-</p>
-
-<p align="center">
-	<img src="https://github.com/augustobecker/cub3D/assets/81205527/4a993fbd-ab4d-4caa-b92d-d262e46d7e08"">
-</p>
-
-<p align="center">🚧 Under construction</p>
 
 <p align="center">
 	:mage_man: Project done in partnership with 
@@ -25,6 +13,26 @@
 		</a>
 </p>
 
+<p align="center">
+	<a href="https://www.42sp.org.br/" target="_blank">
+		<img src="https://img.shields.io/static/v1?label=&message=SP&color=000&style=for-the-badge&logo=42"">
+	</a>
+</p>
+
+
+<p align="center">  
+	<a href="https://github.com/augustobecker/cub3D" target="_blank">
+		<img alt="cub3D" src="https://github.com/augustobecker/augustobecker/assets/81205527/e806c5ec-8dde-48d8-9ef3-4ea491a30ce7">
+	</a>
+</p>
+
+<p align="center">101/100 :white_check_mark:</p>
+
+
+
+<p align="center">
+	<img src="https://github.com/augustobecker/cub3D/assets/81205527/4a993fbd-ab4d-4caa-b92d-d262e46d7e08"">
+</p>
 <p align="center">
 	<a href="https://github.com/augustobecker/cub3D/blob/main/README-ptbr.md" target="_blank">
 		<img src="https://img.shields.io/badge/dispon%C3%ADvel%20tamb%C3%A9m%20em-PT--BR-yellow">
